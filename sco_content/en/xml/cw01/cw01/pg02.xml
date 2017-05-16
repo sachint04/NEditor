@@ -1,0 +1,5 @@
+<data>
+	<pageDesc><![CDATA[This is a text left and image right page.]]></pageDesc>
+	<pageText id="txt_title_1"><![CDATA[Page Header will appear here]]></pageText>
+	<pageText id="txt_1"><![CDATA[Cras dapibus est metus. Suspendisse nec est eu ipsum finibus egestas id non leo. Donec rutrum felis vitae mi facilisis, nec consectetur mi elementum. Pellentesque ullamcorper mattis massa, sed cursus ipsum. Curabitur vel arcu erat. Nunc vel egestas leo. In hac habitasse platea dictumst.]]></pageText>
+</data>

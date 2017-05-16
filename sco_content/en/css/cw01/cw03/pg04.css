@@ -1,0 +1,26 @@
+.page-image-01 {
+	background: url("sco_content/en/images/module_pages.jpg") no-repeat scroll 0px -1155px rgba(0, 0, 0, 0);
+    height: 222px;
+    margin-top: 10px;
+    width: 696px;
+    margin-bottom: 20px;
+}
+
+.expand-knowledge {
+	background: url("images/global_bg_01.png") no-repeat scroll -1px -167px rgba(0, 0, 0, 0);
+    height: 194px;
+    padding: 31px 0 0 100px;
+    width: 441px;
+}
+
+.expand-knowledge-title {
+    display: inline-block;
+    padding: 0;
+}
+
+.expand-knowledge-text {
+	color: #000000;
+	padding: 12px 0 0;
+	width: 290px;
+	display: inline-block;
+}

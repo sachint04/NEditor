@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<data>
+    <pageText id="pageName"><![CDATA[Calculating Total Capacitance ]]></pageText>
+    <pageText id="bodyText1">
+		<![CDATA[<p>When one or more capacitors are connected, how do we calculate the total capacitance? Let’s find out.</p>]]>
+	</pageText>
+    
+    
+	<pageText id="i-text"><![CDATA[<h5>Select the <strong>tabs</strong> to learn more.</h5>]]></pageText>
+	
+	<pageText id="tab1-text"><![CDATA[<b>Capacitors in Parallel</b>]]></pageText>
+	<pageText id="tab2-text"><![CDATA[<b>Capacitors in Series</b>]]></pageText>
+	<pageText id="tab3-text"><![CDATA[<b>Capacitors in Parallel</b>]]></pageText>
+	<pageText id="tab4-text"><![CDATA[<b>Capacitors in Series</b>]]></pageText>
+	<pageText id="tab5-text"><![CDATA[<b>Capacitors in Parallel</b>]]></pageText>
+	
+		<pageText id="tis_tab_txt_1"><![CDATA[
+		<p class="aulbl-5">Total capacitance of capacitors in parallel is calculated as follows:</p>
+		<p class="aulbl-6"><img src="sco_content/en/images/pg06/screen5_tab1_img2.png" alt="" class="tab_1a_img" /></p> 
+		<p class="aulbl-6"><img src="sco_content/en/images/pg06/screen5_tab1_img.png" alt="Capacitors in parallel" class="tab_1_img" /></p>                       
+	]]>
+	</pageText>
+	   
+	<pageText id="tis_tab_txt_2"><![CDATA[
+		<p class="aulbl-8">Total capacitance of capacitors in a series is calculated as follows:</p>
+		<p class="aulbl-9"><img src="sco_content/en/images/pg06/screen5_tab2_img2.png" alt="" class="tab_2_img" /></p>                       
+		<p class="aulbl-9"><img src="sco_content/en/images/pg06/screen5_tab2_img.png" alt="Capacitors in a series" class="tab_2a_img" /></p>                       
+	]]>
+	</pageText>	
+
+	<sounds>
+        <sound id="audio_1" filename="mod7_screen6_1" preload="true" playOnLoad="true" mandatory="true">
+            <cuepoints>
+                <cuepoint cueLabel="aulbl-1" position="0" />
+                <cuepoint cueLabel="aulbl-2" position="2.5" />
+                <cuepoint cueLabel="aulbl-3" position="9" />
+            </cuepoints>
+            <transcript>
+                <![CDATA[Calculating Total Capacitance <br><br>
+      					When one or more capacitors are connected, how do we calculate the total capacitance? Let’s find out.
+      					<br><br>
+      					Select the tabs to learn more.
+      					<br>
+                ]]>
+            </transcript>
+        </sound>
+        
+        
+        <sound id="audio_2" filename="mod7_screen6_2" preload="true" playOnLoad="false" mandatory="true">
+            <cuepoints>
+                <cuepoint cueLabel="aulbl-4" position="0" />
+                <cuepoint cueLabel="aulbl-5" position="2.2" />
+                <cuepoint cueLabel="aulbl-6" position="7" />
+                
+            </cuepoints>
+            <transcript>
+                <![CDATA[Capacitors in Parallel <br>
+                	Total capacitance of capacitors in parallel is calculated as follows:
+                	<br>
+					Total Capacitance is equal to Capacitance of Capacitor C1 plus Capacitance of Capacitor C2
+                	<br>
+                ]]>
+            </transcript>
+        </sound>
+                <sound id="audio_3" filename="mod7_screen6_3" preload="true" playOnLoad="false" mandatory="true">
+            <cuepoints>
+                <cuepoint cueLabel="aulbl-7" position="0" />
+                <cuepoint cueLabel="aulbl-8" position="2" />
+                <cuepoint cueLabel="aulbl-9" position="7" />
+            </cuepoints>
+            <transcript>
+                <![CDATA[Capacitors in Series <br>
+                    Total capacitance of capacitors in a series is calculated as follows:
+                    <br>
+					One divided by CT equals to one divided by C1 plus one divided by C2 plus one divided C3 etc. or CT equals to one divided by one divided by C1 plus one divided by C2 plus so on till one divided by CN.
+                    <br>
+                ]]>
+            </transcript>
+        </sound>
+        
+     </sounds>
+     
+
+
+    <component type="Tab" tab="true" componentID="tabpanel1" tabShowSpeed="700" tabClass="tab" tabType="horizontal" hasImage="true" firstSlide="1" audioPlayOnload="true" mandatory="true"></component>
+</data>
+

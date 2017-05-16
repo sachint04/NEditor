@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<pageText id="txt_title_1"><![CDATA[Adobe Animnate CC ]]></pageText>
+	<pageText id="txt_1"><![CDATA[This page is an example of integration of Adobe Animate CC with LearnX Mobile Framework.
+		<br>Exported assets (javascript, images audio etc) are placed in side <b>"sco_content/en/js/animateCC</b> folder.<br> <b>Imp:</b> Folder name should be same as Page xml  name. <br> First and last line in the raw Javascript is replaced to make raw animation content compatible with LearnX Mobile framework. <br><b>Note:</b> This component is not Responsive.]]></pageText>
+	<pageText id="itext_1"><![CDATA[Select each <b>step</b> to trace the sequence of events in the scenario.]]></pageText>
+
+	<pageText id="txt_Popup1"><![CDATA[<b>Step 1</b><br><br>After a slowdown in revenues, the company restructured many departments, terminating a few employees in the IT department. The company then reapportioned the IT workload among the remaining employees in the department.]]></pageText>
+	
+	<pageText id="txt_Popup2"><![CDATA[<b>Step 2</b><br><br>After the restructuring, David Benton, who used to monitor some of the servers, was in charge of all the IT functions in the organization, including software installations, system upgrades, backups, network management, systems support, and management of user accounts.]]></pageText>
+	
+	<pageText id="txt_Popup3"><![CDATA[<b>Step 3</b><br><br>The company lacked a strong security policy that would have prevented a single systems administrator from accessing all the IT systems.]]></pageText>
+	
+	<pageText id="txt_Popup4"><![CDATA[<b>Step 4</b><br><br>Benton’s performance slipped because of the extra workload. He was falling behind on routine maintenance tasks and requests for software installations. During his most recent performance review, Benton was told that he would not receive a raise that year because of the poor economic climate.]]></pageText>
+	
+	<pageText id="txt_Popup5"><![CDATA[<b>Step 5</b><br><br>Benton was very upset and in response, he deleted mission-critical files from three servers, including the backups created for these files.<br><br>A forensic investigation revealed that at the time of the incident, Benton’s user account was the only one that had access to the given systems. The company terminated Benton, but the damage was done.]]></pageText>
+	
+	<pageText id="txt_Popup6"><![CDATA[<b>Step 6</b><br><br>The loss of data and disruption of services led to direct and indirect loss of revenue and also damaged the company’s reputation. The incident helped the company recognize the need to create and implement robust security policies.]]></pageText>
+
+	<component type="ANIMATE" componentID="comp_1" animdata="animation" play="true" mandatory="false"></component>
+</data>

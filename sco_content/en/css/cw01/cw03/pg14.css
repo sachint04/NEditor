@@ -1,0 +1,21 @@
+.page-image-01{
+	background: url("sco_content/en/images/clickable_bullet_intro.jpg") no-repeat scroll 0px 0px rgba(0, 0, 0, 0);
+    height: 217px;
+    width: 275px;
+   
+}
+
+.i-text.page-i-text {
+    padding-top: 1em;
+}
+
+.ui-popup{
+	top:170px;
+	left: 10px;
+}
+.click-popup{
+	background-color:#ffffff;
+}
+.absolute{
+	position:absolute;
+}

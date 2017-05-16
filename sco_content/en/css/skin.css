@@ -1,0 +1,68 @@
+/*Lesson DIV */
+.lesson {
+	background-color: #f1f0ec;
+	border-radius: 10px;
+	margin: 40px 30px 30px 15px;
+	padding: 20px 20px 5px 25px;
+	position: relative;
+}
+.lesson-logo {
+	height: 55px;
+	left: -25px;
+	position: absolute;
+	top: -30px;
+	width: 55px;
+	z-index: 4;
+}
+.lesson-logo1 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -1px -396px rgba(0, 0, 0, 0);
+}
+.lesson-logo2 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -57px -396px rgba(0, 0, 0, 0);
+}
+.lesson-logo3 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -113px -396px rgba(0, 0, 0, 0);
+}
+.lesson-logo4 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -169px -396px rgba(0, 0, 0, 0);
+}
+.lesson-logo5 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -225px -396px rgba(0, 0, 0, 0);
+}
+.lesson-logo6 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -281px -396px rgba(0, 0, 0, 0);
+}
+.lesson-logo7 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -337px -396px rgba(0, 0, 0, 0);
+}
+.lesson-logo8 {
+	background: url("../../../images/global_bg_01.png") no-repeat scroll -393px -396px rgba(0, 0, 0, 0);
+}
+.lesson-title {
+	background-color: #cecac1;
+	border-radius: 20px;
+	left: 0;
+	line-height: 1.8em;
+	padding: 0 15px 0 40px;
+	position: absolute;
+	top: -15px;
+}
+p.lesson-text a {
+	text-decoration: underline;
+}
+p.lesson-text a:focus, .lesson-text a:hover {
+	text-decoration: underline;
+}
+
+/*Image Alignment*/
+.image-centre {
+	margin: 0 0 15px 0;
+}
+.image-left {
+	float: left;
+	margin-right: 15px;
+}
+.image-right {
+	float: right;
+	margin-left: 15px;
+}

@@ -1,0 +1,4 @@
+1
+00:00:00,000 --> 00:00:41,000
+This e-learning unit covers several concepts that form part of the Operational Procedures. We will learn about some of the  basic tools used for computer diagnostics and repair. This is followed by an activity on safety hazards. While there is emphasis on safety, diagnostics, and cleaning techniques as part of Operational Procedures, there is also equal emphasis on personal conduct. Therefore, this e-learning unit presents a vignette of an IT help desk professional’s interaction with an angry colleague so you can observe and determine appropriate conduct. Finally, you learn about steps you can take in the event you come across prohibited content in the organization.
+

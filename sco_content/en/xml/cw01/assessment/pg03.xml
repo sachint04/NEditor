@@ -1,0 +1,119 @@
+<data>
+    <pageText id="txt_title-01">
+		<![CDATA[MMCQ (Check Box)]]>
+    </pageText>
+    <pageText id="txt_1">
+		<![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]>
+    </pageText>
+    <pageText id="question-header">
+				<![CDATA[<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>]]>
+    </pageText>
+    <activity type="MMCQ" scorable="true" questionId="MMCQ_1" totalAttempts="1" correctAnswer="2,4" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="true" displayTickCross="false" class="checkbox-groups-container" showFeedbackPopup="false" randomization="true">
+        <pageTexts>
+
+            <pageText class="question">
+				<![CDATA[Help Julie identify the common features supported by a smartphone.]]>
+            </pageText>
+            <pageText class="i-text">
+				<![CDATA[Select the correct option(s) and click <strong>Submit</strong>.]]>
+            </pageText>
+            <pageText class="submit">
+				<![CDATA[Submit]]>
+            </pageText>
+        </pageTexts>
+
+        <!-- Option Groups -->
+        <optionGroup  class="checkbox-container">
+            <option id="1" class="checkbox" score="1"  optionID="Choice 1"  >
+                <pageText class="checkbox-label">
+					<![CDATA[Smartphones use a touch interface, which helps to interact with the device. ]]>
+                </pageText>
+                <feedback>
+                    <title><![CDATA[]]></title>
+                    <content><![CDATA[]]></content>
+                </feedback>
+            </option>
+            <option id="2" class="checkbox" score="0"  optionID="Choice 2"  >
+                <pageText class="checkbox-label">
+					<![CDATA[All smartphones come with a physical keyboard for typing and a mouse for clicking.]]>
+                </pageText>
+                <feedback>
+                    <title><![CDATA[]]></title>
+                    <content><![CDATA[]]></content>
+                </feedback>
+            </option>
+            <option id="3" class="checkbox" score="0"  optionID="Choice 3"  >
+                <pageText class="checkbox-label">
+					<![CDATA[All smartphones are powered by an android operating system.]]>
+                </pageText>
+                <feedback>
+                    <title><![CDATA[]]></title>
+                    <content><![CDATA[]]></content>
+                </feedback>
+            </option>
+            <option id="4" class="checkbox" score="1"  optionID="Choice 4"  >
+                <pageText class="checkbox-label">
+					<![CDATA[Smartphone screen orientation rotates the display automatically.]]>
+                </pageText>
+                <feedback>
+                    <title><![CDATA[]]></title>
+                    <content><![CDATA[]]></content>
+                </feedback>
+            </option>
+            <option id="5" class="checkbox" score="0"  optionID="Choice 5"  >
+                <pageText class="checkbox-label">
+					<![CDATA[Smartphones come with a 20-megapixel rear camera.]]>
+                </pageText>
+                <feedback>
+                    <title><![CDATA[]]></title>
+                    <content><![CDATA[]]></content>
+                </feedback>
+            </option>
+
+        </optionGroup>
+		
+        <feedbacks>
+            <!-- ===== Correct Feedback ===== -->
+            <!-- Attempt 1 -->
+            <feedback fbType="correct" attempt="1">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[You’ve selected the correct answers.]]>
+                </content>
+            </feedback>
+            <!-- Attempt 2 -->
+            <feedback fbType="correct" attempt="2">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[You’ve selected the correct answers.]]>
+                </content>
+            </feedback>
+
+            <!-- ===== Incorrect Feedback ===== -->
+            <!-- Attempt 1 -->
+            <feedback fbType="incorrect" attempt="1">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[You’ve not selected the incorrect answers. Please try again.]]>
+                </content>
+            </feedback>
+            <!-- Attempt 2 -->
+            <feedback fbType="incorrect" attempt="2">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[You’ve not selected the correct answers.<br /><br /><strong>The correct answers are:</strong>]]>
+                </content>
+            </feedback>
+
+        </feedbacks>
+    </activity>
+
+</data>

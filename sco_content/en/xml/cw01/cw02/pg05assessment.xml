@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<data>
+	<pageText id="question" class="question">
+		<![CDATA[4. Match the descriptions listed below to the correct column it describes on the Summary Tab.]]>
+	</pageText>
+	<pageText id="txt_1"><![CDATA[A backroom zone that is offline due to unexpected trouble such as a hardware failure]]></pageText>
+	<pageText id="txt_2"><![CDATA[A backroom zone that was manually taken out of service for upgrades or improvements.]]></pageText>
+	<pageText id="txt_3"><![CDATA[A backroom zone that is operational but not serving active front rooms.]]></pageText>
+	<pageText id="txt_4"><![CDATA[A backroom zone that serves one or more active front room zones.]]></pageText>
+	
+	<pageText id="i-text">
+		<![CDATA[Drag and drop each building block to its corresponding location and click SUBMIT.]]>
+	</pageText>
+	<activity type="DragAndDrop" questionId="DragDrop" totalAttempts="1" correctAnswer="1" fbType="CORRECTINCORRECT" immediateFeedback="false" displayTickCross="false" tileContainerClass="tile-target-container" targetContainerClass="tile-target-container" constrainDragIn="#content" showFeedbackPopup="false" scorable="true">
+		<pageTexts>
+			<pageText id="question" class="question">
+				<![CDATA[]]>
+			</pageText>
+
+		</pageTexts>
+		<tileGroup class="tile-container">
+			<tile id="1" class="tile" >
+				<pageText class="tile-label">
+					<![CDATA[Failed zone]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[That's Incorrect! ]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="2" class="tile" >
+				<pageText class="tile-label">
+					<![CDATA[Maintenance zone]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="3" class="tile" >
+				<pageText class="tile-label">
+					<![CDATA[Inactive zone]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="4" class="tile" >
+				<pageText class="tile-label">
+					<![CDATA[Active zone]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+		</tileGroup>
+		<targetGroup class="target-container" >
+			<target id="1" class="target" tileID="tile1" score="1">
+				<pageText class="target-label">
+					<![CDATA[ ]]>
+				</pageText>
+			</target>
+			<target id="2" class="target" tileID="tile2" score="1">
+				<pageText class="target-label">
+					<![CDATA[ ]]>
+				</pageText>
+			</target>
+			<target id="3" class="target" tileID="tile3" score="1">
+				<pageText class="target-label">
+					<![CDATA[ ]]>
+				</pageText>
+			</target>
+			<target id="4" class="target" tileID="tile4" score="1">
+				<pageText class="target-label">
+					<![CDATA[ ]]>
+				</pageText>
+			</target>
+		</targetGroup>
+		<feedbacks>
+			<feedback fbType="correct" attempt="1">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[Feedback]]>
+				</content>
+			</feedback>
+			<feedback fbType="correct" attempt="2">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[Feedback]]>
+				</content>
+			</feedback>
+			<feedback fbType="incorrect" attempt="1">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[Feedback]]>
+				</content>
+			</feedback>
+			<feedback fbType="incorrect" attempt="2">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[Feedback]]>
+				</content>
+			</feedback>
+		</feedbacks>
+	</activity>
+</data>

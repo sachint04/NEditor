@@ -1,0 +1,227 @@
+.column-container {
+    background-color: #dce8f0;
+    color: #515454;
+    display: inline-block;
+    /*margin-left: 50px;*/
+    position: relative;
+    /*width: 970px;*/
+}
+.one-column p.static_page_title {
+    left: 0;
+    width: 386px;
+}
+p.static_page_title {
+    margin-left: -100px;
+}
+p.static_page_title {
+    background-color: #05a1c5;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 35px;
+    margin-left: -50px;
+    margin-top: 0;
+    padding: 0 0 0 100px;
+    position: relative;
+    text-transform: uppercase;
+    width: 400px;
+    z-index: 1;
+}
+
+.static_page_title {
+    width: 677px !important;
+}
+
+.hotspotBGImg{
+    position: absolute;
+    z-index: 0;
+}
+
+.intro-content{
+	width:95%;
+}
+
+.static_page_title{
+	width:677px!important;
+}
+
+
+p.static_page_title {
+	margin-left: -100px;
+}
+.column-content{
+	z-index: 1;
+	width: 43%;
+	left: -15px;
+}
+.one-column .column-content{
+	padding-left:25px;
+}
+
+.popupContainer{
+	
+}
+
+
+.pop1{
+	background: url("sco_content/en/images/01_Basictools_img.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+    height: 95px;
+    left: 121px;
+    margin: -69px 0 0 176px;
+    width: 139px;
+}
+
+
+.pop2{
+	background: url("sco_content/en/images/03_additionalBasictools_img.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+    height: 105px;
+    left: 121px;
+    margin: -131px 0 0 179px;
+    width: 228px;
+}
+
+.pop3{
+	background: url("sco_content/en/images/02_networktols_img.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+    height: 105px;
+    left: 121px;
+    margin: -69px 0 0 176px;
+    width: 154px;
+}
+
+.pop4{
+	background: url("sco_content/en/images/04_circuittolls_img.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+    height: 122px;
+    left: 121px;
+    margin: -69px 0 0 176px;
+    width: 169px;
+}
+
+.pop5{
+	background: url("sco_content/en/images/05_tools.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+	height: 159px;
+    left: 121px;
+    margin: -159px 0 0 271px;
+    width: 213px;
+}
+
+.pop6{
+	background: url("sco_content/en/images/06_motherboardtools_img.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+    height: 115px;
+    left: 121px;
+    margin: -69px 0 0 176px;
+    width: 129px;
+}
+.popupContainer .txtRight{
+	width:58%;
+	float:right;
+	padding:10px;
+}
+
+.intro-text .modal-body{
+	padding:0;
+	margin:0px 0 0 0 ;
+}
+
+.intro-text .itext{
+	float:right;
+	margin-top:0x;
+	padding-right:20px;
+}
+
+.intro-text .modal{
+	width:555px;
+	height:275px;
+}
+
+.intro-text .footer{
+	display:none
+}
+
+.intro-text .header{
+	margin-top: 0;
+}
+
+.intro-text .tis_close{
+	margin-top:-10px;
+}
+
+.title_collection p{
+	cursor:pointer;
+}
+#hotspot1_title {
+	color: #FFFFFF;
+	text-align:center;
+    left: -1px;
+    position: absolute;
+    top: 224px;
+    width: 76px;
+    text-transform: uppercase;
+}
+#hotspot2_title {
+	color: #FFFFFF;
+    left: 180px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 243px;
+    width: 76px;
+    text-align:center;
+}
+
+#hotspot3_title {
+	 color: #FFFFFF;
+    left: 55px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 297px;
+    width: 76px;
+    text-align:center;
+}
+#hotspot4_title {
+	color: #FFFFFF;
+    left: 257px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 337px;
+    width: 76px;
+    text-align:center;
+}
+
+#hotspot5_title {
+	color: #FFFFFF;
+    left: 313px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 246px;
+    width: 76px;
+    text-align:center;
+}
+
+#hotspot6_title {
+	color: #FFFFFF;
+    left: 421px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 219px;
+    width: 130px;
+    text-align:center;
+}
+
+
+#hotspot7_title {
+	color: #FFFFFF;
+    left: 525px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 327px;
+    width: 76px;
+    text-align:center;
+}
+
+#hotspot8_title {
+	  color: #FFFFFF;
+    left: 610px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 246px;
+    width: 76px;
+    text-align:center;
+}

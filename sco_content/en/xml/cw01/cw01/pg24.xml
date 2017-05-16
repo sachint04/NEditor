@@ -1,0 +1,67 @@
+<data>
+	<!--
+	Feedback Types can be of the following types:
+	Generic / CorrectIncorrect / CorrectIncorrectPartial / OptionSpecific / CorrectIncorrectSpecific / ParameteterBasedFeedback
+
+	totalAttempts= 1|2....|(-ve,0,"")->unlimited
+	-->
+	<pageDesc><![CDATA[This is a Multiple Choice Single Select Page. Containing four radio buttons. Please select corect option and click submit.]]></pageDesc>
+<activity type="MCQ" questionId="MCQ_1" totalAttempts="2" correctAnswer="2" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="false"  showFeedbackPopup="true"  displayTickCross="true" tickCrossTrigger="default" tickCrossType="compact" class="radio-groups-container" resetBtn="false" showAnswerBtn="false">
+    <pageTexts>
+      <pageText class="submit"><![CDATA[Submit]]></pageText>
+    </pageTexts>
+    <optionGroup class="radio-container">
+      <option id="1" class="radio" score="0" style="opt-style1" image="sco_content/en/images/clickable_buttons_popup.jpg">
+        <pageText class="radio-label"><![CDATA[Vestibulum non maximus risus. Vivamus vitae imperdiet risus.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="2" class="radio" score="1" style="opt-style2" image="sco_content/en/images/clickable_bullet_intro.jpg">
+        <pageText class="radio-label"><![CDATA[Vivamus neque tortor, facilisis vitae dictum nec, imperdiet ac ipsum. Curabitur in justo porta, porttitor sem ac, rhoncus felis.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="3" class="radio" score="0" style="opt-style3" image="sco_content/en/images/tab_horizontal_intro.jpg">
+        <pageText class="radio-label"><![CDATA[Sed condimentum nibh turpis, sit amet molestie quam mollis eget.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="4" class="radio" score="0" style="opt-style4" image="sco_content/en/images/tab_horizontal_content.jpg">
+        <pageText class="radio-label"><![CDATA[Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+    </optionGroup>
+    <feedbacks>
+      <feedback fbType="correct" attempt="1">
+        <title id=""><![CDATA[Correct]]></title>
+        <content id=""><![CDATA[Correct. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="correct" attempt="2">
+        <title id=""><![CDATA[Correct]]></title>
+        <content id=""><![CDATA[Correct. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="incorrect" attempt="1">
+        <title id=""><![CDATA[Incorrect]]></title>
+        <content id=""><![CDATA[Incorrect. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="incorrect" attempt="2">
+        <title id=""><![CDATA[Incorrect]]></title>
+        <content id=""><![CDATA[Incorrect. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+    </feedbacks>
+  </activity> 
+	
+	
+	<pageText id="txt_title-01">
+		<![CDATA[Check Your Knowledge]]>
+	</pageText>
+</data>

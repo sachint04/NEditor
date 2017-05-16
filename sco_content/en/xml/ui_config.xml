@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiconfig>
+    <items>
+    	<!-- logo -->
+       <item id="logo" class="ui-skin logo hide-text" type="text" ><![CDATA[Logo of Western State College of Law]]></item>
+       <!-- Titles -->
+       <item id="txt_coursetitle" class="" type="text" ><![CDATA[Module 1]]></item>
+       <item id="txt_subtitle" class="" type="text" ><![CDATA[Administrative Law and Administrative Agencies]]></item>
+		<!-- Audio controls -->
+       <item id="btn_audio" class="ui-skin tis-btn" type="button" ><![CDATA[]]></item>
+       <item id="btn_play" class="ui-skin tis-btn ui-audio-panel-btn ui-play-btn hide-text" type="button" ><![CDATA[Play]]></item>
+       <item id="btn_pause" class="ui-skin tis-btn ui-audio-panel-btn ui-pause-btn hide-text" type="button" ><![CDATA[Pause]]></item>
+       <item id="transcript" class="ui-skin tis-btn ui-audio-panel-btn ui-transcript-btn" type="button" ><![CDATA[Transcript]]></item>
+       <item id="audio_panel_itext" class="text-itext hide-text" type="text" ><![CDATA[Select <strong>Play</strong> to begin the narration]]></item>
+       <!-- Navigation -->
+       <item id="btn_previous" class="ui-skin tis-btn ui-prev-btn hide-text" type="button" ><![CDATA[Back]]></item>
+       <item id="txt_pagination" class="ui-skin ui-pagination-txt" type="text" ><![CDATA[Page x of x]]></item>
+       <item id="btn_next" class="ui-skin tis-btn  ui-next-btn hide-text" type="button" ><![CDATA[Next]]></item>
+       <item id="nav_itext" class="i-text visually-hidden" type="text"><![CDATA[Select <strong>Next</strong> to continue.]]></item>
+       <item id="txt_footer" class="footer" type="text" ><![CDATA[Select <strong>Next</strong> to proceed. |]]></item>
+       <!-- Global  buttons -->
+       <item id="help" class="hide" type="button" ><![CDATA[]]></item>
+       <item id="course_close" class="hide" type="button" ><![CDATA[]]></item>
+       <item id="glossary" class="hide" type="button" ><![CDATA[]]></item>
+       <item id="resources" class="hide" type="button" ><![CDATA[]]></item>
+       <item id="print" class="hide" type="button" ><![CDATA[]]></item>
+       
+       <item id="btn_home" class="hide" type="button"><![CDATA[]]></item>
+       <item id="btn_menu" class="hide" type="button" available="true"><![CDATA[]]></item>
+       <item id="btn_settings" class="hide" type="button" ><![CDATA[]]></item>
+       <item id="settings_dropdown" class="hide" type="button" ><![CDATA[]]></item>
+    </items>
+    <viewtypes>
+        <!-- With Top Band, and Copyright Text in the Bottom Band -->
+        <view id="01">
+            <item id="btn_home" class=""/>
+            <item id="btn_menu" class=""/>
+            <item id="btn_settings" class=""/>
+
+            <item id="logo" class="class_override"/>
+            <item id="txt_coursetitle" class="class_override"/>
+            <item id="txt_subtitle" class="class_override"  />
+           
+        </view>
+        <!-- With Top & Bottom Band -->
+        <view id="02">
+            <item id="btn_home" class=""/>
+            <item id="btn_menu" class=""/>
+            <item id="btn_previous" class="class_override"/>
+            <item id="btn_next" class="class_override"/>
+            <item id="logo" class="class_override"/>
+            <item id="txt_coursetitle" class="class_override"/>
+            <item id="txt_subtitle" class="class_override"  />
+            <item id="help" class="class_override"/>
+            <item id="glossary" class="class_override"/>
+            <item id="resources" class="class_override"/>
+            <item id="txt_pagination" class="class_override"/>
+            <item id="nav_itext" class=""/>
+            <item id="course_close" class=""/>
+        </view>
+        <!-- Without Bottom Band -->
+        <view id="03">
+            <item id="btn_home" class=""/>
+            <item id="btn_menu" class=""/>
+            <item id="btn_settings" class=""/>
+
+            <item id="logo" class="class_override"/>
+            <item id="txt_coursetitle" class="class_override"/>
+            <item id="txt_subtitle" class="class_override"  />
+            <item id="help" class="class_override"/>
+            <item id="glossary" class="class_override"/>
+           
+        </view>
+        <view id="04">
+            <item id="logo" class="class_override"/>
+            <item id="txt_coursetitle" class="class_override"/>
+            <item id="txt_subtitle" class="class_override"/>
+            <item id="help" class="class_override"/>
+            <item id="glossary" class="class_override"/>
+            <item id="txt_pagination" class="class_override"/>
+            <item id="btn_play"/>
+            <item id="btn_pause" class="hide"/>
+            <item id="img_instructor"/>
+            <item id="audio_panel_itext"/>
+        </view>
+        <!-- Without next itext -->
+        <view id="05">
+            <item id="btn_home" class="class_override"/>
+            <item id="btn_menu" class="class_override"/>
+            <item id="btn_settings" class=""/>
+            <item id="logo" class="class_override"/>
+            <item id="txt_coursetitle" class="class_override"/>
+            <item id="txt_subtitle" class="class_override"  />
+            <item id="help" class="class_override"/>
+            <item id="glossary" class="class_override"/>
+            <item id="btn_previous" class="class_override disabled"/>
+            <item id="txt_pagination" class="class_override"/>
+            <item id="btn_next" class="class_override"/>
+            <item id="nav_itext" class=""/>
+        </view>
+    </viewtypes>
+</uiconfig>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>IPC</title>
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- CSS Includes -->
+        <link rel="stylesheet" type="text/css" href="css/globals.css"/>
+
+        <!-- Javascript Includes -->
+        <script src="js/libs/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" charset="utf-8">
+            var touchDevice = false,
+                strMainURL,
+                mainWindow;
+
+            function checkScreenResolution(){
+                //console.log('checkScreenResolution() | '+touchDevice);
+                if(whichmobile() == "iphone os 5" || whichmobile() == "ipad; cpu os 5" ||whichmobile() == "iphone" ||whichmobile() == "ipad" ||whichmobile() == "android 2" ||whichmobile() == "android" ||whichmobile() == "blackberry" ||whichmobile() == "palmos"){
+                    touchDevice = true;
+                    /*if(screen.width<320){
+                        window.location="error.html";
+                    }
+                    if(whichmobile().indexOf("android")>-1){
+                        if(checkAndroidVersion()){
+                        }else{
+                            window.location="error.html";
+                        }
+                    }*/
+                }
+
+                /*strMainURL=document.location.href;
+                //alert("strMainURL::"+strMainURL);
+
+                if(strMainURL.indexOf("pageID=")>0)
+                {
+                    strMainURL=strMainURL.replace("index.html","main.html");
+                    showMainPage();
+                }
+                else
+                {*/
+                    strMainURL="index.html";
+                //}
+            }
+
+            function whichmobile() {
+                var useragentstring=navigator.userAgent.toLowerCase();
+                var mobilelist=new Array("iphone os 5","ipad; cpu os 5","iphone","ipad","android 2","android","blackberry","palmos");
+                for (var device in mobilelist) {
+                    if (useragentstring.indexOf(mobilelist[device])>=0) {
+                        return mobilelist[device];
+                        break;
+                    }
+                }
+            }
+
+            function checkAndroidVersion(){
+                var androidSupport = false;
+                var ua = navigator.userAgent;
+                if( ua.indexOf("Android") >= 0 )
+                {
+                  var androidversion = parseFloat(ua.slice(ua.indexOf("Android")+8));
+
+                  if (androidversion >= 2.3)
+                  {
+                    androidSupport = true;
+                  }
+                }
+                return androidSupport;
+            }
+
+            function showMainPage(){
+                //console.log('showMainPage() | '+touchDevice);
+                if(touchDevice){
+                    mainWindow = window.open(strMainURL,"","location=1,status=1,scrollbars=1,width="+window.innerWidth+",height="+window.innerHeight+",left=0,top=0,location=0,menubar=0,resizable=0,titlebar=0,toolbar=0,",false );
+                }else{
+                    mainWindow = window.open(strMainURL,"","location=1,status=1,scrollbars=1,width=1034,height=660,left=0,top=0,location=0,menubar=0,resizable=1,titlebar=0,toolbar=0,",false );
+                }
+            }
+        </script>
+    </head>
+    <body onload="checkScreenResolution()">
+        <div id="launchDiv">
+            <div id="launchDivText">Please click the "Launch" button to access the simulation.<br/><br/><br/>
+                <a id="btn_launch" class="button_index btn"><span>Launch</span></a>
+            </div>
+        </div>
+        <script type="text/javascript" charset="utf-8">
+            var oScope = this;
+            $('#btn_launch').on('click', function(e){
+                e.preventDefault();
+                oScope.showMainPage();
+            });
+        </script>
+    </body>
+</html>

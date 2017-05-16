@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<pageDesc><![CDATA[This is a image hot-spot activity page. Please click through the elements to know more.]]></pageDesc>
+	
+	<pageText id="txt_title_1"><![CDATA[Image Hotspot page header]]></pageText>
+	<pageText id="txt_1"><![CDATA[Ut accumsan eros ac purus tincidunt pretium. Morbi ex odio, ornare in porttitor vitae, laoreet vel justo. Ut eu faucibus nulla. Ut magna odio, vehicula vel ex a, lobortis sollicitudin nunc.]]></pageText>
+	<pageText id="itext_1"><![CDATA[Click the hotspot to know more.]]></pageText>
+	
+	
+	<pageText id="hotspot1_title"><![CDATA[Hotspot Title 1.]]></pageText>
+	<pageText id="hotspot2_title"><![CDATA[Hotspot Title 2.]]></pageText>
+	<pageText id="hotspot3_title"><![CDATA[Hotspot Title 3.]]></pageText>
+	<pageText id="hotspot4_title"><![CDATA[Hotspot Title 4.]]></pageText>
+	<pageText id="hotspot5_title"><![CDATA[Hotspot Title 5.]]></pageText>
+	<pageText id="hotspot6_title"><![CDATA[Hotspot Title 6.]]></pageText>
+	<pageText id="hotspot7_title"><![CDATA[Hotspot Title 7.]]></pageText>
+	<pageText id="hotspot8_title"><![CDATA[Hotspot Title 8.]]></pageText>
+	
+	
+	<pageText id="hotspot1_txt"><![CDATA[Pellentesque ullamcorper mattis massa, sed cursus ipsum.]]></pageText>
+	<pageText id="hotspot2_txt"><![CDATA[Curabitur vel arcu erat. Nunc vel egestas leo. In hac habitasse platea dictumst.]]></pageText>
+	<pageText id="hotspot3_txt"><![CDATA[Vestibulum non maximus risus. Vivamus vitae imperdiet risus.]]></pageText>
+	<pageText id="hotspot4_txt"><![CDATA[Vivamus neque tortor, facilisis vitae dictum nec, imperdiet ac ipsum.]]></pageText>
+	<pageText id="hotspot5_txt"><![CDATA[Curabitur in justo porta, porttitor sem ac, rhoncus felis.]]></pageText>
+	<pageText id="hotspot6_txt"><![CDATA[Sed condimentum nibh turpis, sit amet molestie quam mollis eget.]]></pageText>
+	<pageText id="hotspot7_txt"><![CDATA[Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.]]></pageText>
+	<pageText id="hotspot8_txt"><![CDATA[Fusce nec lobortis augue, a aliquam est.]]></pageText>
+</data>

@@ -1,0 +1,144 @@
+#pagecontainer_cw01_assessment_pg02assessment,
+#pagecontainer_cw01_assessment_pg03assessment,
+#pagecontainer_cw01_assessment_pg04assessment,
+#pagecontainer_cw01_assessment_pg05assessment,
+#pagecontainer_cw01_assessment_pg06assessment,
+#pagecontainer_cw01_assessment_pg07assessment
+#pagecontainer_cw01_assessment_pg08assessment{
+    padding-left:94px;
+    
+}
+#DragDrop_submit{
+    clear:left;
+}
+#pagecontainer_cw01_assessment_dragdrop{
+    padding-left:94px;
+    
+}
+
+.dnd-bg-container{
+    position:relative;
+}
+
+.i-text {
+    display: inline-block;
+    margin: 12px 0 8px !important;
+}
+.btn_submit {
+	background: url("images/05_KnowledgeCheck_Img_Right.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	width:100px;
+	height:20px;
+	float:left;
+}
+.question-container {
+	float: left;
+    width: 100%;
+}
+.page-title {
+    font-size: 20px;
+    padding: 20px 20px;
+}
+.optionscontainer ul {
+	padding:0;
+}
+
+.dnd-col > div {
+    height: 70px;
+}
+
+.dnd-col > .heading{
+    background-color:#B3CD0C;
+    color:#3F4700;
+    height:50px;
+    text-align:center;
+      padding: 10px 10px 0px;
+}
+#top_band{
+    /*height: 0px;*/
+}
+#bottom_band{
+    display:none;
+} 
+.question_main_container {
+    position: relative;
+}
+
+.tile-target-container {
+    min-height: 340px;
+    position: relative;
+}
+.target-groups-container,
+.tile-groups-container {
+    border: 1px solid;
+    min-height: 110px;
+    position: relative;
+}
+.target-container {
+    background-color: #D0D0B9;
+    color           : black;
+    /*margin          : 10px;
+    padding         : 5px;*/
+    position        : absolute;
+    top             : 55px;
+    left            : 220px;
+    min-width       : 160px;
+    min-height       : 40px;
+    border-radius:10px;
+}
+
+
+
+.tile-container{
+    background-color: #014256;
+    color: black;
+    /*margin: 10px;
+    padding: 5px;*/
+    position:absolute;
+    top:55px;
+    left: 20px;
+    min-width: 160px;    
+    z-index:1;
+    min-height       : 40px;
+    border-radius:10px;
+    line-height:40px;
+}
+
+#tile2.tile-container{
+    top:123px;
+}
+#tile3.tile-container{
+    top:193px;
+}
+#tile4.tile-container{
+    top:267px;
+}
+#tile5.tile-container{
+    top:334px;
+}
+#target2.target-container{
+    top:123px;
+}
+#target3.target-container{
+    top:193px;
+}
+#target4.target-container{
+    top:267px;
+}
+#target5.target-container{
+    top:334px;
+}
+        
+.box-250{width:250px;}
+    
+.ui-draggable-dragging{
+    z-index: 2;
+}
+.tile-container a{ color:#ffffff; text-align:center; text-decoration:none;}
+.target-container a{ color:#000000; text-align:center; text-decoration:none;}
+#DragDrop_submit{
+	clear: both;
+    margin: 15px 0 0;}
+.pad_10{padding:0 10px;}
+/**/
+
+/**/

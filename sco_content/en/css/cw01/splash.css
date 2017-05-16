@@ -1,0 +1,17 @@
+/*#content_wrapper > #content{
+	padding: 0px;
+	height: 506px;
+}*/
+
+.page-bg{
+	background:url("sco_content/en/images/splash.jpg") no-repeat;
+	width:771px;
+	height:506px;
+	position:relative;
+}
+
+.ui-continue-btn{
+    position: absolute;
+    top: 192px;
+	left: 555px;
+}

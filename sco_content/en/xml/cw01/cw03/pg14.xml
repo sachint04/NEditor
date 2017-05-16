@@ -1,0 +1,36 @@
+<data>
+	
+	<pageText id="txt_title-01">
+		<![CDATA[Click and Reveal type #2]]>
+	</pageText>
+	<pageText id="i-text">
+		<![CDATA[Select each item in the list to obtain more information.]]>
+	</pageText>
+	
+	<pageText id="txt_1">
+		<![CDATA[Click and Reveal component is extended to open popup content inside current page instead of sending content to PopupManager to open in global container for popup.
+		By default "popupConfigID" attribute inside <b>component</b> node of page xml defines which template to be used when content is opened in global container. Value of "popupConfigID" attribute is Popup ID. If value is empty, component will open popup content in page itself. We will call this type <b>In-Page Popup</b> However in case we are planning to use in-page popup method, there are certain important point we must remember. <ul><li>Popup content element in html should have "click-popup" and "hide" class.</li><li>All popup content element should have close button with class 'btn-close'</li></ul> ]]>
+	</pageText>
+	
+	
+	
+	<pageText id="btn_Popup1">
+		<![CDATA[How does a rule become final?]]>
+	</pageText>
+	<pageText id="btn_Popup2">
+		<![CDATA[When does a rule go into effect?]]>
+	</pageText>
+	<pageText id="btn_Popup3">
+		<![CDATA[What does it mean for a rule to be published?]]>
+	</pageText>
+	<pageText id="txt_Popup1">
+		<![CDATA[The next four lines are the variations for different browsers. At the time of writing the CSS3 specification has not been finalised so we use these different vendor prefixes as an interim measure. Modern browsers will support one of these rules and ignore the others.]]>
+	</pageText>
+	<pageText id="txt_Popup2">
+		<![CDATA[The next four lines are the variations for different browsers. At the time of writing the CSS3 specification has not been finalised so we use these different vendor prefixes as an interim measure. Modern browsers will support one of these rules and ignore the others.]]>
+	</pageText>
+	<pageText id="txt_Popup3">
+		<![CDATA[The next four lines are the variations for different browsers. At the time of writing the CSS3 specification has not been finalised so we use these different vendor prefixes as an interim measure. Modern browsers will support one of these rules and ignore the others.]]>
+	</pageText>
+	<component type="ClickAndReveal" componentID="comp_1" class="cnr-btn" popupConfigID=""></component>
+</data>

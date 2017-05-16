@@ -1,0 +1,598 @@
+[
+  {
+    "label": "align-content",
+    "value": ""
+  },
+  {
+    "label": "align-items",
+    "value": ""
+  },
+  {
+    "label": "align-self",
+    "value": ""
+  },
+  {
+    "label": "animation",
+    "value": ""
+  },
+  {
+    "label": "appearance",
+    "value": ""
+  },
+  {
+    "label": "backface-visibility",
+    "value": ""
+  },
+  {
+    "label": "background",
+    "value": ""
+  },
+  {
+    "label": "background-attachment",
+    "value": ""
+  },
+  {
+    "label": "background-blend-mode",
+    "value": ""
+  },
+  {
+    "label": "background-clip",
+    "value": ""
+  },
+  {
+    "label": "background-color",
+    "value": ""
+  },
+  {
+    "label": "background-image",
+    "value": ""
+  },
+  {
+    "label": "background-origin",
+    "value": ""
+  },
+  {
+    "label": "background-position",
+    "value": ""
+  },
+  {
+    "label": "background-repeat",
+    "value": ""
+  },
+  {
+    "label": "background-size",
+    "value": ""
+  },
+  {
+    "label": "bleed",
+    "value": ""
+  },
+  {
+    "label": "border",
+    "value": ""
+  },
+  {
+    "label": "border-collapse",
+    "value": ""
+  },
+  {
+    "label": "border-image",
+    "value": ""
+  },
+  {
+    "label": "border-radius",
+    "value": ""
+  },
+  {
+    "label": "bottom",
+    "value": ""
+  },
+  {
+    "label": "box-decoration-break",
+    "value": ""
+  },
+  {
+    "label": "box-shadow",
+    "value": ""
+  },
+  {
+    "label": "box-sizing",
+    "value": ""
+  },
+  {
+    "label": "break-inside",
+    "value": ""
+  },
+  {
+    "label": "caption-side",
+    "value": ""
+  },
+  {
+    "label": "clear",
+    "value": ""
+  },
+  {
+    "label": "clip-path",
+    "value": ""
+  },
+  {
+    "label": "color",
+    "value": ""
+  },
+  {
+    "label": "column-count",
+    "value": ""
+  },
+  {
+    "label": "column-fill",
+    "value": ""
+  },
+  {
+    "label": "column-gap",
+    "value": ""
+  },
+  {
+    "label": "column-rule",
+    "value": ""
+  },
+  {
+    "label": "column-span",
+    "value": ""
+  },
+  {
+    "label": "column-width",
+    "value": ""
+  },
+  {
+    "label": "columns",
+    "value": ""
+  },
+  {
+    "label": "content",
+    "value": ""
+  },
+  {
+    "label": "counter-increment",
+    "value": ""
+  },
+  {
+    "label": "counter-reset",
+    "value": ""
+  },
+  {
+    "label": "cursor",
+    "value": ""
+  },
+  {
+    "label": "direction",
+    "value": ""
+  },
+  {
+    "label": "display",
+    "value": ""
+  },
+  {
+    "label": "empty-cells",
+    "value": ""
+  },
+  {
+    "label": "fill",
+    "value": ""
+  },
+  {
+    "label": "filter",
+    "value": ""
+  },
+  {
+    "label": "flex",
+    "value": ""
+  },
+  {
+    "label": "flex-basis",
+    "value": ""
+  },
+  {
+    "label": "flex-direction",
+    "value": ""
+  },
+  {
+    "label": "flex-flow",
+    "value": ""
+  },
+  {
+    "label": "flex-grow",
+    "value": ""
+  },
+  {
+    "label": "flex-shrink",
+    "value": ""
+  },
+  {
+    "label": "flex-wrap",
+    "value": ""
+  },
+  {
+    "label": "float",
+    "value": ""
+  },
+  {
+    "label": "font",
+    "value": ""
+  },
+  {
+    "label": "font-display",
+    "value": ""
+  },
+  {
+    "label": "font-family",
+    "value": ""
+  },
+  {
+    "label": "font-feature-settings",
+    "value": ""
+  },
+  {
+    "label": "font-size",
+    "value": ""
+  },
+  {
+    "label": "font-size-adjust",
+    "value": ""
+  },
+  {
+    "label": "font-stretch",
+    "value": ""
+  },
+  {
+    "label": "font-style",
+    "value": ""
+  },
+  {
+    "label": "font-variant",
+    "value": ""
+  },
+  {
+    "label": "font-weight",
+    "value": ""
+  },
+  {
+    "label": "hanging-punctuation",
+    "value": ""
+  },
+  {
+    "label": "height",
+    "value": ""
+  },
+  {
+    "label": "hyphens",
+    "value": ""
+  },
+  {
+    "label": "image-rendering",
+    "value": ""
+  },
+  {
+    "label": "initial-letter",
+    "value": ""
+  },
+  {
+    "label": "isolation",
+    "value": ""
+  },
+  {
+    "label": "justify-content",
+    "value": ""
+  },
+  {
+    "label": "left",
+    "value": ""
+  },
+  {
+    "label": "letter-spacing",
+    "value": ""
+  },
+  {
+    "label": "line-height",
+    "value": ""
+  },
+  {
+    "label": "list-style",
+    "value": ""
+  },
+  {
+    "label": "margin",
+    "value": ""
+  },
+  {
+    "label": "max-height",
+    "value": ""
+  },
+  {
+    "label": "max-width",
+    "value": ""
+  },
+  {
+    "label": "min-height",
+    "value": ""
+  },
+  {
+    "label": "min-width",
+    "value": ""
+  },
+  {
+    "label": "mix-blend-mode",
+    "value": ""
+  },
+  {
+    "label": "object-fit",
+    "value": ""
+  },
+  {
+    "label": "object-position",
+    "value": ""
+  },
+  {
+    "label": "offset-distance",
+    "value": ""
+  },
+  {
+    "label": "offset-path",
+    "value": ""
+  },
+  {
+    "label": "offset-rotation",
+    "value": ""
+  },
+  {
+    "label": "opacity",
+    "value": ""
+  },
+  {
+    "label": "order",
+    "value": ""
+  },
+  {
+    "label": "orphans",
+    "value": ""
+  },
+  {
+    "label": "outline",
+    "value": ""
+  },
+  {
+    "label": "overflow",
+    "value": ""
+  },
+  {
+    "label": "overflow-anchor",
+    "value": ""
+  },
+  {
+    "label": "overflow-wrap",
+    "value": ""
+  },
+  {
+    "label": "padding",
+    "value": ""
+  },
+  {
+    "label": "page-break",
+    "value": ""
+  },
+  {
+    "label": "perspective",
+    "value": ""
+  },
+  {
+    "label": "perspective-origin",
+    "value": ""
+  },
+  {
+    "label": "pointer-events",
+    "value": ""
+  },
+  {
+    "label": "position",
+    "value": ""
+  },
+  {
+    "label": "quotes",
+    "value": ""
+  },
+  {
+    "label": "resize",
+    "value": ""
+  },
+  {
+    "label": "right",
+    "value": ""
+  },
+  {
+    "label": "scroll-behavior",
+    "value": ""
+  },
+  {
+    "label": "scrollbar",
+    "value": ""
+  },
+  {
+    "label": "shape-outside",
+    "value": ""
+  },
+  {
+    "label": "speak",
+    "value": ""
+  },
+  {
+    "label": "stroke",
+    "value": ""
+  },
+  {
+    "label": "stroke-dasharray",
+    "value": ""
+  },
+  {
+    "label": "stroke-dashoffset",
+    "value": ""
+  },
+  {
+    "label": "stroke-linecap",
+    "value": ""
+  },
+  {
+    "label": "stroke-width",
+    "value": ""
+  },
+  {
+    "label": "tab-size",
+    "value": ""
+  },
+  {
+    "label": "table-layout",
+    "value": ""
+  },
+  {
+    "label": "text-align",
+    "value": ""
+  },
+  {
+    "label": "text-align-last",
+    "value": ""
+  },
+  {
+    "label": "text-decoration",
+    "value": ""
+  },
+  {
+    "label": "text-decoration-color",
+    "value": ""
+  },
+  {
+    "label": "text-decoration-line",
+    "value": ""
+  },
+  {
+    "label": "text-decoration-skip",
+    "value": ""
+  },
+  {
+    "label": "text-decoration-style",
+    "value": ""
+  },
+  {
+    "label": "text-indent",
+    "value": ""
+  },
+  {
+    "label": "text-overflow",
+    "value": ""
+  },
+  {
+    "label": "text-rendering",
+    "value": ""
+  },
+  {
+    "label": "text-shadow",
+    "value": ""
+  },
+  {
+    "label": "text-stroke",
+    "value": ""
+  },
+  {
+    "label": "text-transform",
+    "value": ""
+  },
+  {
+    "label": "text-underline-position",
+    "value": ""
+  },
+  {
+    "label": "top",
+    "value": ""
+  },
+  {
+    "label": "transform",
+    "value": ""
+  },
+  {
+    "label": "transform-origin",
+    "value": ""
+  },
+  {
+    "label": "transform-style",
+    "value": ""
+  },
+  {
+    "label": "transition",
+    "value": ""
+  },
+  {
+    "label": "transition-delay",
+    "value": ""
+  },
+  {
+    "label": "transition-duration",
+    "value": ""
+  },
+  {
+    "label": "transition-property",
+    "value": ""
+  },
+  {
+    "label": "transition-timing-function",
+    "value": ""
+  },
+  {
+    "label": "unicode-bidi",
+    "value": ""
+  },
+  {
+    "label": "user-select",
+    "value": ""
+  },
+  {
+    "label": "vertical-align",
+    "value": ""
+  },
+  {
+    "label": "visibility",
+    "value": ""
+  },
+  {
+    "label": "white-space",
+    "value": ""
+  },
+  {
+    "label": "widows",
+    "value": ""
+  },
+  {
+    "label": "width",
+    "value": ""
+  },
+  {
+    "label": "will-change",
+    "value": ""
+  },
+  {
+    "label": "word-break",
+    "value": ""
+  },
+  {
+    "label": "word-spacing",
+    "value": ""
+  },
+  {
+    "label": "writing-mode",
+    "value": ""
+  },
+  {
+    "label": "z-index",
+    "value": ""
+  },
+  {
+    "label": "zoom",
+    "value": ""
+  }
+]

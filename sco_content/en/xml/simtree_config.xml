@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <!--
+	Incidents
+	@ randomizeIncidents : if set to "true", will select random Incidents from the Incidents pool. If set to "false", will play the Incidents in a sequence as declared
+          @ minIncidentsPerDay : Minimum number of Incidents to be played in each Day
+          @ maxIncidentsPerDay : Maximum number of Incidents to be played in each Day
+          @ noOfDays : A number greater than 0 or unlimited
+          @ dayTimeLimit : Number in minutes a Day should last
+          @ extraTime : Number in minutes that is provided as extra time
+          @ deferEvents : true or false.
+		- If set to "true", then the user will not get a Replay button to Replay the Day. Events that cannot be deferred are lost forever, marked as INCOMPLETE or NOTSTARTED, and those that can be deferred will be deferred automatically
+		- If set to "false", then the user will not get the "Defer" button in any of the events and will have to continue with the lost events. 
+          @ eventsInterval : The time interval at which the Events need to get triggered
+	@ dayStartsAt: Hrs:Mins:Secs AM/PM
+	@ replayDay: true or false
+		- if set to "true" the user will get a Replay button to Replay the Day. It will present the same event pool presented for that day.
+		- if set to "false" the user will not get a replay button at the end of the day.
+
+          WHAT HAPPENS IF THERE IS A DEPENDENCY OF ONE INCIDENT ON ANOTHER INCIDENT. i.e. incident no. 8 is dependent on incident no. 3 to be completed first.
+          WOULD THER BE A CASE WHERE SOME OF THE INCIDENTS NEED TO ARRIVE ONLY AFTER A DAY OR 2 OR ON A FIXED DAY (LIKE THE LAST DAY)
+	-->
+    <!--<incidents randomizeIncidents="true" minIncidentsPerDay="3" maxIncidentsPerDay="5" noOfDays="unlimited" dayTimeLimit="15" extraTime="15" deferEvents="true" eventsInterval="1-3" dayStartsAt="8:59:55 am" replayDay="false">-->
+	<incidents randomizeIncidents="true" minIncidentsPerDay="2" maxIncidentsPerDay="2" eventsPerDay="1" noOfDays="unlimited" dayTimeLimit="15" extraTime="15" deferEvents="true" eventsInterval="0.1-0.2" dayStartsAt="8:59:55 am" replayDay="false">
+        <incident id="1" day="" dependant="false" />
+        <incident id="2" day="" dependant="false" />
+        <incident id="3" day="" dependant="false" />
+        <incident id="4" day="" dependant="false" />
+        <incident id="5" day="" dependant="false" />
+        <incident id="6" day="1" dependant="false" />
+        <incident id="7" day="" dependant="false" />
+        <incident id="8" day="" dependant="true" />
+    </incidents>
+
+    <!-- Trigger Types -->
+    <triggers>
+        <trigger type="email" label="Email" />
+        <trigger type="meeting" label="Meeting" />
+        <trigger type="call" label="Call" />
+    </triggers>
+
+    <!--
+        Global Scoring Rules
+        @ name : Penalty for a Day or an Event
+        @ type : The type of Penalty
+        @ eventid : The Event ID to which the rule is tied
+        @ flat : Whether the deduction is flat or cummulative
+        @ deduction : The % deduction for a rule violation.
+        @ maxDeduction : The max % that can be deducted. Required to be specified only when the @flat value is set to "false".
+        @ label : Kept this only for description purpose
+    -->
+    <!--<scoring>
+        <penalties>
+            <rule name="day" type="timeLimit" eventid="" flat="false" deduction="1%" maxDeduction="15%"  label="% Deduction for every extra minute taken"/>
+            <rule name="event" type="timeLimit" eventid="1" flat="true" deduction="5%" maxDeduction="" label="% Deduction for timed events" />
+            <rule name="event" type="priority" eventid="1" flat="true" deduction="2%" maxDeduction="" label="% Deduction for high priority events" />
+        </penalties>
+    </scoring>-->
+	
+	<scoring>
+		<rules>
+			<rule type="priority">
+				<item type="deduction" level="1" value="30" valueType="%" label="% Deduction for high priority events" />
+				<item type="deduction" level="2" value="20" valueType="%" label="% Deduction for high priority events" />
+				<item type="deduction" level="3" value="10" valueType="%" label="% Deduction for high priority events" />
+				<item type="deduction" level="4" value="0" valueType="%" label="% Deduction for high priority events" />
+			</rule> 
+			<rule type="time-event">
+				<item type="deduction" eventid="1" value="5" valueType="%" label="% Deduction for timed events" />
+			</rule> 
+			<rule type="time-day">
+				<!--<item type="deduction" extra-min="1" value="1" valueType="pt" label="% Deduction for every extra minute taken"/>-->
+				<item type="deduction" extra-min="1" value="1" valueType="%" label="% Deduction for every extra minute taken"/>
+			</rule> 
+		</rules>
+		<feedbackText>
+			<score range="0-40"><![CDATA[Poor Performance]]></score>
+			<score range="41-99"><![CDATA[Good Performance]]></score>
+			<score range="100-100"><![CDATA[Excellent Performance]]></score>
+		</feedbackText>
+    </scoring>
+	
+	<textdefaults>
+		<item id="location"><![CDATA[My Office]]></item>
+		<item id="timeexpired" incidentID="1" eventID="1"><![CDATA[You failed to complete this event]]></item>
+		<item id="timeexpired" incidentID="1" eventID="2"><![CDATA[You failed to complete this event]]></item>
+	</textdefaults>
+	
+	<datafiles>
+		<item filename="popupdata.xml" location="xml_location"/>
+	</datafiles>
+</config>

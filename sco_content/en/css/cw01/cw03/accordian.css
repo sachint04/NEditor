@@ -1,0 +1,150 @@
+#accordian1 {
+    margin-left: -8px;
+}
+
+#accordian1_panel4 .panel-content-wrapper p{
+	padding: 0;
+}
+.tab-content .tab-pane p {
+	max-width: 705px;
+}
+.component {
+}
+.pg-course-overview .imageTop {
+	background: url("images/course_overview.png") no-repeat scroll -1px -1px transparent;
+	height: 230px;
+	width: 707px;
+	margin-bottom: 15px;
+}
+.page-title-01 {
+    margin-bottom: 15px;
+}
+.page-title-02 {
+    margin-bottom: 10px;
+}
+.pg-course-overview #text_book > ul {
+	padding: 0;
+}
+.list-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pg-course-overview #accordian1 .tab {
+	background: url("images/course_overview.png") no-repeat scroll 0 0 transparent;
+	height: 219px;
+	width: 94px;
+	z-index: 5;
+	float: left;
+}
+.pg-course-overview #accordian1 .tab1 {
+	background-position: -1px -235px;
+}
+.pg-course-overview #accordian1 .tab1.hover, #accordian1 .tab1.open {
+	
+	background-position: -1px -455px;
+}
+.pg-course-overview #accordian1 .tab1.open, .pg-course-overview #accordian1 .tab2.open, .pg-course-overview #accordian1 .tab3.open, .pg-course-overview #accordian1 .tab4.open, .pg-course-overview #accordian1 .tab5.open {
+	cursor: default;
+}
+.pg-course-overview #accordian1 .tab2 {
+	background-position: -96px -235px;
+}
+.pg-course-overview #accordian1 .tab2.hover, .pg-course-overview #accordian1 .tab2.open {
+	background-position: -96px -455px;
+	
+}
+
+.pg-course-overview #accordian1 .tab3 {
+	background-position: -191px -235px;
+}
+.pg-course-overview #accordian1 .tab3.hover, .pg-course-overview #accordian1 .tab3.open {
+	background-position: -191px -455px;
+	
+}
+
+.pg-course-overview #accordian1 .tab4 {
+	background-position: -286px -235px;
+}
+.pg-course-overview #accordian1 .tab4.hover, .pg-course-overview #accordian1 .tab4.open {
+	background-position: -286px -455px;
+	
+}
+
+.pg-course-overview #accordian1 .tab5 {
+	background-position: -381px -235px;
+}
+.pg-course-overview #accordian1 .tab5.hover, .pg-course-overview #accordian1 .tab5.open {
+	
+	background-position: -381px -455px;
+}
+.pg-course-overview #accordian1 .tab5.open {
+	cursor: default;
+}
+
+.pg-course-overview #accordian1 .panel {
+	float: left;
+	/*width: 183px;*/
+}
+.pg-course-overview #accordian1 .panel1 {
+    background: #79e1ff;
+    background: -moz-linear-gradient(top, #79e1ff 0%, #ecfbfe 30%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#79e1ff), color-stop(30%,#ecfbfe));
+    background: -webkit-linear-gradient(top, #79e1ff 0%,#ecfbfe 30%);
+    background: -o-linear-gradient(top, #79e1ff 0%,#ecfbfe 30%);
+    background: -ms-linear-gradient(top, #79e1ff 0%,#ecfbfe 30%);
+    background: linear-gradient(to bottom, #79e1ff 0%,#ecfbfe 30%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79e1ff', endColorstr='#ecfbfe', GradientType=1);
+    
+}
+.pg-course-overview #accordian1 .panel2 {
+    background: #ffc26d;
+    background: -moz-linear-gradient(top, #ffc26d 0%, #fff6ea 30%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc26d), color-stop(30%,#fff6ea));
+    background: -webkit-linear-gradient(top, #ffc26d 0%,#fff6ea 30%);
+    background: -o-linear-gradient(top, #ffc26d 0%,#fff6ea 30%);
+    background: -ms-linear-gradient(top, #ffc26d 0%,#fff6ea 30%);
+    background: linear-gradient(to bottom, #ffc26d 0%,#fff6ea 30%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc26d', endColorstr='#fff6ea', GradientType=1);
+    
+}
+.pg-course-overview #accordian1 .panel3 {
+    background: #C3D646; /* Old browsers */
+    background: -moz-linear-gradient(top, #C3D646 0%, #F3F9C7 30%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C3D646), color-stop(30%,#F3F9C7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C3D646 0%,#F3F9C7 30%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C3D646 0%,#F3F9C7 30%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C3D646 0%,#F3F9C7 30%); /* IE10+ */
+    background: linear-gradient(to bottom, #C3D646 0%,#F3F9C7 30%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C3D646', endColorstr='#F3F9C7', GradientType=1);
+    
+}
+.pg-course-overview #accordian1 .panel4 {
+    background: #D888AF;
+    background: -moz-linear-gradient(top, #D888AF 0%, #FFE0F4 30%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D888AF), color-stop(30%,#FFE0F4));
+    background: -webkit-linear-gradient(top, #D888AF 0%,#FFE0F4 30%);
+    background: -o-linear-gradient(top, #D888AF 0%,#FFE0F4 30%);
+    background: -ms-linear-gradient(top, #D888AF 0%,#FFE0F4 30%);
+    background: linear-gradient(to bottom, #D888AF 0%,#FFE0F4 30%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D888AF', endColorstr='#FFE0F4', GradientType=1);
+    
+}
+.pg-course-overview #accordian1 .panel5 {
+    background: #B691D8;
+    background: -moz-linear-gradient(top, #B691D8 0%, #F8F2FF 30%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B691D8), color-stop(30%,#F8F2FF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #B691D8 0%,#F8F2FF 30%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #B691D8 0%,#F8F2FF 30%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #B691D8 0%,#F8F2FF 30%); /* IE10+ */
+    background: linear-gradient(to bottom, #B691D8 0%,#F8F2FF 30%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B691D8', endColorstr='#F8F2FF', GradientType=1);
+}
+
+.pg-course-overview #accordian1 .panel{
+	padding: 10px;
+	position: relative;
+}
+.pg-course-overview #accordian1 .panel > p {
+	padding: 0;
+}

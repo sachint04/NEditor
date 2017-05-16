@@ -1,0 +1,5 @@
+<data>
+	<pageText id="txt_menu_title"><![CDATA[MENU]]></pageText>
+	<pageText id="i-text"><![CDATA[Select an item from the menu. If you are taking this module for the first time, select Module Overview to begin.]]></pageText>
+	<component type="Menu" componentID="menu_wrapper" cwCollapseable="false" navigateOnCWClick="false" excludeList="cw01~menu, cw01~splash, cw01~reso, cw01~summary"></component>
+</data>

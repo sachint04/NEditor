@@ -1,0 +1,366 @@
+<feedbacks>
+	<!-- ===== Generic Feedback ===== -->
+	<feedback fbType="generic">
+		<title>
+			<![CDATA[Generic Feedback Heading]]>
+		</title>
+		<content>
+			<![CDATA[This is the Generic Feedback content.]]>
+		</content>
+	</feedback>
+
+	<!-- ===== Correct Feedback ===== -->
+	<!-- Attempt 1 -->
+	<feedback fbType="correct" attempt="1">
+		<title>
+			<![CDATA[You Are Right!]]>
+		</title>
+		<content>
+			<![CDATA[<p>The following are the correct answers:</p><ol>
+			<li>A planned economic system relies on partial or total government control:<strong>True</strong></li>
+			<li>The <abbr title="United States">U.S.</abbr> economy is a mixed market economic system: <strong>False</strong></li>
+			<li>In a perfect competition, price is determined by supply and demand:<strong>True</strong> </li>
+			<li>In a monopolistic competition, there are very few buyers who control the demand of goods and services: <strong>False</strong></li>
+			<li>Monopolies are very common in the United States: <strong>False</strong></li>
+			<li>In a monopoly competition, large initial capital investment minimizes sellers entering the industry: <strong>False</strong></li></ol>]]>
+		</content>
+	</feedback>
+	<!-- Attempt 2 -->
+	<feedback fbType="correct" attempt="2">
+		<title>
+			<![CDATA[You Are Right!]]>
+		</title>
+		<content>
+			<![CDATA[<p>The following are the correct answers:</p><ol>
+			<li>A planned economic system relies on partial or total government control:<strong>True</strong></li>
+			<li>The <abbr title="United States">U.S.</abbr> economy is a mixed market economic system: <strong>False</strong></li>
+			<li>In a perfect competition, price is determined by supply and demand:<strong>True</strong> </li>
+			<li>In a monopolistic competition, there are very few buyers who control the demand of goods and services: <strong>True</strong></li>
+			<li>Monopolies are very common in the United States: <strong>True</strong></li>
+			<li>In a monopoly competition, large initial capital investment minimizes sellers entering the industry: <strong>True</strong></li></ol>]]>
+		</content>
+	</feedback>
+
+	<!-- ===== Incorrect Feedback ===== -->
+	<!-- Attempt 1 -->
+	<feedback fbType="incorrect" attempt="1">
+		<title>
+			<![CDATA[]]>
+		</title>
+		<content>
+			<![CDATA[]]>
+		</content>
+	</feedback>
+	<!-- Attempt 2 -->
+	<feedback fbType="incorrect" attempt="2">
+		<title>
+			<![CDATA[]]>
+		</title>
+		<content>
+			<![CDATA[]]>
+		</content>
+	</feedback>
+
+	<!-- ===== Partial Feedback ===== -->
+	<!-- Attempt 1 -->
+	<feedback fbType="partial" attempt="1">
+		<title>
+			<![CDATA[Not Quite!]]>
+		</title>
+		<content>
+			<![CDATA[Try again.]]>
+		</content>
+	</feedback>
+	<!-- Attempt 2 -->
+	<feedback fbType="partial" attempt="2">
+		<title>
+			<![CDATA[Incorrect!]]>
+		</title>
+		<content>
+			<![CDATA[<p>The following are the correct answers:</p><ol>
+			<li>A planned economic system relies on partial or total government control:<strong>True</strong></li>
+			<li>The <abbr title="United States">U.S.</abbr> economy is a mixed market economic system: <strong>False</strong></li>
+			<li>In a perfect competition, price is determined by supply and demand:<strong>True</strong> </li>
+			<li>In a monopolistic competition, there are very few buyers who control the demand of goods and services: <strong>True</strong></li>
+			<li>Monopolies are very common in the United States: <strong>True</strong></li>
+			<li>In a monopoly competition, large initial capital investment minimizes sellers entering the industry: <strong>True</strong></li></ol>]]>
+		</content>
+	</feedback>
+	
+	<!-- ===== Parameteter Based Feedback ===== -->
+	<feedback fbType="parameteterBasedFeedback" id="1" profileName="profile 1" passingScore="85">
+		<strand id="1" name="Greet">
+			<range id="1" name="C" score="0,40" grade="C">
+				<![CDATA[You did try to greet Jenny effectively. But, while you were polite and courteous, you left out a few key elements of the most optimal greeting. You did not introduce yourself. Dealing with you as a nameless entity will keep Jenny from getting very comfortable in her interaction with you.]]>
+			</range>
+			<range id="2" name="B" score="41,74" grade="B">
+				<![CDATA[You made a good job of greeting Jenny—polite and courteous, you started the interaction well. However, you did not introduce yourself. Dealing with you as a nameless entity will keep Jenny from getting very comfortable in her interaction with you. ]]>
+			</range>
+			<range id="3" name="A" score="75,99" grade="A">
+				<![CDATA[You made a good job of greeting Jenny—polite and courteous, you started the interaction well. However, you did not introduce yourself. Dealing with you as a nameless entity will keep Jenny from getting very comfortable in her interaction with you. ]]>
+			</range>
+			<range id="4" name="A+" score="100,100" grade="A+">
+				<![CDATA[You made an excellent job of greeting Jenny—polite and courteous, you started the interaction well. You got all the key elements of an optimal greeting, introducing yourself. Good job!]]>
+			</range>
+		</strand>
+		<strand id="2" name="Gather Information">
+			<range id="1" name="C" score="0,40" grade="C">
+				<![CDATA[Sorry. Gathering detailed information to ensure a successful shipment is perhaps the most critical part of your customer service interaction. Unfortunately, you seemed to have missed out on quite a few of the details.
+
+				To provide the customer with more information, you need more details. It is important to use a well-judged mixture of open- and close-ended questions to obtain maximum information. For example, to determine the nature of the goods for shipment, you should have used more close-ended questions asking for size, weight, number and so on. This would have put you in a better position to tell Jenny the size of the delivery vehicle. If however, you want to know what Jenny's objections to opening an account are, you should have asked more open-ended questions.]]>
+			</range>
+			<range id="2" name="B" score="41,74" grade="B">
+				<![CDATA[Gathering detailed information to ensure a successful shipment is perhaps the most critical part of your customer service interaction. Unfortunately, you did not do very well while asking for details.
+
+				It is important to use a well-judged mixture of open- and close-ended questions to obtain maximum information. For example, to determine the nature of the goods for shipment, you should have used more close-ended questions asking for size, weight, number and so on. If however, you want to know what Jenny's objections to opening an account are, you should have asked more open-ended questions.]]>
+			</range>
+			<range id="3" name="A" score="75,99" grade="A">
+				<![CDATA[Gathering detailed information to ensure a successful shipment is perhaps the most critical part of your customer service interaction. You asked Jenny for all the details, including the contact names, numbers and addresses. Good!
+
+				To provide the customer with more information, you need more details. It is also important to use a well-judged mixture of open- and close-ended questions to obtain maximum information. For example, to determine the nature of the goods for shipment, use more close-ended questions asking for size, weight, number and so on. If however, you want to know what Jenny's objections to opening an account are, you need to ask more open-ended questions.]]>
+			</range>
+			<range id="4" name="A+" score="100,100" grade="A+">
+				<![CDATA[Gathering detailed information to ensure a successful shipment is perhaps the most critical part of your customer service interaction. You asked Jenny for all the details, including the contact names, numbers and addresses. Excellent!
+
+				To provide the customer with more information, you need more details. It is also important to use a well-judged mixture of open- and close-ended questions to obtain maximum information. For example, to determine the nature of the goods for shipment, you used more close-ended questions asking for size, weight, number and so on. This also helped you decide what vehicle to use for the delivery. When you wanted to know what Jenny's objections to opening an account are, you asked more open-ended questions, instead of focusing on just, say, cost. Good!]]>
+			</range>
+		</strand>
+		<strand id="3" name="Provide Information">
+			<range id="1" name="C" score="0,40" grade="C">
+				<![CDATA[You needed to give Jenny information about how you intend to complete the delivery process, including details like the time of collection and delivery, name of the product, type of vehicle and so on. Were you able to do all this?
+
+				However, you made a poor job of relaying information to Jenny. Also, when Jenny had asked how the cost compared to those in the industry, you made an effort to position LogTurn well, by listing its advantages like proof of delivery and the use of our hand-held devices. Unfortunately, you used the acronyms POD and HHCDS, with which she is unfamiliar. This creates confusion in the minds of our customers. Try not to use industry-specific jargon.]]>
+			</range>
+			<range id="2" name="B" score="41,74" grade="B">
+				<![CDATA[You needed to give Jenny information about how you intend to complete the delivery process, including details like the time of collection and delivery, name of the product, type of vehicle and so on. Were you able to do all this?
+
+				You could have done better in a few instances, while sharing information with Jenny. In this particular scenario, it was important to give her a more detailed breakdown of the final cost. This kind of transparency increases the customers' confidence, especially first-time customers like Jenny. It is also important to repeat the name and advantages of QuickAccess as much as possible to heighten name retention and awareness.
+
+				You made a good job of telling Jenny her booking reference number. But, did you tell her which vehicle will be used for the shipment?]]>
+			</range>
+			<range id="3" name="A" score="75,99" grade="A">
+				<![CDATA[You needed to give Jenny information about how you intend to complete the delivery process, including details like the time of collection and delivery, name of the product, type of vehicle and so on. You were able to do most of this. Good job!
+
+				You did very well while sharing information with Jenny. In this particular scenario, it was important to give her a more detailed breakdown of the final cost. This kind of transparency increases the customers' confidence, especially first-time customers like Jenny. It is also important to repeat the name and advantages of QuickAccess as much as possible to heighten name retention and awareness.
+
+				You made a good job of telling Jenny her booking reference number and which vehicle will be used for the shipment.]]>
+			</range>
+			<range id="4" name="A+" score="100,100" grade="A+">
+				<![CDATA[You did very well at giving Jenny information about how you intend to complete the delivery process, including details like the time of collection and delivery, name of the product, type of vehicle and so on. Good job!
+
+				You did very well while sharing information with Jenny. In this particular scenario, you gave her a more detailed breakdown of the final cost. This kind of transparency increases the customers' confidence, especially first-time customers like Jenny. It is also important to repeat the name and advantages of QuickAccess as much as possible to heighten name retention and awareness.
+
+				You made a good job of telling Jenny her booking reference number and which vehicle will be used for the shipment.]]>
+			</range>
+		</strand>
+		<strand id="4" name="Win Business">
+			<range id="1" name="C" score="0,40" grade="C">
+				<![CDATA[Winning business when dealing with your customer is a skill we would like you to work on. As in this case, customers may raise several objections. It is up to you to help the customer overcome any doubts and anxieties while simultaneously building a relationship we can use to generate more business.
+
+				When Jenny expressed her doubts about the expense, you could have handled them by telling her that it's free to open an account. Don't you think this would have been a good idea? How did you deal with the situation when she asked about the cost? You should have been more up-front and explained how the higher value is justified by the reliable and efficient nature of the LogTurn service.
+
+				Similarly, she voiced concerns about LogTurn being able to handle the account of a very small company. Instead of just blindly reeling off a list of the advantages and features LogTurn offers, you should have addressed her very specific concern by describing how LogTurn offers robust service at the local level.]]>
+			</range>
+			<range id="2" name="B" score="41,74" grade="B">
+				<![CDATA[Winning business when dealing with your customer is a skill we would like you to work on some more. As in this case, customers may raise several objections. It is up to you to help the customer overcome any doubts and anxieties while simultaneously building a relationship we can use to generate more business.
+
+				How did you deal with the situation when Jenny asked about the cost? You should have been more up-front and explained how the higher value is justified by the reliable and efficient nature of the LogTurn service.
+
+				Similarly, she voiced concerns about LogTurn being able to handle the account of a very small company. Did you choose to address her very specific concern by describing how LogTurn offers robust service at the local level?]]>
+			</range>
+			<range id="3" name="A" score="75,99" grade="A">
+				<![CDATA[Winning business when dealing with your customer is a skill you are very good at, but you can do better! As in this case, customers may raise several objections. It is up to you to help the customer overcome any doubts and anxieties while simultaneously building a relationship we can use to generate more business.
+
+				When Jenny expressed her doubts about the expense, telling her that it's free to open an account is the best solution. When asked about the cost, explain how the higher value is justified by the reliable and efficient nature of the LogTurn service.
+
+				Similarly, she voiced concerns about LogTurn being able to handle the account of a very small company. How did you address her very specific concern? Did you explain how LogTurn offers robust service by building strong local relationships?]]>
+			</range>
+			<range id="4" name="A+" score="100,100" grade="A+">
+				<![CDATA[Winning business when dealing with your customer is a skill you are very good at. Congratulations! As in this case, customers may raise several objections. You did good to help the customer overcome any doubts and anxieties while simultaneously building a relationship we can use to generate more business.
+
+				When Jenny expressed her doubts about the expense, telling her that it's free to open an account is the best solution. When asked about the cost, explain how the higher value is justified by the reliable and efficient nature of the LogTurn service.
+
+				Similarly, she voiced concerns about LogTurn being able to handle the account of a very small company. How did you address her very specific concern? Did you explain how LogTurn offers robust service by building strong local relationships?]]>
+			</range>
+		</strand>
+		<strand id="5" name="Use the Right Tone">
+			<range id="1" name="C" score="0,40" grade="C">
+				<![CDATA[When you speak to a customer or potential customer, you are representing the LogTurn brand. It is therefore absolutely vital that you always be friendly and helpful while dealing with the customer.
+
+				However, you seemed to be rather abrupt in your interaction, choosing the less friendly and more impersonal options instead of the more courteous ones. You could have done more to sound interested in Jenny's request and needs. Do remember that when dealing with customers, you need to be more professional and polite.]]>
+			</range>
+			<range id="2" name="B" score="41,74" grade="B">
+				<![CDATA[When you speak to a customer or potential customer, you are representing the LogTurn brand. It is therefore absolutely vital that you always be friendly and helpful while dealing with the customer.
+
+				However, you were a little abrupt in your interaction, choosing the less friendly and more impersonal options instead of the more courteous ones. Do you think you could have done more to sound interested in Jenny's request and needs? Do remember that when dealing with customers, you need to be more professional and polite.]]>
+			</range>
+			<range id="3" name="A" score="75,99" grade="A">
+				<![CDATA[When you speak to a customer or potential customer, you are representing the LogTurn brand. It is therefore absolutely vital that you always be friendly and helpful while dealing with the customer.
+
+				You made some good decisions during your interaction, choosing the more friendly options instead of the less courteous, abrupt ones. You sounded genuinely interested in Jenny's request and needs, taking care to be professional and polite. Good job!]]>
+			</range>
+			<range id="4" name="A+" score="100,100" grade="A+">
+				<![CDATA[When you speak to a customer or potential customer, you are representing the LogTurn brand. It is therefore absolutely vital that you always be friendly and helpful while dealing with the customer.
+
+				You made some good decisions during your interaction, choosing the more friendly options instead of the less courteous, abrupt ones. You sounded genuinely interested in Jenny's request and needs, taking care to be professional and polite. Good job!]]>
+			</range>
+		</strand>
+	</feedback>
+	
+	<!-- ===== Percentage Based Feedback ===== -->
+	<feedback fbType="percentageBasedFeedback">
+		<range scoreRange="0-34" >
+			<title>
+				<![CDATA[Generic Feedback Heading]]>
+			</title>
+			<content>
+				<![CDATA[As the chairperson of NPCKL, you were unable to identify your chief stakeholders correctly and proactively intervene with them to win their support.]]>
+			</content>
+		</range>
+		<range scoreRange="35-74">
+			<title>
+				<![CDATA[Generic Feedback Heading]]>
+			</title>
+			<content>
+				<![CDATA[As the chairperson of NPCKL, you were unable to identify your chief stakeholders correctly and proactively intervene with them to win their support.]]>
+			</content>
+		</range>
+		<range scoreRange="75-100" >
+			<title>
+				<![CDATA[Generic Feedback Heading]]>
+			</title>
+			<content>
+				<![CDATA[As the chairperson of NPCKL, you were unable to identify your chief stakeholders correctly and proactively intervene with them to win their support.]]>
+			</content>
+		</range>
+	</feedback>
+
+
+
+
+
+
+
+	<!-- ===== Option Specific Feedback ===== -->
+	<!-- NOTE: This type of feedback would be possible only in an MCQ activity -->
+	<!--
+	<feedback fbType="specific" for="option_1">
+			<title>
+				<![CDATA[Specific Feedback content for option 1]]>
+			</title>
+			<content>
+				<![CDATA[Specific Feedback Heading for option 1]]>
+			</content>
+		</feedback>
+		<feedback fbType="specific" for="option_2">
+			<title>
+				<![CDATA[Specific Feedback content for option 2]]>
+			</title>
+			<content>
+				<![CDATA[Specific Feedback Heading for option 2]]>
+			</content>
+		</feedback>
+		<feedback fbType="specific" for="option_3">
+			<title>
+				<![CDATA[Specific Feedback content for option 3]]>
+			</title>
+			<content>
+				<![CDATA[Specific Feedback Heading for option 3]]>
+			</content>
+		</feedback>
+		<feedback fbType="specific" for="option_4">
+			<title>
+				<![CDATA[Specific Feedback content for option 4]]>
+			</title>
+			<content>
+				<![CDATA[Specific Feedback Heading for option 4]]>
+			</content>
+		</feedback>
+		<feedback fbType="specific" for="option_5">
+			<title>
+				<![CDATA[Specific Feedback content for option 5]]>
+			</title>
+			<content>
+				<![CDATA[Specific Feedback Heading for option 5]]>
+			</content>
+		</feedback>
+		<feedback fbType="specific" for="option_6">
+			<title>
+				<![CDATA[Specific Feedback content for option 6]]>
+			</title>
+			<content>
+				<![CDATA[Specific Feedback Heading for option 6]]>
+			</content>
+		</feedback>
+		<feedback fbType="specific" for="option_7">
+			<title>
+				<![CDATA[Specific Feedback content for option 7]]>
+			</title>
+			<content>
+				<![CDATA[Specific Feedback Heading for option 7]]>
+			</content>
+	</feedback>
+	-->
+	
+	<!-- ===== Correct Incorrect Specific Feedback (SCORE SPECIFIC) ===== -->
+	<!--
+	<feedback fbType="CorrectIncorrectSpecific">
+		<optionGroup id="1" >
+			<option score="1">
+				<![CDATA[Correct. Anonymous remailers are essentially used for purposes of anonymity and so need to be blocked.]]>
+			</option>
+			<option score="0">
+				<![CDATA[Does using this service make it difficult to track the sender of the e-mail?]]>
+			</option>
+		</optionGroup>
+		<optionGroup id="2" >
+			<option score="1">
+				<![CDATA[That's right. There's IP spoofing going on, and it needs to be stopped.]]>
+			</option>
+			<option score="0">
+				<![CDATA[Is the IP address used outside of the known IP range?]]>
+			</option>
+		</optionGroup>
+		<optionGroup id="3" >
+			<option score="1">
+				<![CDATA[Correct. Since the employee is using Google Mail, anonymity and pseudonymity issues need not arise.]]>
+			</option>
+			<option score="0">
+				<![CDATA[Is the e-mailing process controlled by Firion?]]>
+			</option>
+		</optionGroup>
+		<optionGroup id="4" >
+			<option score="1">
+				<![CDATA[Right. The header on the e-mail is forged. This matter needs to be looked into.]]>
+			</option>
+			<option score="0">
+				<![CDATA[Is the address listed a valid address for an outgoing e-mail?]]>
+			</option>
+		</optionGroup>
+		<optionGroup id="5" >
+			<option score="1">
+				<![CDATA[Right. Merely omitting the custom signature is fine as long as the e-mail address itself is valid.]]>
+			</option>
+			<option score="0">
+				<![CDATA[Does it affect pseudonymity and anonymity in technical terms?]]>
+			</option>
+		</optionGroup>
+		<optionGroup id="6" >
+			<option score="1">
+				<![CDATA[Correct. Signing e-mails digitally allows for e-mail ownership and repudiation.]]>
+			</option>
+			<option score="0">
+				<![CDATA[Does it affect pseudonymity and anonymity in technical terms?]]>
+			</option>
+		</optionGroup>
+		<optionGroup id="7" >
+			<option score="1">
+				<![CDATA[You're right. While not the best of actions as far as security is concerned, it does not directly contribute to pseudonymous or anonymous contributions from Firion employees.]]>
+			</option>
+			<option score="0">
+				<![CDATA[Does it contribute to more pseudonymous and anonymous communications from Firion employees?]]>
+			</option>
+		</optionGroup>
+	</feedback>
+	-->
+</feedbacks>

@@ -1,0 +1,54 @@
+<data>
+    <pageText id="imageUp" class="imageTop">
+		<![CDATA[]]>
+	</pageText>
+	<pageText class="page-title-01">
+		<![CDATA[Course Overview]]>
+	</pageText>
+	<pageText id="text_01">
+		<![CDATA[<p>Even though we tend to think of government in terms of the “three branches” (legislative, executive, and judicial), much of our interaction with the government&mdash;at the federal, state, or local levels—actually comes through its various administrative agencies. The Social Security Administration, the FBI, the Food and Drug Administration, or the Occupational Safety and Health Administration are all examples of administrative agencies that can affect us on a daily basis.</p>
+		<p>In this course, we will learn about various administrative agencies, the regulatory and statutory sources of agency powers, the kinds of powers agencies have and do not have, and the differences between the kinds of powers they can exercise. We will also look at the relationship between agencies and other government offices and we will learn about the different ways agencies are created and regulated. We will see the ways that agency powers are limited and the recourse citizens and other interested parties have to appeal agency rules and decisions.</p>
+		<p>By the end of this course, you will not only be able to recognize the different aspects and roles of agencies, but you will also be able to make recommendations for applying and appealing agency rules, decisions, and adjudications to several hypothetical situations.</p>
+		]]>
+	</pageText>
+	<pageText class="page-title-02">
+		<![CDATA[Module Summary]]>
+	</pageText>
+	<pageText id="itext">
+		<![CDATA[<p>Select each module to learn about the topics covered in it.</p>
+		]]>
+	</pageText>
+	
+	<pageText class="acc-t1">
+		<![CDATA[Module 1]]>
+	</pageText>
+	<pageText class="acc-t2">
+		<![CDATA[Module 2]]>
+	</pageText>
+	<pageText class="acc-t3">
+		<![CDATA[Module 3]]>
+	</pageText>
+	<pageText class="acc-t4">
+		<![CDATA[Module 4]]>
+	</pageText>
+	<pageText class="acc-t5">
+		<![CDATA[Module 5]]>
+	</pageText>
+	<pageText id="txt_1" class="acc-t1-box1 acc_box1">
+		<![CDATA[This module will cover how and why administrative agencies are created, the kinds of agencies that are created, and the relationship between these agencies and the other components of government at the federal, state, and local levels.]]>
+	</pageText>
+	<pageText id="txt_2">
+		<![CDATA[This module will cover the agency rulemaking process, including the definition of agency rulemaking, different types of rulemaking, and the procedures that agencies must follow in order to engage in rulemaking.]]>
+	</pageText>
+	<pageText id="txt_3">
+		<![CDATA[This module will continue the agency rulemaking process, including the procedures and requirements that agencies must adhere to when they engage in the rulemaking process.]]>
+	</pageText>
+	<pageText id="txt_4">
+		<![CDATA[This module will cover the process of agency adjudication, including the definition of agency adjudication, different types of agency adjudication, and the procedures that agencies must follow when they engage in adjudication.]]>
+	</pageText>
+	<pageText id="txt_5">
+		<![CDATA[This module will continue examining agency adjudication, including the procedures that agencies must follow when they engage in adjudication. It will also address the role of state and local agencies in administrative law and resolving conflicts amongst federal, state and local agencies.]]>
+	</pageText>
+	
+	<component type="Accordian" componentID="comp_accordian_1" accordianShowSpeed="600" componentDirection="horizontal" hasImage="true"/>
+</data>

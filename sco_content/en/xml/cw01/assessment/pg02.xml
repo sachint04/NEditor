@@ -1,0 +1,136 @@
+<data>
+	<!--
+	Feedback Types can be of the following types:
+	Generic / CorrectIncorrect / CorrectIncorrectPartial / OptionSpecific / CorrectIncorrectSpecific / ParameteterBasedFeedback
+
+    totalAttempts= 1|2....|(-ve,0,"")->unlimited
+    -->
+    <activity type="MCQ" questionId="MCQ_1" totalAttempts="1" correctAnswer="2" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="false" displayTickCross="false" class="radio-groups-container" showFeedbackPopup="false" scorable="true" randomization="true">
+        <pageTexts>
+            <pageText class="question">
+				<![CDATA[Which of the following is an example of an administrative agency power?]]>
+            </pageText>
+            <pageText class="i-text">
+				<![CDATA[Select the correct option and <strong>Submit</strong>.]]>
+            </pageText>
+            <pageText class="submit">
+				<![CDATA[Submit]]>
+            </pageText>
+            <pageText class="reset">
+				<![CDATA[Reset]]>
+            </pageText>
+        </pageTexts>
+
+        <!-- Option Groups -->
+        <optionGroup  class="radio-container">
+            <option id="1" class="radio" score="0"  optionID= "Choice 1"  >
+                <pageText class="radio-label">
+					<![CDATA[Enacting a legislative statute that sets clean water standards]]>
+                </pageText>
+                <feedback>
+                    <title>
+						<![CDATA[]]>
+                    </title>
+                    <content>
+						<![CDATA[]]>
+                    </content>
+                </feedback>
+            </option>
+            <option id="2" class="radio" score="1"  optionID= "Choice 2"  >
+                <pageText class="radio-label">
+					<![CDATA[Interpreting a legislative statute by creating a rule that sets clean water standards]]>
+                </pageText>
+                <feedback>
+                    <title>
+						<![CDATA[]]>
+                    </title>
+                    <content>
+						<![CDATA[]]>
+                    </content>
+                </feedback>
+            </option>
+            <option id="3" class="radio" score="0"  optionID= "Choice 3"  >
+                <pageText class="radio-label">
+					<![CDATA[Issuing a decision after two parties sue each other for breach of contract in federal district court]]>
+                </pageText>
+                <feedback>
+                    <title>
+						<![CDATA[]]>
+                    </title>
+                    <content>
+						<![CDATA[]]>
+                    </content>
+                </feedback>
+            </option>
+            <option id="4" class="radio" score="0"  optionID= "Choice 4"  >
+                <pageText class="radio-label">
+					<![CDATA[The President of the United States signing into law to create a new administrative agency to regulate the tattoo industry]]>
+                </pageText>
+                <feedback>
+                    <title>
+						<![CDATA[]]>
+                    </title>
+                    <content>
+						<![CDATA[]]>
+                    </content>
+                </feedback>
+            </option>
+        </optionGroup>
+        <!-- Option Groups -->
+        <feedbacks>
+            <!-- ===== Correct Feedback ===== -->
+            <!-- Attempt 1 -->
+            <feedback fbType="correct" attempt="1">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[<p>You have selected correctly.</p><p>Yes, the fundamental work of agencies involves implementing and interpreting legislative statutes that have already been enacted by Congress.<p>]]>
+                </content>
+            </feedback>
+            <!-- Attempt 2 -->
+            <feedback fbType="correct" attempt="2">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[<p>You have selected correctly.</p><p>Yes, the fundamental work of agencies involves implementing and interpreting legislative statutes that have already been enacted by Congress.<p>]]>
+                </content>
+            </feedback>
+            <!-- ===== Incorrect Feedback ===== -->
+            <!-- Attempt 1 -->
+            <feedback fbType="incorrect" attempt="1">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[You have selected incorrectly. Please try again.]]>
+                </content>
+            </feedback>
+            <!-- Attempt 2 -->
+            <feedback fbType="incorrect" attempt="2">
+                <title>
+					<![CDATA[Feedback]]>
+                </title>
+                <content>
+					<![CDATA[<p>You have selected incorrectly.</p>
+					
+					<p>The fundamental work of agencies involves implementing and interpreting legislative statutes that have already been enacted by Congress. Issuing a decision after two parties sue each other for breach of contract in federal district court is an activity of the judicial branch. Federal district courts are part of the judicial branch. Administrative agencies may issue decisions, but they are not part of the federal district court system or judicial branch of government.</p>
+					
+					<p>The President signing into law to create a new administrative agency is not an example of an administrative agency power because it describes the action of the President in creating an administrative agency, but does not describe a power being conducted by an agency itself.</p>]]>
+                </content>
+            </feedback>
+        </feedbacks>
+    </activity>
+	
+	
+    <pageText id="txt_title-01">
+		<![CDATA[Knowledge Check]]>
+    </pageText>
+    <pageText id="txt_1">
+		<![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]>
+    </pageText>
+    <pageText id="question-header">
+				<![CDATA[<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>]]>
+    </pageText>
+</data>

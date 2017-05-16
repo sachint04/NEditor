@@ -1,0 +1,154 @@
+#pagecontainer_cw01_assessment_pg05assessment{
+    padding-left:94px;
+    
+}
+
+.dnd-bg-container{
+    position:relative;
+}
+
+.i-text {
+    display: inline-block;
+    margin: 12px 0 8px !important;
+}
+.btn_submit {
+	background: url("images/05_KnowledgeCheck_Img_Right.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	width:100px;
+	height:20px;
+	float:left;
+}
+.question-container {
+	float: left;
+    width: 100%;
+}
+.page-title {
+    font-size: 20px;
+    padding: 20px 20px;
+}
+.optionscontainer ul {
+	padding:0;
+}
+
+.dnd-col > div {
+    height: 70px;
+}
+
+.dnd-col > .heading{
+    background-color:#B3CD0C;
+    color:#3F4700;
+    height:50px;
+    text-align:center;
+      padding: 10px 10px 0px;
+}
+#top_band{
+    /*height: 0px;*/
+}
+#bottom_band{
+    display:none;
+} 
+.question_main_container {
+    position: relative;
+}
+
+.tile-target-container {
+    min-height: 375px;
+    position: relative;
+}
+.target-groups-container,
+.tile-groups-container {
+    border: 1px solid;
+    min-height: 110px;
+    position: relative;
+}
+.target-container {
+    background-color: #D0D0B9;
+    color           : black;
+    /*margin          : 10px;
+    padding         : 5px;*/
+    position        : absolute;
+    top             : 161px;
+    left            : 50px;
+    min-width       : 135px;
+    min-height       : 40px;
+    border-radius:10px;
+}
+
+
+#target2.target-container{
+    top:211px;
+}
+#target3.target-container{
+    top:261px;
+}
+#target4.target-container{
+    top:311px;
+}
+.tile-container{
+    background-color: #014256;
+    color: black;
+    /*margin: 10px;
+    padding: 5px;*/
+    position:absolute;
+    top:43px;
+    left: 684px;
+    min-width: 135px;    
+    z-index:1;
+    min-height       : 40px;
+    border-radius:10px;
+}
+
+#tile2.tile-container{
+    left:537px;
+}
+#tile3.tile-container{
+    left:388px;
+}
+#tile4.tile-container{
+    left:242px;
+}
+
+.ui-draggable-dragging{
+    z-index: 2;
+}
+
+.full-width {
+    width: 103%;
+}
+
+.box-300 {
+    width: 260px;
+}
+.box-350 {
+    width: 360px;
+}
+.box-615 {
+    width: 615px;
+}
+
+
+.tile > a{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-container {
+    margin-top: 10px;
+}
+
+.dnd-col > div {
+    height: 50px;
+    padding: 8px;
+}
+
+.ui-submit-btn {
+    /*background-position: -87px -170px;*/
+    border-radius: 3px;
+    float: left;
+    height: 25px;
+    /*margin-top: 25px;*/
+    width: 71px;
+}
+
+/**/

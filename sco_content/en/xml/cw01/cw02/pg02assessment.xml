@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<data>
+
+        <pageText id="target1_text" class="question">
+            <![CDATA[Enables the client application to initiate and process calls in the Unigy sysytem.]]>
+        </pageText>
+		<pageText id="target2_text" class="question">
+            <![CDATA[Enables the client application to retrive contact and directory data from te Unigy system.]]>
+        </pageText>
+        <pageText id="target3_text" class="question">
+            <![CDATA[Enables the client application to control the characteristic and behaviour of a desktop device.]]>
+        </pageText>
+        <pageText id="target4_text" class="question">
+            <![CDATA[Enables the client application to receive a notification of the progress of a request or of a change in the status of a resource.]]>
+        </pageText>
+        <pageText id="target5_text" class="question">
+            <![CDATA[Enables the client application to create a session resouce and obtain an authentication token fo the session.]]>
+        </pageText>
+        <pageText id="question" class="question">
+            <![CDATA[1. Match the Button Types with thier discription.]]>
+        </pageText>
+		<pageText id="i-text">
+            <![CDATA[Drag a resource name to its description and click SUBMIT.]]>
+     </pageText>
+    <activity type="DragAndDrop" questionId="DragDrop" totalAttempts="1" correctAnswer="1" fbType="CORRECTINCORRECT" immediateFeedback="false" displayTickCross="false" tileContainerClass="tile-target-container" targetContainerClass="tile-target-container" constrainDragIn="#content" showFeedbackPopup="false" scorable="true">
+        <pageTexts>
+        	
+        <pageText id="question" class="question">
+            <![CDATA[]]>
+        </pageText>
+        
+        </pageTexts>
+        <tileGroup class="tile-container">
+            <tile id="1" class="tile" >
+                <pageText class="tile-label">
+                    <![CDATA[Monitor API]]>
+                </pageText>
+                <feedback>
+                    <title/>
+                    <content>
+                        <![CDATA[That's Incorrect! ]]>
+                    </content>
+                </feedback>
+            </tile>
+            <tile id="2" class="tile" >
+                <pageText class="tile-label">
+                    <![CDATA[Device API]]>
+                </pageText>
+                <feedback>
+                    <title/>
+                    <content>
+                        <![CDATA[You got that Right! ]]>
+                    </content>
+                </feedback>
+            </tile>
+            <tile id="3" class="tile" >
+                <pageText class="tile-label">
+                    <![CDATA[Call API]]>
+                </pageText>
+                <feedback>
+                    <title/>
+                    <content>
+                        <![CDATA[You got that Right! ]]>
+                    </content>
+                </feedback>
+            </tile>
+            <tile id="4" class="tile" >
+                <pageText class="tile-label">
+                    <![CDATA[Session API]]>
+                </pageText>
+                <feedback>
+                    <title/>
+                    <content>
+                        <![CDATA[You got that Right! ]]>
+                    </content>
+                </feedback>
+            </tile>
+            <tile id="5" class="tile" >
+                <pageText class="tile-label">
+                    <![CDATA[Data API]]>
+                </pageText>
+                <feedback>
+                    <title/>
+                    <content>
+                        <![CDATA[You got that Right! ]]>
+                    </content>
+                </feedback>
+            </tile>
+        </tileGroup>
+        <targetGroup class="target-container" >
+            <target id="1" class="target" tileID="tile4" score="1">
+                <pageText class="target-label">
+                    <![CDATA[]]>
+                </pageText>
+            </target>
+            <target id="2" class="target" tileID="tile3" score="1">
+                <pageText class="target-label">
+                    <![CDATA[]]>
+                </pageText>
+            </target>
+            <target id="3" class="target" tileID="tile1" score="1">
+                <pageText class="target-label">
+                    <![CDATA[]]>
+                </pageText>
+            </target>
+            <target id="4" class="target" tileID="tile5" score="1">
+                <pageText class="target-label">
+                    <![CDATA[]]>
+                </pageText>
+            </target>
+            <target id="5" class="target" tileID="tile2" score="1">
+                <pageText class="target-label">
+                    <![CDATA[]]>
+                </pageText>
+            </target>
+        </targetGroup>
+        <feedbacks>
+            <feedback fbType="correct" attempt="1">
+                <title>
+                    <![CDATA[Feedback]]>
+                </title>
+                <content>
+                    <![CDATA[Feedback]]>
+                </content>
+            </feedback>
+            <feedback fbType="correct" attempt="2">
+                <title>
+                    <![CDATA[Feedback]]>
+                </title>
+                <content>
+                    <![CDATA[Feedback]]>
+                </content>
+            </feedback>
+            <feedback fbType="incorrect" attempt="1">
+                <title>
+                    <![CDATA[Feedback]]>
+                </title>
+                <content>
+                    <![CDATA[Feedback]]>
+                </content>
+            </feedback>
+            <feedback fbType="incorrect" attempt="2">
+                <title>
+                    <![CDATA[Feedback]]>
+                </title>
+                <content>
+                    <![CDATA[Feedback]]>
+                </content>
+            </feedback>
+        </feedbacks>
+    </activity>
+</data>

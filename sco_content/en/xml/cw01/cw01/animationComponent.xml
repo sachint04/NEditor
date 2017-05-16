@@ -1,0 +1,5 @@
+<data>
+    
+    <component type="animation" componentID="anim_1" class="animation" data="sco_content/en/js/cw01/cw01/stepAnim_data.js" autoPlay="true">
+    </component>
+</data>

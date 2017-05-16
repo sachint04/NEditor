@@ -1,0 +1,24 @@
+<data>
+    <pageText id="txt_title"><![CDATA[HELP]]></pageText>
+    <!--<pageText id="txt_content"><![CDATA[
+        <ul>
+            <li><h4>START</h4>Select the START button to begin the tutorial.</li>
+            <li><h4>START</h4>Select the START button to begin the tutorial.</li>
+            <li><h4>START</h4>Select the START button to begin the tutorial.</li>
+            <li><h4>START</h4>Select the START button to begin the tutorial.</li>
+        </ul>
+    ]]></pageText>-->
+    
+    <pageText id="txt_1"><![CDATA[<h4>START</h4>Select the START button to begin the tutorial.]]></pageText>
+    <pageText id="txt_2"><![CDATA[<h4>BACK</h4>Select the BACK button to navigate to the previous screen.]]></pageText>
+    <pageText id="txt_3"><![CDATA[<h4>NEXT</h4>Select the NEXT button to navigate to the next screen.]]></pageText>
+    <pageText id="txt_4"><![CDATA[<h4>HELP</h4>Select the HELP button to view the Help feature at any time while navigating through the tutorial.]]></pageText>
+    <pageText id="txt_5"><![CDATA[<h4>EXIT</h4>Select the EXIT button to quit the tutorial.]]></pageText>
+    <pageText id="txt_6"><![CDATA[<h4>Screen Number</h4>This indicates the current screen number and the total number of screens in this tutorial.]]></pageText>
+    <pageText id="txt_7"><![CDATA[<h4>Audio Panel</h4>This panel indicates that the screen has an audio element with the professor’s notes.]]></pageText>
+    <pageText id="txt_8"><![CDATA[<h4>PLAY/PAUSE</h4>Select the PLAY/PAUSE button to start the audio or pause it.]]></pageText>
+    <pageText id="txt_9"><![CDATA[<h4>TRANSCRIPT</h4>Select the TRANSCRIPT button to view the audio transcript.]]></pageText>
+    <pageText id="txt_10"><![CDATA[<h4>Submit</h4>For screens that have an activity/question, select the Submit button to submit your answers. The instruction text will explain the action required on these screens.]]></pageText>
+    <pageText id="txt_11"><![CDATA[<h4>Other Buttons</h4>Some screens have interactive elements. Select these buttons for additional information. The instruction text will explain the action required on these screens.]]></pageText>
+    
+</data>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- All PATHS entered here should be RELATIVE to the APPLICATION.SWF file> -->
+	<!-- Content Path-->
+	<item name="content_path" type="location" label="sco_content"/>
+
+	<!-- Languages for localistion-->
+	<item name="language" label="English" suffix="en"/>
+	<!--<item name="language" label="Dutch" suffix="de"/>
+	<item name="language" label="French" suffix="fr"/>
+	<item name="language" label="Italian" suffix="it"/>-->
+
+	<!-- GLOBAL PARAMSs -->
+	<item name="enviroment" type="HTML" compliance="SCORM_1.2"/> <!--type= LMS/HTML/EXE  compliance= AICC_HACP|AICC_ API| SCORM_1.2|SCORM_2004| / COOKIES|SHAREDOBJECT / SHAREDOBJECT -->
+	<item name="enable_next_status" status="1" /><!-- 1.Enable always 2.Disable Always 3.Disable first visit -->
+	<item name="page_completion_mode" value="4"/><!--  page Completion mode 1. No activity no component check  2. check activity only  3. check components only 4. check activity, component and aMandatoryEvents-->
+	<item name="mastery_score" value="0"/>
+	<item name="page_num_display" hierarchyLevel="level2" /> <!-- Defines the level of the CW for page number display-->
+    <item name="page_number_display_format" value="number" /><!-- value::round(1 of 1) / none (01 of 01) -->
+	<item name="allow_framework_tool" status="4" />
+	<item name="feedback_survey_URL" value="http://[server.domain.path]/insertfeedback.asp"/> <!-- Survey URL -->
+	<item name="allow_user_info" status="false"/> <!-- Popup to accept user entry like name / id -->
+	<item name="logger" id="logger" debug="true"/>
+	<item name="has_pagination" value="true" /> <!-- Defines if the course has pagination or not -->
+	<item name="menu" guid="cw01~menu"/>
+	<item name="exit" message="Session cannot be saved.&lt;br&gt;Exit without saving."/>
+	<item name="activitymarkup" view="common/activity_markup.html"/>
+	<item name="audio_transcript" accumulateTranscript="true"/>
+    	<item name="text_filter_regexp_pattern" value="@@.+?@@"/><!-- RegEx pattern to replace text in the page. sample usage in page xml : @@username@@ . Text 'username' will be repaced with value store against the key 'username' in variableManager or course config xml-->
+	<!--
+		If this is set to true then it will prepend a context to all css image url's of all page level css files that get loaded at runtime.
+		The context here would be the base url of index.html file from which the request was generated
+		NOTE: Implemented currently only for IE in "js/frameworks/utils/globals.js" method "matchBrowser"
+		@ browserVersions examples
+			MSIE,0-9|Firefox, 3.5-27 (Checks the mentioned range foe IE & Firefox)
+			MSIE,6,8,9,11|Firefox, 3.5-27 (Checks for specific versions mentioned foe IE & Checks the mentioned range for Firefox)
+	 -->
+	<item name="css_background_image" replaceImgContext="false" browserVersions="MSIE,0-9"/>
+<item name="assessment" guid=""/>
+	<!-- GLOBAL TOOLs -->
+	<item name="help" swfURL="commonSWF/help.swf" xmlURL=""/>
+	<item name="glossary" swfURL= "commonSWF/glossary.swf" xmlURL="xml/glossary.xml"/>
+	<item name="progressmap" swfURL= "commonSWF/progressMap.swf" xmlURL="" />
+
+	<!-- GLOBAL HTMLs -->
+	<item name="ui_topband" view="common/topband.html"/>
+	<item name="ui_navigationband" view="common/navigation.html"/>
+	<item name="ui_bottomband" view="common/bottomband.html"/>	
+	<item name="ui_popups" view="common/popups.html" containerID="popup_containers" scriptLocation="framework/viewcontroller/"/>
+	<item name="ui" data="xml/ui_config.xml"/>
+
+	<!-- GLOBAL XMLs -->
+	<item name="course_xml" fileURL="xml/course.xml" />
+    	<item name="help_xml" fileURL="xml/help.xml" guid="cw01~help" />
+	<item name="course_page_num_text" fileURL="page_num_text.xml" />
+
+	<!-- Locatation of folders within the SCOContent  -->
+	<item name="xml_location" folderURL="xml/" />
+	<item name="html_location" folderURL="pages/" />
+	<item name="js_location" folderURL="js/" />
+	<item name="css_location" folderURL="css/" />
+	<item name="audio_location" folderURL="audio/" />
+
+	<!-- Popups Config | Depth parameter needs to be 7 or above -->
+    <item name="popup" popupID="exit" type="uipopup" depth="8" isModal="true" buttonIDList="btn_yes, btn_no" escapeKeyEnabled="true" script=""/>
+    <item name="popup" popupID="resume" type="uipopup" depth="8" isModal="true" buttonIDList="btn_yes, btn_no" escapeKeyEnabled="false" script=""/>
+    <item name="popup" popupID="help" type="uipopup" depth="8" isModal="true" buttonIDList="btn_close" escapeKeyEnabled="true" script=""/>
+    <item name="popup" popupID="transcript" type="uipopup" depth="7" isModal="false" buttonIDList="btn_close" escapeKeyEnabled="true" script=""/>
+    <item name="popup" popupID="resources" type="uipopup" depth="7" isModal="true" buttonIDList="btn_close" escapeKeyEnabled="true" script=""/>
+    <item name="popup" popupID="course_info" type="uipopup" depth="7" isModal="true" buttonIDList="btn_close" escapeKeyEnabled="true" script=""/>
+    <item name="popup" popupID="feedback" type="pagepopup" depth="7" isModal="true" buttonIDList="btn_close" escapeKeyEnabled="true" script=""/>
+    <item name="popup" popupID="alert" type="pagepopup" depth="7" isModal="true" buttonIDList="btn_close" escapeKeyEnabled="true" script=""/>
+    <item name="popup" popupID="orientation_alert" type="pagepopup" depth="7" isModal="true" buttonIDList="" escapeKeyEnabled="false" script=""/>
+    <item name="popup" popupID="longdescription" type="pagepopup" depth="7" isModal="true" buttonIDList="btn_close" escapeKeyEnabled="true" script=""/>
+	<item name="popup" popupID="transition" type="uipopup" depth="7" isModal="true" buttonIDList="btn_continue" escapeKeyEnabled="true" script=""/>
+	<item name="popup" popupID="transition_daystart" type="uipopup" depth="7" isModal="true" buttonIDList="btn_continue" escapeKeyEnabled="true" script=""/>
+	<item name="popup" popupID="Conversation_ImmediateFeedback" type="uipopup" depth="7" isModal="true" buttonIDList="btn_continue" escapeKeyEnabled="true" script=""/>
+	<item name="popup" popupID="popup_close" type="uipopup" depth="7" isModal="true" buttonIDList="btn_continue" escapeKeyEnabled="true" script=""/>
+	<item name="popup" popupID="popup_continue" type="uipopup" depth="7" isModal="true" buttonIDList="btn_continue" escapeKeyEnabled="true" script=""/>
+	<item name="popup" popupID="fasttrack" type="uipopup" depth="7" isModal="true" buttonIDList="btn_continue" escapeKeyEnabled="true" script=""/>
+
+	<!-- SIM Tree Config -->
+	<item name="simtree_config" fileURL="xml/simtree_config.xml" />
+</configuration>
+

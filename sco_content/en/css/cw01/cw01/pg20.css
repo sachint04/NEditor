@@ -1,0 +1,34 @@
+.i-text{
+	margin: 0px 0 15px 0px;
+}
+
+.page-content{
+	float:right;
+}
+
+video,object{
+    width: 530px;
+    height: 247px;
+}
+
+object{
+	float:right;	
+	width:530px!important;
+	height:247px!important;
+}
+
+
+.img{
+
+	bottom: 0;
+    height: 442px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    width: 872px;
+}
+
+.ui-popup{
+	top:170px;
+	left: 10px;
+}

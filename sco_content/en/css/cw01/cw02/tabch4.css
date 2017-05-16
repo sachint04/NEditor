@@ -1,0 +1,73 @@
+#pagecontainer_cw01_cw01_tabch4 {
+    padding-left:100px;
+}
+
+
+.expand-knowledge {
+       height: 194px;
+    padding: 31px 0 0 100px;
+    width: 441px;
+}
+
+.expand-knowledge-title {
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.page-title{
+    padding-top:10px;
+}
+
+
+.horizontal_intro{
+	width:275px;
+	height:217px;
+	 border: 5px solid #ffffff;
+    box-shadow: 0 0 2px 0 rgba(67, 118, 130, 0.31);
+	}
+
+.panel ul {
+    display: inline-block;
+    padding: 8px 10px 4px 22px;
+}
+
+
+
+
+.view-demo-icon{
+    position:absolute;
+    left:10px;
+
+}
+
+#swiffycontainer{
+ margin-top:30px;   
+}
+
+.left.box-600.body-text-container,
+.left.box-430.body-text-container {
+     margin-left:-20px;
+     margin-top:-10px;
+}
+
+.aulbl-2, .aulbl-3, .aulbl-4 {
+    display:none;
+}
+
+/* to be updated in skin */
+.view-demo-itext_big_ht {
+    bottom: 115px;
+    height: 55px;
+    left: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    position: absolute;
+    text-align: left;
+    width: 433px;
+}
+
+/* to be updated in skin */

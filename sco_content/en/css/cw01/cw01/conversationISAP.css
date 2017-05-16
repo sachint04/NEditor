@@ -1,0 +1,64 @@
+
+#interaction_1{
+	overflow:none;
+}
+
+.nutral1{
+        background-position:  0px 0px;
+    }
+.nutral2{
+    background-position:  -400px 0px;
+}
+.nutral3{
+    background-position:  -800px 0px;
+}
+
+
+
+.timeline{
+    height: 40px;
+    width: 995px;
+    clear: left;
+    position: relative;
+    padding-left: 25px;
+    bottom: 25px;
+}
+.timeline > .decision{
+    background-position: -2px -190px;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left:10px;
+
+}
+
+.timeline > .decision:hover,
+.timeline > .decision.selected{
+    background-position:-42px -190px;
+}
+
+.timeline > .decision.selected{
+   cursor:default;   
+}
+
+.history-popup-container{
+    padding-bottom:30px;
+}
+
+.radio-groups-container{
+	position:inherit;
+}
+.expression-container{
+	background:url('sco_content/en/images/cfoSprite.png') no-repeat;
+	width: 450px;
+	height: 521px;
+}
+.neutral{
+	background-position:  -5px -23px;
+}
+.contemplative{
+	background-position: -482px -26px;	
+}
+.pleased{
+	background-position: -979px -21px;
+}

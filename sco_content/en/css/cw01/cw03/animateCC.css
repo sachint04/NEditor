@@ -1,0 +1,25 @@
+
+#content_wrapper > #content > section {
+	padding: 0;
+}
+.modal-content {
+    width: 380px;
+    margin-top: -299px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 275px;
+    background: none;
+}
+.popup_text {
+    display: block;
+    float: left;
+    height: 270px;
+    overflow-y: auto;
+    padding: 10px;
+    width: 360px;
+}
+
+
+#comp_1{
+	padding-left: 30px;
+}

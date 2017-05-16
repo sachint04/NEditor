@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+
+.preloadedImages {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.imgReset {
+	padding: 0em 0em 0em 0em;
+	margin: 0em 0em 0em 0em;
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+html {
+	font-size: 100%;
+}
+
+/* Text Styling */
+.hide-text,
+.text-hide {
+	display: inline !important;
+	font-size: 0 !important;
+	line-height: 0 !important;
+}
+.aria-itext {
+	display: inline;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+}
+.visually-hidden {
+	/*http://developer.yahoo.com/blogs/ydn/posts/2012/10/clip-your-hidden-content-for-better-accessibility/*/
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	z-index: -1000;
+	/*filter:alpha(opacity=0); /* that one we could drop,  we're really taking about one single pixel after all */
+    /*opacity:0; /* we make that single box transparent */
+}
+.text-bold {
+	font-weight: bold;
+}
+.text-italic {
+	font-style: italic;
+}
+.textarea {
+	resize: none;
+	width: 98%;
+	height: 80px;
+}
+textarea[readonly='readonly'].textarea {
+	cursor: not-allowed;
+	color: #999999;
+}
+
+/* Alignment */
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	/*background-color:#b0e0e6;*/
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+/* Show / Hide */
+.hide {
+	display: none !important;
+	visibility: hidden;
+}
+.show {
+	display: block !important;
+	visibility: visible;
+}
+.visible {
+	visibility: visible;
+}
+.invisible {
+	visibility: hidden;
+}
+.disabled{
+	cursor:default;
+}
+/* Logger */
+#logger {
+	width: 600px;
+	background-color: #A9A9A9;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	z-index: 5;
+}
+#log_title {
+	font-size: 1em;
+	color: #FFFFFF;
+	padding-bottom: 5px;
+}
+#log_body {
+	color: #000000;
+	background-color: #FFFFFF;
+	height: 300px;
+	overflow: auto;
+}
+p.debug {
+	padding: 0;
+}
+#logger > #log_nav {
+	list-style: none outside none;
+	position: absolute;
+	padding: 0;
+	right: 10px;
+	top: 0;
+}
+#logger > #log_nav > li {
+	display: inline;
+}
+#logger > #log_nav > li > a {
+	margin-left: 10px;
+}
+#logger > #log_nav > li > a#maximize {
+	display: none;
+}
+
+#logger.minimize {
+	width: 120px;
+	height: 24px;
+}
+#logger.minimize #log_title {
+	display: none;
+}
+#logger.minimize #log_body {
+	display: none;
+}
+
+.debug {
+	color: #0000FF;
+}
+.info {
+	color: #666666;
+}
+.warn {
+	color: #FF9900;
+}
+.error {
+	color: #FF0099;
+}
+.fatal {
+	color: #FF0000;
+}
+.trace {
+	color: #000000;
+}
+
+/* Loading */
+#loader {
+	background-color: #FFFFFF;
+	color: #319CEF;
+	font-size: 15px;
+	font-weight: bold;
+	left: 45%;
+	padding: 3px 10px;
+	position: absolute;
+	top: 47%;
+	z-index: 7;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+#loader img {
+	vertical-align: middle;
+}
+
+/* Common Styles */
+button:focus, a:focus, input[type="button"]:focus {
+	/*outline: none;*/
+}
+button::-moz-focus-inner, a::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
+	border: 0;
+}
+.tis-btn {
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+	background-color: transparent;
+}
+.tis-btn:focus {
+	outline: 1px dotted black;
+}
+.tis-btn.disabled, .tis-btn.disabled.hover {
+	cursor: default;
+	outline: none;
+}
+
+/* Long Description Link */
+a.dlink, button.dlink {
+	background-color: transparent;
+	border: medium none;
+	font-size: 0;
+	line-height: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/* Clear Fix - COMMENTED AS FOUNDATION HAS A CLEARFIX CLASS AND THIS IS NOT REQUIRES*/
+/*
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+	font-size: 0px
+}*/
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+.no-border-radius {
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
+.no-box-shadow {
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-background-clip: none !important;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#launchDiv {
+	width: 500px;
+	height: 300px;
+	border: 8px solid #DADADA;
+	margin: 0 auto;
+	margin-top: 200px;
+	text-align: center;
+}
+#launchDivText {
+	margin-top: 110px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+}
+#launchDivText a {
+	margin-top: 10px;
+}
+.button_index {
+	border: 0px solid #004A7F;
+	background: #004A7F;
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(#004A7F, #003A61);
+	background-image: -moz-linear-gradient(#004A7F, #003A61);
+	background-image: -ms-linear-gradient(#004A7F, #003A61);
+	background-image: -o-linear-gradient(#004A7F, #003A61);
+	background-image: linear-gradient(#004A7F, #003A61);
+	padding: 5px;
+	box-shadow: #000;
+	cursor: pointer;
+}

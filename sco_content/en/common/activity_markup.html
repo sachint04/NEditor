@@ -1,0 +1,331 @@
+<div id="all_activity_markups">
+	<!-- MCQ Group Markup -->
+	<p class="activity_page_title" id="title"></p>
+
+	<div id="mcqgroup">
+		<div class="questioncontainer">
+			<div class="question-icon-bg"></div>
+			<span class="question-icon"> </span>
+			<span id="question" class="question" title="question"></span>
+		</div>
+
+		<div class="optionscontainer">
+			<!-- Activity Icon -->
+			<div id="i-text" class="i-text"></div>
+
+			<table class="radio-groups-container" summary="GroupMcq activity" border="1">
+				<tbody>
+					<tr>
+						<th id="statementHeading"></th>
+						<th id="optionHeading_1"></th>
+						<th id="optionHeading_2"></th>
+					</tr>
+					<tr class="radio-container">
+						<td class="statement"></td>
+						<td class="text-center">
+								<input class='radio-focus radio' type="radio" id="" name="myRadio"/><label for=""><span><span></span></span><span class="radio-label hide"></span></label>
+								<span class="correctincorrect left hide"></span> 
+								<span class="forScreenReader">Radio Button. Option </span>
+						</td>
+					</tr>
+				<tbody>
+			</table>
+			<a href="#" id="mcqgroup_1_submit" role="button" class="tis-btn btn btn-submit submit">Submit</a>
+
+		</div>
+	</div>
+
+	<!-- MMCQ with Image Markup -->
+	<div id="mmcq_with_image">
+		<!--<p class="activity_page_title" id="title"></p>-->
+		<div class="optionscontainer ">
+			<div class="activity-img"></div>
+			<div class="i-text"></div>
+			<ul class="checkbox-groups-container" >
+				<!-- Donnot change the class names as there is dependency in the JS-->
+				<li class="checkbox-container">
+					<a href="#" class="checkbox">
+					<div class="icon-container">
+						<span class="correctincorrect left hide"></span>
+						<span class="checkbox-icon "></span>
+						<span class="checkbox-label"></span>
+					</div> </a>
+				</li>
+			</ul>
+			<a href="#" id="MMCQ_1_submit" role="button" class="btn btn-submit submit text-hide"  role="button" ></a>
+		</div>
+	</div>
+
+	<!-- MMCQ Markup -->
+	<div id="mmcq">
+		<div class="small-12 columns">
+			<div class="questioncontainer column">
+				<div class="question-icon medium-1 column"> </div>
+				<div id="question" class="question medium-11 columns" title="question"></div>
+			</div>
+		</div>
+		<div class="optionscontainer small-12 columns">
+            <div class="checkbox-groups-container" >
+                <!-- Donnot change the class names as there is dependency in the JS-->
+                <div class="checkbox-container small-12 columns text-left single-mmcq-row container">
+                   	<div class="single-mmcq-row-inner">					
+					<a href="#" class="checkbox-focus checkbox row single-mmcq" aria-labelledby="" id="" title="myCheckbox">
+							<span class="checkbox-icon-container">
+								<span class="checkbox-icon"></span>
+							</span>
+						<span class="checkbox-label"></span>
+						<span class="correctincorrect left hide"></span>
+						<span class="forScreenReader">Check Box.</span>
+					</a>
+					</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="btncontainer small-12 columns">
+			<button type="button" class="tis-btn btn-submit submit tiny" id="MMCQ_1_submit">Submit</button>
+			<button type="button" class="tis-btn btn-reset reset tiny hide disabled" id="MMCQ_1_reset">Reset</button>
+			<button type="button" class="tis-btn btn-show-ans reset tiny hide disabled" id="MMCQ_1_showAnswer">Show Answer</button>
+			<button type="button" class="tis-btn btn-show-my-ans reset tiny hide" id="MMCQ_1_yourAnswer">Your Answer</button>
+		</div>
+	</div>
+	<!-- MCQ with Image Markup-->
+	<div id="mcq_with_image">
+		<div class="optionscontainer small-12 columns">
+			<ul class="radio-groups-container small-block-grid-2 medium-block-grid-3 large-block-grid-4" >
+				<!-- Donnot change the class names as there is dependency in the JS-->
+				<li class="radio-container container small-12 columns single-mcq-row">
+					<div class="single-mcq-row-inner">					
+					<a href="#" class='radio-focus radio row single-mcq' aria-role="radio" aria-labelledby="" id="" title="Option">
+						<span class="radio-icon-container">
+							<span class="radio-icon"></span>
+						</span>
+						<span class="opt-image"></span>
+						<span class="radio-label" aria-role="label"></span>
+						<span class="correctincorrect left hide"></span>
+						<span class="forScreenReader">Radio Button.</span>
+					</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="btncontainer small-12 columns">
+			<button type="button" class="tis_btn btn-submit submit tiny" id="MCQ_1_submit">Submit</button>
+			<button type="button" class="tis-btn btn-reset reset tiny hide disabled" id="MCQ_1_reset">Reset</button>
+			<button type="button" class="tis-btn btn-show-ans reset tiny hide disabled" id="MCQ_1_showAnswer">Show Answer</button>
+			<button type="button" class="tis-btn btn-show-my-ans reset tiny hide" id="MCQ_1_yourAnswer">Your Answer</button>
+		</div>
+	</div>
+
+	<!-- MCQ Markup -->
+	<div id="mcq">
+		<div class="small-12 columns">
+			<div class="questioncontainer ">
+				<div class="question-icon-bg"></div>
+				<span class="question-icon"> </span>
+				<span id="question" class="question" title="question"></span>
+			</div>
+		</div>
+		<div class="optionscontainer small-12 columns">
+			<ul class="radio-groups-container small-block-grid-1 single-mcq-row-group" >
+				<!-- Donnot change the class names as there is dependency in the JS-->
+				<li class="radio-container container small-12 columns single-mcq-row">
+					<div class="single-mcq-row-inner">					
+					<a href="#" class='radio-focus radio row single-mcq' aria-role="radio" aria-labelledby="" id="" title="Option">
+						<span class="radio-icon-container">
+							<span class="radio-icon"></span>
+						</span>
+						<span class="radio-label" aria-role="label"></span>
+						<span class="correctincorrect left hide"></span>
+						<span class="forScreenReader">Radio Button.</span>
+					</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="btncontainer small-12 columns">
+			<button type="button" class="tis-btn btn-submit submit tiny" id="MCQ_1_submit">Submit</button>
+			<button type="button" class="tis-btn btn-reset reset tiny hide disabled" id="MCQ_1_reset">Reset</button>
+			<button type="button" class="tis-btn btn-show-ans reset tiny hide disabled" id="MCQ_1_showAnswer">Show Answer</button>
+			<button type="button" class="tis-btn btn-show-my-ans reset tiny hide" id="MCQ_1_yourAnswer">Your Answer</button>
+		</div>
+	</div>
+	
+	<!-- Dropdown Group Markup -->
+	<div id="dropdown_group">
+		<p class="activity_page_title" id="txt_title"></p>
+		<div class="questioncontainer">
+			<span class="question-icon"> </span>
+			<span id="question" class="question" title="question"></span>
+			<span id="statement" class="statement hide"></span>
+		</div>
+
+		<div class="optionscontainer">
+			<div class="activity-img small"></div>
+			<div id="itext" class="itext"></div>
+			<div class="large">
+				<table class="dropdown-groups-container" border="1" summary="dropdown group">
+					<tr class="header">
+						<th class="header-statement"> Statement </th>
+						<th class="header-options"> Options </th>
+					</tr>
+					<tr class="dropdown-container template">
+						<td class="statement"></td>
+						<td>
+							<select class="dropdown"></select>
+							<span class="correctincorrect left hide"></span>
+						</td>
+					</tr>
+				</table>
+				<div class="btncontainer small-12 columns">
+					<button type="button" class="tis-btn btn-submit submit tiny" id="dropdown_1_submit">Submit</button>
+					<button type="button" class="tis-btn btn-reset reset tiny hide disabled" id="dropdown_reset">Reset</button>
+					<button type="button" class="tis-btn btn-show-ans reset tiny hide disabled" id="dropdown_1_showAnswer">Show Answer</button>
+					<button type="button" class="tis-btn btn-show-my-ans reset tiny hide" id="MCQ_1_yourAnswer">Your Answer</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Dropdown Passage Markup -->
+	<div id="dropdown">
+		<p class="activity_page_title" id="txt_title"></p>
+
+		<div class="questioncontainer">
+			<span class="question-icon"></span>
+			<span class="question"></span>
+		</div>
+
+		<div class="optionscontainer">
+			<p class="insructions"></p>
+			<p class="itext"></p>
+
+			<div class="dropdown-container"></div>
+
+			<a href="#" id="DropdownFIB_1_submit" role="button" class="btn btn-submit submit"  role="button" ></a>
+
+			<p id="p13_citation" class="text-citation"></p>
+		</div>
+
+	</div>
+
+	<!-- FIB Markup -->
+	<div id="fib">
+		<p class="activity_page_title" id="txt_title"></p>
+
+		<div class="questioncontainer">
+			<span class="question-icon"> </span>
+			<span class="question"></span>
+		</div>
+
+		<div class="optionscontainer large">
+			<div class="activity-img"></div>
+			<p class="itext"></p>
+			<p id="data_table" class="table-style"></p>
+
+			<p class="instructions"></p>
+
+			<ul class="typein-activity">
+			<li class="fib-container"></li>
+
+			</ul>
+			<a href="#" id="typein_1_submit" role="button" class="btn btn-submit submit"  role="button" ></a>
+		</div>
+	</div>
+
+	<!-- Branching Markup -->
+	<div id="branching">
+		<p id="title" class="activity_page_title"></p>
+
+		<div class="questioncontainer">
+			<span class="question-icon"></span>
+			<span class="statement"></span>
+			<span class="question"></span>
+		</div>
+
+		<div class="optionscontainer">
+			<div class="activity-img small"></div>
+			<div id="itext" class="itext"></div>
+
+			<ul class="radio-groups-container" >
+				<!-- Donnot change the class names as there is dependency in the JS-->
+				<li class="radio-container">
+					<a href="#" class="radio"> <span class="correctincorrect left hide"></span> <span class="radio-icon "></span> <span class="radio-label"></span> </a>
+				</li>
+			</ul>
+
+			<a href="#" id="branching_1_submit" role="button" class="btn btn-submit submit"  role="button" ></a>
+		</div>
+	</div>
+	
+	<div id="multiactivity">
+		<div class="questioncontainer">
+			<div class="question-icon-bg"></div>
+			<span class="question-icon"> </span>
+			<span id="question" class="question" title="question"></span>
+		</div>
+		<div id="i-text" class="i-text"></div>
+		<a href="#" id="multiactivity_1_submit" role="button" class="tis-btn btn btn-submit submit">Submit</a>
+	</div>
+	
+	<!-- DragDrop Markup -->
+  	<div id="dragdrop">
+		<div class="tile-target-container"> 
+			<!-- Donnot change the class names as there is dependency in the JS-->
+			<div class="tile-container text-left draggable tile">
+				<div href="#" class="">
+					<div class="icon-container">
+						<span class="tile-label"></span>
+					</div>
+				</div>
+			</div>
+			<!-- Donnot change the class names as there is dependency in the JS-->
+			<div class="target-container text-left target" >
+				<a href="#" class="">
+					<span class="ui-skin correctincorrect btn-sprite left hide"></span>
+					<div class="icon-container">
+						<span class="target-label"></span>
+					</div>
+				</a>
+			</div>
+		</div>
+			<button type="button" class="tis_btn btn-submit submit tiny" id="">Submit</button>
+		<button type="button" class="tis-btn btn-reset reset tiny hide disabled" id="">Reset</button>
+		<button type="button" class="tis-btn btn-show-ans reset tiny hide disabled" id="">Show Answer</button>
+		<button type="button" class="tis-btn btn-show-my-ans reset tiny hide" id="">Your Answer</button>
+	</div>
+	<!-- Conversation  Markup -->
+	<div id="conversation" class="row">
+		<div id="itext" class="itext"></div>
+		<div class="large-6 columns">
+			<div class="optionscontainer large-12 small-12 medium-6 columns">
+				<ul class="radio-group-container small-block-grid-1 single-mcq-row-group" >
+					<li class="radio-container template container small-12 columns single-mcq-row hide ">
+						<div class="single-mcq-row-inner">					
+						<a href="#" class='radio-focus radio row single-mcq' aria-role="radio" aria-labelledby="" id="" title="Option">
+							<span class="radio-icon-container">
+								<span class="radio-icon"></span>
+							</span>
+							<span class="radio-label" aria-role="label"></span>
+							<span class="correctincorrect left hide"></span>
+							<span class="forScreenReader">Radio Button.</span>
+						</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="btn-container large-12 medium-12 small-12 columns">
+				<button id="interaction_1_submit" aria-disabled="true" class="tis-btn btn-submit tiny disabled" type="button" tabindex="20" title="Submit">Submit</button>
+				<button id="interaction_1_continue" aria-hidden="true" class="tis-btn btn-continue tiny hide" type="button" tabindex="23" title="Continue" >Continue</button>
+			</div>
+		</div>
+		<div class="large-6 columns">
+			<!-- response text -->
+			<div href="#" class="response-container hide panel small-12 medium-12 columns"   draggable="false">
+				<div class="response-text" draggable="false" aria-hidden="true" ></div>
+			</div>
+			<!-- char expression display-->
+			<div class="expression-container panel small-12 medium-12 columns"></div>			
+		</div>
+	</div>
+</div>

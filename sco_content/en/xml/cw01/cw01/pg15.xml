@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<pageDesc><![CDATA[This is a Interactive page containing two buttons, text left and image right. Clicking on the buttons will open popup to read the layred containt.]]></pageDesc>
+	<pageText id="txt_title_1"><![CDATA[Button Click]]></pageText>
+	<pageText id="txt_1"><![CDATA[Praesent volutpat vel libero eu pulvinar. Vestibulum dictum neque vel semper euismod. Donec scelerisque, nunc eu lobortis molestie, est ex mattis nisl, non venenatis lacus felis in ipsum.]]></pageText>
+	<pageText id="itext_1"><![CDATA[Click the buttons to know more.]]></pageText>
+
+
+	<pageText id="btn_Popup1"><![CDATA[Button Title one]]></pageText>
+	<pageText id="btn_Popup2"><![CDATA[Button Title two]]></pageText>
+
+
+	<pageText id="popup1Title"><![CDATA[Popup Title one for button 1 popup]]></pageText>
+	<pageText id="popup2Title"><![CDATA[Popup Title two for button 2 popup]]></pageText>
+
+
+	<pageText id="txt_Popup1"><![CDATA[Suspendisse tellus lacus, tincidunt eget velit quis, ultricies hendrerit sem. Nulla venenatis iaculis libero in pretium. Proin sed dui ut libero scelerisque hendrerit vitae semper lacus.]]></pageText>
+	<pageText id="txt_Popup2"><![CDATA[Vivamus vel erat non justo ornare condimentum in eget erat. Sed vitae convallis nunc, ac condimentum lectus. Vivamus diam enim, suscipit a lacinia non, dictum vel nisl.]]></pageText>
+
+
+	<component type="ClickAndReveal" componentID="comp_1" class="cnr-btn" popupConfigID="popup_close"></component>
+</data>

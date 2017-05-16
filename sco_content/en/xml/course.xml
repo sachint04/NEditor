@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- was: no XML declaration present -->
+
+<!-- Filename: course.xml changed -->
+<cw data="cw01" label="Course" hierarchyLevel="level1">
+    <page data="splash" label="Splash" viewType="01" jumpTo="" backTo="" script="" css="splash"/>
+    <page data="menu" label="Menu" viewType="03" jumpTo="" backTo="" script="menu" css="menu"/>
+    <page data="glossary" label="Glossary" viewType="02" jumpTo="" backTo="" script="glossary" css="glossary"/>
+    <page data="reso" label="Resources" viewType="01" jumpTo="" backTo="" script="reso" css="reso"/>
+    <cw data="cw01" label="Activity" hierarchyLevel="level2">
+        <page data="pg10" label="MCQ Radio Button" viewType="02" jumpTo="" backTo="" script="pg10" css="pg10"/>
+        <page data="pg11" label="MCQ Radio Button" viewType="02" jumpTo="" backTo="" script="pg11" css="pg11"/>
+        <page data="pg21" label="MMCQ Check Box" viewType="02" jumpTo="" backTo="" script="pg21" css="pg21"/>
+        <page data="mcq_image" label="MCQ Image" viewType="02" jumpTo="" backTo="" script="mcq_image" css="mcq_image"/>
+        <page data="pg24" label="MCQ Radio Button with Image" viewType="02" jumpTo="" backTo="" script="pg24" css="pg24"/>
+        <page data="dropdown" label="Dropdown" viewType="02" jumpTo="" backTo="" script="dropdown" css="dropdown"/>
+        <page data="clickandclick" label="Click and Click" viewType="02" jumpTo="" backTo="" script="" css="clickandclick"/>
+        <page data="conversationISAP" label="ISAP" viewType="02" jumpTo="" backTo="" script="" css="conversationISAP"/>
+
+    </cw>
+
+    <!--commented templates -->
+
+    <!-- <cw data="cw02" label="Extra" hierarchyLevel="level2">
+    <page data="paginationch3" label="Configure a BCP Plan" viewType="06" jumpTo="" backTo="" script="" css="paginationch3"/>
+    <page data="tabch4" label="Configure BCP Campus Login Priorities for Users" viewType="06" jumpTo="" backTo="" script="" css="tabch4"/>
+    <page data="pg02assessment" label="Assessment" viewType="02" jumpTo="" backTo="" script="" css="pg02assessment"/>
+    <page data="pg05assessment" label="Assessment" viewType="02" jumpTo="" backTo="" script="" css="pg05assessment"/>
+    <page data="score" label="Assessment" viewType="05" jumpTo="" backTo="cw01~assessment~pg01assessment" script="score" css="score"/>
+    </cw> -->
+
+    <!--commented templates-->
+    <cw data="cw03" label="Component" hierarchyLevel="level2">
+        <page data="pg14" label="Clickable Bullets" viewType="02" jumpTo="" backTo="" script="" css="pg14"/>
+        <page data="animateCC" label="Time Line" viewType="02" jumpTo="" backTo="" script="" css="animateCC"/>
+        <page data="pg12" label="Horizontal Tabs (Three)" viewType="02" jumpTo="" backTo="" script="" css="pg12"/>
+        <page data="pg03" label="Horizontal Tabs (Two)" viewType="02" jumpTo="" backTo="" script="" css="pg03"/>
+        <page data="pg04" label="Image with Text - Horizontal and Expand Your Knowledge" viewType="02" jumpTo="" backTo="" script="" css="pg04"/>
+        <page data="pg05" label="Image with Text - Flow Chart/Diagram and Resource Panel" viewType="02" jumpTo="" backTo="" script="" css="pg05"/>
+        <page data="pg07" label="Image with Text - Vertical and Reference / Examples" viewType="02" jumpTo="" backTo="" script="" css="pg07"/>
+        <page data="pg08" label="Vertical Tab (Three Tab)" viewType="02" jumpTo="" backTo="" script="" css="pg08"/>
+        <page data="pg13" label="Horizontal Tabs (Four)" viewType="02" jumpTo="" backTo="" script="" css="pg13"/>
+        <page data="pg16" label="Clickable Images(Two Images)" viewType="02" jumpTo="" backTo="" script="" css="pg16"/>
+        <page data="pg17" label="Clickable Images(Three Images)" viewType="02" jumpTo="" backTo="" script="" css="pg17"/>
+        <page data="pg19" label="Clickable Images(Six Images)" viewType="02" jumpTo="" backTo="" script="" css="pg19"/>
+        <page data="pg22" label="Radio Button Group MCQ" viewType="02" jumpTo="" backTo="" script="" css="pg22"/>
+        <page data="accordian" label="Accordian (Overview)" viewType="02" jumpTo="" backTo="" script="" css="accordian"/>
+        <page data="tab_audio" Label="Tab with Audio" viewType="02" jumpTo="" backTo="" script="" css="tab_audio"/>
+    </cw>
+    <cw data="cw04" label="Component-sync with Audio" hierarchyLevel="level2">
+        <page data="horizontal_tab" label="Horizontal Tabs (Three) with Audio" viewType="02" jumpTo="" backTo="" script="" css="horizontal_tab"/>
+    </cw>
+
+    <!-- Assessment totalDisplayPages is the no of assessment questions to be displayed  (optional) -->
+    <cw data="assessment" label="Assessment" randomization="true" pasPer="60" totalDisplayPages="2" pagesFromStart="1" pagesFromEnd="1" scored="true" hierarchyLevel="level2">
+        <page data="pg01" label="Start" viewType="04" jumpTo="" backTo="" script="pg01" css="pg01"/>
+        <page data="pg02" label="Assessment Question1" viewType="04" jumpTo="" backTo="" script="pg02" css="pg02"/>
+        <page data="pg03" label="Assessment Question2" viewType="04" jumpTo="" backTo="" script="pg03" css="pg03"/>
+        <page data="pg04" label="Assessment Question3" viewType="04" jumpTo="" backTo="" script="pg04" css="pg04"/>
+        <page data="pg05" label="Scoring" viewType="04" jumpTo="" backTo="" script="pg05" css="pg05"/>
+    </cw>
+    <page data="pg25" label="Summary" viewType="01" jumpTo="" backTo="" script="pg25" css="pg25"/>
+</cw>

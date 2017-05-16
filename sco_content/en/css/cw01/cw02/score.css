@@ -1,0 +1,30 @@
+#pagecontainer_cw01_assessment_score{
+ background:url('images/Assessement_result_img.png') no-repeat scroll 0 bottom transparent;
+ padding-left:100px;
+ width: 1014px;
+height: 605px;
+}
+/*.right.box-500{
+ height:521px;
+ width:460px;
+     right:0px;
+    bottom: 0px;
+        position:absolute;
+}*/
+/*#bottom_band{display:none;}*/
+#txt_2{
+    color:#606060;
+    font-size: 2em;
+    margin: 30px 0px;
+
+
+}
+#uipopup #resources {
+    bottom: 230px;
+    display: inline-block;
+    height: 310px;
+    left: 200px;
+    position: absolute;
+    width: auto;
+}
+

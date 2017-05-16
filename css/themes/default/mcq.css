@@ -1,0 +1,220 @@
+/*mcq*/
+.radio-container {
+    padding: 0px;
+
+}
+
+.radio-icon.hover {
+	background-position: -1px -371px;
+}
+.radio-container.disabled .radio-icon, .radio-container.disabled .radio-icon.hover {
+	background-position: -1px -352px;
+}
+.radio-container.selected .radio-icon, .radio-container.selected .radio-icon.hover {
+	background-position: -1px -371px;
+}
+.radio-container.selected.disabled .radio-icon, .radio-container.selected.disabled .radio-icon.hover {
+	background-position: -1px -371px;
+}
+
+.radio-container .radio{
+	margin: 0;
+	border-radius:10px;
+	padding:5px;
+	min-height:40px;
+}
+.radio-icon {
+	background: url("../../../images/global_btn.png") no-repeat scroll -1px -352px transparent;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+}
+
+.option-with-image .radio-icon, .option-with-image .checkbox-icon {
+	position: relative;
+	left: 0px;
+	top: 4px;
+	margin: 0;
+}
+.option-with-image .icon-container {
+	text-align: center;
+	width: 100%;
+}
+
+.option-with-image .radio-groups-container  li, .option-with-image .checkbox-groups-container  li {
+	list-style: none;
+	padding: 5px;
+	float: left;
+	padding: 0 10px;
+	border-left: solid 1px #ccc
+}
+.option-with-image .radio-groups-container li:first-child, .option-with-image .checkbox-groups-container li:first-child {
+
+	border-left: none;
+}
+
+.option-with-image .radio-groups-container, .option-with-image .checkbox-groups-container {
+	margin-left: 0px;
+}
+
+.option-with-image  .clear {
+	clear: both;
+	padding: 0px !important;
+}
+
+.option-with-image .radio-label div, .option-with-image .checkbox-label div {
+	position: relative;
+	text-align: center;
+	top: -32px;
+	width: 100%;
+	color: #5ba1bd;
+	font-weight: bold;
+}
+.option-with-image .radio-label.hover div, .option-with-image .checkbox-label.hover div {
+	position: relative;
+	text-align: center;
+	top: -32px;
+	width: 100%;
+	color: #f7901e;
+	font-weight: bold;
+}
+
+.option-with-image .correctincorrect.left {
+	margin-left: -40px;
+	margin-top: 3px;
+}
+
+
+
+.radio-icon.disabled, .checkbox-icon.disabled {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+/* MCQ with IMage */
+.activity.tis-mcq-image {
+    border : 0;
+    margin-top : 10px !important;
+}
+.optionscontainer {
+}
+.radio-container > a {
+    border : 0.1em solid rgba(255, 255, 255, 0.3);
+    border-radius : 9px;
+    background-color : rgba(183, 216, 250, 0.8);
+    min-height:50px;
+        position:relative;
+}
+
+.radio-container > button {
+    border : 0.1em solid rgba(255, 255, 255, 0.3);
+    border-radius : 9px;
+    background-color : rgba(183, 216, 250, 0.8);
+    min-height:50px;
+        position:relative;
+}
+
+
+.radio-container.selected  .single-mcq-row-inner {
+    background-color: rgba(73, 217, 255, 0.8);
+}
+.radio-container.display-result.correct > a {
+    background-color: rgba(160, 230, 97, 0.8);
+}
+.radio-container.display-result.incorrect > a {
+    background-color: rgba(255, 189, 183, 0.8);
+}
+.radio-container img {
+    width : 100%;
+}
+
+.radio-label {
+    color : #000000;
+    display : block;
+    width:88%;
+    line-height: 1.2em;
+}
+.tis-mcq-image .radio-container .radio{
+	display:inline-block;
+}
+/* end */
+
+/*Clickable Images Start*/
+.clickable-Images.radio-groups-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.clickable-Images.radio-groups-container .radio-container {
+	display: inline-block;
+	padding: 0;
+	margin-top:10px;
+}
+.clickable-Images.radio-groups-container .radio-container .radio-label.image-style {
+	background-color: #d9e0e8;
+	display: inline-block;
+	margin: 0 40px 40px 0;
+	padding: 0;
+}
+
+.clickable-Images.radio-groups-container .radio-container .radio-label.image-style.hover, .clickable-Images.radio-groups-container .radio-container .radio-label.image-style.selected {
+	background-color: #E6B2BB;
+	border: 4px solid #FFE6E9;
+}
+
+.radio-groups-container .imglabel {
+	padding: 4px 10px 8px;
+	text-align: center;
+	color: #000000;
+}
+.tis-mcq-image .correctincorrect.left{
+	top:10px;
+	left:10px;
+}
+/*Clickable Images Ends*/
+
+
+/*Radio Buttons*/
+
+.radio-icon-container {
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+
+.radio-container .single-mcq-row-inner{
+	border: 0.1em solid rgba(255, 255, 255, 0.3);
+    border-radius: 9px;
+    background-color: rgba(183, 216, 250, 0.8);
+    position: relative;
+}
+
+
+
+/*.single-mcq-row-group > .selected{
+	background-color: rgba(73, 217, 255, 0.8);
+}*/
+
+.radio-container.selected .single-mcq-row-inner{
+	background-color: rgba(73, 217, 255, 0.8);
+}
+
+
+.single-mcq-row .MCQImage img{
+	    width: auto;
+    height: auto;
+}
+
+
+.single-mcq-row .MCQImageRow{
+	display: inline-block;
+}
+
+.single-mcq-row .MCQImageRow .MCQImage{
+	     display: inline;
+}

@@ -1,0 +1,32 @@
+<data>
+
+	<pageText id="txt_title-01">
+		<![CDATA[3 Clickable Images]]>
+	</pageText>
+	<pageText id="txt_1">
+		<![CDATA[Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. Let us learn now about the final rule and its publication in the Federal register. ]]>
+	</pageText>
+	<pageText id="i-text">
+		<![CDATA[Select each image to &lt;add specifics on what the students will learn/review&gt;.]]>
+	</pageText>
+	<pageText id="imglabel1">
+		<![CDATA[Maintaining a Laser Printer <span class="text-hide">graphic</span>]]>
+	</pageText>
+	<pageText id="imglabel2">
+		<![CDATA[Maintaining an Inkjet Printer <span class="text-hide">graphic</span>]]>
+	</pageText>
+	<pageText id="imglabel3">
+		<![CDATA[Maintaining an Inkjet Printer <span class="text-hide">graphic</span>]]>
+	</pageText>
+
+	<pageText id="popup1txt1">
+		<![CDATA[Remember it is best to use a maintenance kit from the printer manufacturer. Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.]]>
+	</pageText>
+	<pageText id="popup1txt2">
+		<![CDATA[Remember it is best to use a maintenance kit from the printer manufacturer. Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.]]>
+	</pageText>
+	<pageText id="popup1txt3">
+		<![CDATA[Remember it is best to use a maintenance kit from the printer manufacturer. Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.Remember it is best to use a maintenance kit from the printer manufacturer.]]>
+	</pageText>
+	<component type="ClickAndReveal" componentID="comp_1" class="cnr-btn" popupConfigID="popup_close"></component>
+</data>

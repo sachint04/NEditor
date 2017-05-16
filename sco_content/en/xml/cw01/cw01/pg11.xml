@@ -1,0 +1,192 @@
+<data>
+	
+	<pageDesc><![CDATA[This is a Multiple Choice Multiple Select Page. Containing four check boxes. Please select corect options and click submit.]]></pageDesc>
+	<pageText id="txt_title_1"><![CDATA[Multiple Choice - Triggers]]></pageText>
+  <pageText id="txt_1"><![CDATA[Trigger attribute allows user to set sequence of actions. Trigger is nothing but an action taken post completion of activity. Trigger value contains three parts separated by space<br>
+<b>(action) (target) (condition)</b><br>
+action -  possible value [ show/hide ]<br>
+target	- possible value [id/ class/pageGUID]<br>
+condition (optional) - possible value [correct/incorrect]<br>
+<b>Example:</b>
+<pre>
+<i>Trigger=”show mcq_1 correct”</i>
+</pre> 
+Above trigger will unhide activity with id “mcq_1” only if user has completed current activity and score is less than 100%.<br>
+<pre>
+<i>Trigger=”show mcq_1 correct”</i>
+</pre> 
+Above trigger will unhide activity with id “mcq_1” only if user has completed current activity and scored 100%.<br>
+<pre>
+<i>Trigger=”show #box”</i>
+</pre> 
+Above trigger will unhide element with id “box” only if user has completed current activity.
+<pre><i>Trigger=”show cw01~cw01~pg01”</i></pre>
+Above trigger will trigger a page jump to page with GUID “cw01~cw01~pg01”
+]]></pageText>
+	<activity type="MCQ" questionId="MCQ_1" totalAttempts="1" correctAnswer="1" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="false" displayTickCross="true" class="radio-groups-container" showFeedbackPopup="true" trigger="show MCQ_2">
+		<pageTexts>
+			<pageText class="question">
+				<![CDATA[Q1. Which of the following describes an administrative agency?]]>
+			</pageText>
+			<pageText class="i-text">
+				<![CDATA[Select the correct option and <strong>Submit</strong>.]]>
+			</pageText>
+			<pageText class="submit">
+				<![CDATA[Submit]]>
+			</pageText>
+		</pageTexts>
+
+		<!-- Option Groups -->
+		<optionGroup  class="radio-container">
+			<option id="1" class="radio" score="1"  optionID= "Choice 1"  >
+				<pageText class="radio-label">
+					<![CDATA[A governmental entity with governmental powers]]>
+				</pageText>
+				<feedback>
+					<title>
+						<![CDATA[]]>
+					</title>
+					<content>
+						<![CDATA[]]>
+					</content>
+				</feedback>
+			</option>
+			<option id="2" class="radio" score="0"  optionID= "Choice 2"  >
+				<pageText class="radio-label">
+					<![CDATA[A private company that implements the will of Congress]]>
+				</pageText>
+				<feedback>
+					<title>
+						<![CDATA[]]>
+					</title>
+					<content>
+						<![CDATA[]]>
+					</content>
+				</feedback>
+			</option>
+			<option id="3" class="radio" score="0"  optionID= "Choice 3"  >
+				<pageText class="radio-label">
+					<![CDATA[An organized body of elected officials that works to write and enact new laws ]]>
+				</pageText>
+				<feedback>
+					<title>
+						<![CDATA[]]>
+					</title>
+					<content>
+						<![CDATA[]]>
+					</content>
+				</feedback>
+			</option>
+			<option id="4" class="radio" score="0"  optionID= "Choice 4"  >
+				<pageText class="radio-label">
+					<![CDATA[The President of the United States ]]>
+				</pageText>
+				<feedback>
+					<title>
+						<![CDATA[]]>
+					</title>
+					<content>
+						<![CDATA[]]>
+					</content>
+				</feedback>
+			</option>
+		</optionGroup>
+		<!-- Option Groups -->
+		<feedbacks>
+			<!-- ===== Correct Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="correct" attempt="1">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[<p>You have selected correctly.</p><br /><p>Yes, an administrative agency is a governmental entity that has governmental powers, generally given to it through statute.</p>]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="correct" attempt="2">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[<p>You have selected correctly.</p><br /><p>Yes, an administrative agency is a governmental entity that has governmental powers, generally given to it through statute.</p>]]>
+				</content>
+			</feedback>
+			<!-- ===== Incorrect Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="incorrect" attempt="1">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You have selected incorrectly. Please try again.]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="incorrect" attempt="2">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[<p>You have selected incorrectly.</p><br /><p>An administrative agency is a governmental entity that has governmental powers, generally given to it through statute. </p><br />
+
+<p>Private companies are not administrative agencies; administrative agencies are affiliated with the government. An organized body of elected officials that works to write and enact new laws describes a legislative body that creates laws and the President is not an administrative agency, even though the President (like many federal agencies) is part of the executive branch.</p>
+]]>
+				</content>
+			</feedback>
+		</feedbacks>
+	</activity>
+	
+	<activity type="MCQ" questionId="MCQ_2" totalAttempts="1" correctAnswer="2" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="false"  showFeedbackPopup="true"  displayTickCross="true" tickCrossTrigger="default" tickCrossType="compact" class="radio-groups-container" resetBtn="true" showAnswerBtn="true">
+    <pageTexts>
+      <pageText class="question">
+			<![CDATA[Q2. Which of the following describes an administrative agency?]]>
+		</pageText>
+		<pageText class="i-text">
+			<![CDATA[Select the correct option and <strong>Submit</strong>.]]>
+		</pageText>
+      <pageText class="submit"><![CDATA[Submit]]></pageText>
+    </pageTexts>
+    <optionGroup class="radio-container">
+      <option id="1" class="radio" score="0">
+        <pageText class="radio-label"><![CDATA[Vestibulum non maximus risus. Vivamus vitae imperdiet risus.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="2" class="radio" score="1">
+        <pageText class="radio-label"><![CDATA[Vivamus neque tortor, facilisis vitae dictum nec, imperdiet ac ipsum. Curabitur in justo porta, porttitor sem ac, rhoncus felis.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="3" class="radio" score="0">
+        <pageText class="radio-label"><![CDATA[Sed condimentum nibh turpis, sit amet molestie quam mollis eget.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+    </optionGroup>
+    <feedbacks>
+      <feedback fbType="correct" attempt="1">
+        <title id=""><![CDATA[Correct]]></title>
+        <content id=""><![CDATA[Correct. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="incorrect" attempt="1">
+        <title id=""><![CDATA[Incorrect]]></title>
+        <content id=""><![CDATA[Incorrect. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="incorrect" attempt="2">
+        <title id=""><![CDATA[Incorrect]]></title>
+        <content id=""><![CDATA[Incorrect. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+    </feedbacks>
+  </activity>
+	
+		<pageText id="txt_title-01">
+		<![CDATA[Check Your Knowledge]]>
+	</pageText>
+</data>

@@ -1,0 +1,25 @@
+.btn-submit.right {
+    margin-left: 0;
+    margin-right: 11px;
+}
+
+.dropdown-groups-container {
+    padding: 10px;
+    display: inline-block;
+    background-color: lightgray;
+}
+
+
+.statement, .header-statement{
+	width: 100px;
+	
+}
+.questioncontainer{
+	display:none;
+}
+#dropdowngroup_1, #dropdowngroup_2{
+	float:left;
+	width:45% !important;
+	position:relative;
+	display: inline-block;
+}

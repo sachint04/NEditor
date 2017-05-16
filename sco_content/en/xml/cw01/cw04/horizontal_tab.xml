@@ -1,0 +1,113 @@
+<data>
+	<pageText id="txt_title-01">
+		<![CDATA[Horizontal Tabs (Three)]]>
+	</pageText>
+	<pageText id="txt_1">
+		<![CDATA[An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions.]]>
+	</pageText>
+	<pageText id="extra">
+		<![CDATA[An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions. An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions.]]>
+	</pageText>
+	<pageText id="txt_2">
+		<![CDATA[Here are some examples of federal administrative agencies.]]>
+	</pageText>
+	<pageText id="i-text">
+		<![CDATA[Select each tab to &lt;add specifics on what the students will learn/review&gt;.]]>
+	</pageText>
+
+	<pageText id="tab1-text">
+		<![CDATA[Federal Bureau of Investigation]]>
+	</pageText>
+	<pageText id="tab2-text">
+		<![CDATA[Occupational Safety and Health Administration ]]>
+	</pageText>
+	<pageText id="tab3-text">
+		<![CDATA[Social Security Administration]]>
+	</pageText>
+	
+	<pageText id="tab_txt_1">
+		<![CDATA[The Federal Bureau of  Investigation (<abbr title="Federal Bureau of Investigation">FBI</abbr>) is part of the United States Department of Justice. The <abbr title="Federal Bureau of Investigation">FBI</abbr>  has the full authority and responsibility to investigate crimes and defend the  <abbr title="United States">U.S.</abbr> from security threats. For more information on the <abbr title="Federal Bureau of Investigation">FBI</abbr>, please visit this link: <a href="http://www.fbi.gov/" target="_blank">FBI website</a>.<br><br> 
+		Here are steps you need to fallowing while you have a screen text and tab component with audio
+<ol><li>Define the following parameter for screen text audio  preload="true" (will load the audio file before displaying the page) playOnLoad="true" (will start playing the audio file as soon as page is display)</li> 
+<li>Add in XML tab component  audioPlayOnload="true" (it will tell to play the audio of first slide to play after playing the screen text audio)</li>
+<li>Define the name of audio file to play per slide for the li element of the tab   <li class="tab tis-header tis-btn" data-audio-id="audio_2"></li><ol>
+
+		]]>
+	</pageText>
+	<pageText id="tab_txt_2">
+		<![CDATA[The Occupational Safety  and Health Administration <abbr title="Occupational Safety and Health Administration">(OSHA)</abbr> is part of the United States Department of  Labor and their mission is to assure safe and healthful working conditions by  setting and enforcing standards and providing training, outreach, education,  and assistance. For more information on <abbr title="Occupational Safety and Health Administration">OSHA</abbr>, please visit this link: <a href="https://www.osha.gov/" target="_blank">OSHA website</a>.]]>
+	</pageText>
+	<pageText id="tab_txt_3">
+		<![CDATA[The Social Security  Administration (<abbr title="Social Security Administration">SSA</abbr>) is an independent administrative agency that delivers a  broad range of services that meets the changing needs of the public. For more  information on the <abbr title="Social Security Administration">SSA</abbr>, please visit this link: <a href="http://www.ssa.gov/" target="_blank">SSA website</a>. The Social Security  Administration (<abbr title="Social Security Administration">SSA</abbr>) is an independent administrative agency that delivers a  broad range of services that meets the changing needs of the public. For more  information on the <abbr title="Social Security Administration">SSA</abbr>, please visit this link: <a href="http://www.ssa.gov/" target="_blank">SSA website</a>. The Social Security  Administration (<abbr title="Social Security Administration">SSA</abbr>) is an independent administrative agency that delivers a  broad range of services that meets the changing needs of the public. For more  information on the <abbr title="Social Security Administration">SSA</abbr>, please visit this link: <a href="http://www.ssa.gov/" target="_blank">SSA website</a>. The Social Security  Administration (<abbr title="Social Security Administration">SSA</abbr>) is an independent administrative agency that delivers a  broad range of services that meets the changing needs of the public. For more  information on the <abbr title="Social Security Administration">SSA</abbr>, please visit this link: <a href="http://www.ssa.gov/" target="_blank">SSA website</a>.]]>
+	</pageText>
+	 <component type="Tab" componentID="comp_tab_1" tabShowSpeed="600" audioPlayOnload="true" mandatory="true"/>
+	 
+	 <sounds>
+        <sound id="audio_1" filename="cw04_pg01_1" preload="true" playOnLoad="true" mandatory="true">
+            <cuepoints>
+                <cuepoint cueLabel="aulbl-1" position="0" />
+                <cuepoint cueLabel="aulbl-2" position="3" />
+                <cuepoint cueLabel="aulbl-3" position="28" />
+            </cuepoints>
+            <transcript>
+                <![CDATA[Calculating Total Capacitance <br><br>
+                        When one or more capacitors are connected, how do we calculate the total capacitance? Let’s find out.
+                        <br><br>
+                        Select the tabs to learn more.
+                        <br>
+                ]]>
+            </transcript>
+        </sound>
+        
+        
+        <sound id="audio_2" filename="cw04_pg01_2" preload="true">
+            <cuepoints>
+                <cuepoint cueLabel="aulbl-4" position="0" />
+                <cuepoint cueLabel="aulbl-5" position="6" />
+                <cuepoint cueLabel="aulbl-6" position="7" />
+                
+            </cuepoints>
+            <transcript>
+                <![CDATA[Capacitors in Parallel <br>
+                    Total capacitance of capacitors in parallel is calculated as follows:
+                    <br>
+                    Total Capacitance is equal to Capacitance of Capacitor C1 plus Capacitance of Capacitor C2
+                    <br>
+                ]]>
+            </transcript>
+        </sound>
+                <sound id="audio_3" filename="cw04_pg01_3" preload="true" >
+            <cuepoints>
+                <cuepoint cueLabel="aulbl-7" position="0" />
+                <cuepoint cueLabel="aulbl-8" position="4" />
+                <cuepoint cueLabel="aulbl-9" position="7" />
+            </cuepoints>
+            <transcript>
+                <![CDATA[Capacitors in Series <br>
+                    Total capacitance of capacitors in a series is calculated as follows:
+                    <br>
+                    One divided by CT equals to one divided by C1 plus one divided by C2 plus one divided C3 etc. or CT equals to one divided by one divided by C1 plus one divided by C2 plus so on till one divided by CN.
+                    <br>
+                ]]>
+            </transcript>
+        </sound>
+                     <sound id="audio_4" filename="cw04_pg01_4" preload="true" >
+            <cuepoints>
+                <cuepoint cueLabel="aulbl-10" position="0" />
+                <cuepoint cueLabel="aulbl-11" position="5" />
+                <cuepoint cueLabel="aulbl-12" position="7" />
+            </cuepoints>
+            <transcript>
+                <![CDATA[Capacitors in Series <br>
+                    Total capacitance of capacitors in a series is calculated as follows:
+                    <br>
+                    One divided by CT equals to one divided by C1 plus one divided by C2 plus one divided C3 etc. or CT equals to one divided by one divided by C1 plus one divided by C2 plus so on till one divided by CN.
+                    <br>
+                ]]>
+            </transcript>
+        </sound>
+        
+     </sounds>
+	 
+	 
+</data>

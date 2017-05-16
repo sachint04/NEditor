@@ -1,0 +1,50 @@
+/* Accordian Component Wrapper */
+.component.tis-accordian.vertical {
+    padding-top : 10px;
+    margin : auto 5px auto auto !important;
+}
+/* Accordian Header */
+.component.tis-accordian.vertical .tis-header {
+    font-size : 1rem;
+    line-height : 1.6;
+    border-radius : 3px 3px 3px 3px;
+    -moz-border-radius : 3px 3px 3px 3px;
+    -webkit-border-radius : 3px 3px 3px 3px;
+    border : 0.1em solid rgba(255,255,255, 0.3) !important;
+    background-color : rgba(255, 255, 255, 0.5) !important;
+    color : rgba(0, 0, 0, 0.7) !important;
+    padding : .5rem 2rem .5rem .5rem !important;
+    line-height : normal;
+    position : relative;
+    margin : 0;
+}
+.component.tis-accordian.vertical .tis-header.open {
+    background-color : white !important;
+    color : rgba(0, 0, 0, 0.7) !important;
+}
+/* Accordian Header Icon */
+.component.tis-accordian.vertical .tis-header > .icon-collapse {
+    position : absolute;
+    top : 0px;
+    right : 0px;
+    display : inline-block;
+    height : 100%;
+    width : 40px;
+    background-image : url('images/arrow-down.png');
+    background-position : center center;
+    background-repeat : no-repeat;
+}
+.component.tis-accordian.vertical .tis-header.open > .icon-collapse {
+    background-image : url('images/arrow-up.png');
+}
+/* Accordian Panel */
+.component.tis-accordian.vertical .tis-panel {
+    padding : 0.9375rem;
+    background-color : rgba(0, 0, 0, 0.7) !important;
+    color : white !important;
+    border-radius : 3px 3px 3px 3px;
+    -moz-border-radius : 3px 3px 3px 3px;
+    -webkit-border-radius : 3px 3px 3px 3px;
+    border : 0.1em solid rgba(255,255,255, 0.6) !important;
+    margin : 0 !important;
+}

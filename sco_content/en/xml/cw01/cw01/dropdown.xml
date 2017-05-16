@@ -1,0 +1,419 @@
+<data>
+	<pageDesc><![CDATA[This is Match the column activity Page. Containing four drop down elements. Please match corect option and click submit.]]></pageDesc>
+	
+	 <pageText id="title">
+        <![CDATA[Troubleshooting a Laser Printer]]>
+    </pageText>
+
+    <pageText id="dropdowngroup_1_submit">
+        <![CDATA[Submit]]>
+    </pageText>
+
+<pageText id="bodytext" >
+		<![CDATA[Julie ends her call with James and walks out of her office to find Judy rushing to the printer to collect her documents. Judy picks up her documents but finds that the text is faded. She then overhears some other staff complaining about other printer problems.]]>
+	</pageText>
+   
+    <activity type="DropdownGroup" questionId="dropdowngroup_1" totalAttempts="1" correctAnswer="3,2,1" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="false" displayTickCross="true" showFeedbackPopup="false" tickCrossType="compact" resetBtn="true" answerBtn="true">
+        <!-- Option Groups -->
+        <pageTexts>
+			<pageText id="statement" class="statement" >
+				<![CDATA[ ]]>
+			</pageText>
+			<pageText id="question" class="question">
+				<![CDATA[<strong>Let’s take a look at the problems and help Judy to identify appropriate solutions.</strong><br><br>]]>
+			</pageText>
+			<pageText id="itext" class="itext" >
+				<![CDATA[Select the correct answers. Then, select <strong>Submit</strong> to review feedback.]]>
+			</pageText>
+		</pageTexts>
+        <optionGroups class="dropdown-groups-container">
+            <optionGroup id="1" class="dropdown-container">
+                <pageText class="statement"><![CDATA[The printer does not print.</strong>]]></pageText>
+                <option id="0" class="placeHolder" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Select Option]]></pageText>
+                   <PARAMETER ID="1" VALUE="1" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="1" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check if there is a problem with a corrupted print driver.]]></pageText>
+                    <PARAMETER ID="2" VALUE="1" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="2" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check if fuser is dirty or broken.]]></pageText>
+                    <PARAMETER ID="3" VALUE="3" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="3" class="dropdown" score="1">
+                    <pageText class="dropdown-label"><![CDATA[Correct.]]></pageText>
+                    <PARAMETER ID="1" VALUE="1" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="4" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check if there is a problem with the wrong printer driver.]]></pageText>
+                    <PARAMETER ID="5" VALUE="3" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+            </optionGroup>
+           	<optionGroup id="2" class="dropdown-container">
+                <pageText class="statement"><![CDATA[Improper characters are printed on the page.</strong>]]></pageText>
+                <option id="0" class="placeHolder" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Select Option]]></pageText>
+                    <PARAMETER ID="1" VALUE="1" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="1" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check if the fuser needs to be replaced.]]></pageText>
+                    <PARAMETER ID="2" VALUE="1" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="2" class="dropdown" score="1">
+                    <pageText class="dropdown-label"><![CDATA[Correct.]]></pageText>
+                    <PARAMETER ID="3" VALUE="3" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="3" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check cables.]]></pageText>
+                   <PARAMETER ID="4" VALUE="3" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="4" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Consult the user manual for the type of cabling that is suggested.]]></pageText>
+                   <PARAMETER ID="5" VALUE="3" />
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+
+            </optionGroup>
+         	<optionGroup id="3" class="dropdown-container">
+                <pageText class="statement"><![CDATA[Printing is smeared and the toner is not adhering to the paper.]]></pageText>
+                <option id="0" class="placeHolder" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Select Option]]></pageText>
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="1" class="dropdown" score="1">
+                    <pageText class="dropdown-label"><![CDATA[Check if the fuser is dirty or broken.]]></pageText>
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="2" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check if the fuser is empty.]]></pageText>
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="3" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check cables. ]]></pageText>
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+                <option id="4" class="dropdown" score="0">
+                    <pageText class="dropdown-label"><![CDATA[Check front panel settings.]]></pageText>
+                    <feedback>
+						<title>
+							<![CDATA[]]>
+						</title>
+						<content>
+							<![CDATA[]]>
+						</content>
+					</feedback>
+                </option>
+
+            </optionGroup>
+        </optionGroups>
+        <!-- Option Groups -->
+        <feedbacks>
+            <!-- ===== Generic Feedback ===== -->
+            <feedback fbType="generic">
+                <title><![CDATA[Generic Feedback Heading]]></title>
+                <content><![CDATA[This is the Generic Feedback content.]]></content>
+            </feedback>
+
+			<!-- ===== Correct Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="correct" attempt="1" audioID="" class="large">
+				<title>
+					<![CDATA[Correct!]]>
+				</title>
+				<content>
+					<![CDATA[<p>You have selected the correct answers. However, do remember that these answers may not be the only correct answer and there could be other additional steps. </p>
+					]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="correct" attempt="2" audioID="" class="large">
+				<title>
+					<![CDATA[Correct!]]>
+				</title>
+				<content>
+					<![CDATA[<p>You have selected the correct answers. However, do remember that these answers may not be the only correct answer and there could be other additional steps. </p>
+					]]>
+				</content>
+			</feedback>
+
+			<!-- ===== Incorrect Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="incorrect" attempt="1" audioID="" class="large">
+				<title>
+					<![CDATA[Incorrect.]]>
+				</title>
+				<content>
+					<![CDATA[
+					<p>You have not selected the correct answers. Please try again.</p>]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="incorrect" attempt="2" audioID="" class="large">
+				<title>
+					<![CDATA[Incorrect.]]>
+				</title>
+				<content>
+					<![CDATA[
+
+					<p>You have not selected the correct answers.<br><br><strong>  The correct answers are:</strong><br><br>
+					<table class="dropdown-groups-container" border="1" style="margin-left:2px;" summary="This table presents the correct match of the problem statements to the appropriate solutions. ">
+					<tr>	
+					<th></strong> Statements</strong> </th>
+					<th>Correct Answers</th>
+					</tr>	
+					
+					<tr class="dropdown-container alt">	
+					<td>The printer does not print.</td>
+					<td>Check if the printer is selected or online.</td>
+					</tr>
+					
+					<tr class="dropdown-container">
+					<td>Improper characters are printed on the page.</td>
+					<td>Check if the correct printer driver is installed.</td> 
+					</tr>
+					
+					<tr class="dropdown-container alt">
+					<td>Printing is smeared and the toner is not adhering to the paper.</td>
+					<td>Check if the fuser is dirty or broken.</td>
+					</tr>
+					
+					<tr class="dropdown-container">
+					<td>Toner has spilled from the laser printer.</td>
+					<td>Use a vacuum specially designed to clean toner spills.</td>
+</tr>
+</table>
+
+					</p>
+					]]>
+				</content>
+			</feedback>
+		
+        </feedbacks>
+   		 <FEEDBACKPARAMETER TYPE="CONVERSATION">
+			<PARAMETER ID="1" AssociatedParameters="">
+				<NAME>Opening the call</NAME>
+				<DESCRIPTION> rapport and establish</DESCRIPTION>
+				<WEIGHT>20</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="2" AssociatedParameters="">
+				<NAME>Presenting solution</NAME>
+				<DESCRIPTION>Present need-based solution</DESCRIPTION>
+				<WEIGHT>50</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="3" AssociatedParameters="">
+				<NAME>Handling objection</NAME>
+				<DESCRIPTION>Address all types of objections</DESCRIPTION>
+				<WEIGHT>15</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="4" AssociatedParameters="">
+				<NAME>Closing the sale</NAME>
+				<DESCRIPTION>Confirm the sale </DESCRIPTION>
+				<WEIGHT>15</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="5" AssociatedParameters="1,2,3,4">
+				<NAME>Overall Sales Pitch</NAME>
+				<DESCRIPTION />
+			</PARAMETER>
+		</FEEDBACKPARAMETER>
+		<FEEDBACKSTRANDS TYPE="CONVERSATION">
+				<FEEDBACK ID="1" PROFILENAME="Profile 1" PASSINGSCORE="85">
+					<STRAND ID="1" NAME="Opening the call">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You did not do a good job of building rapport with the prospect and understanding his needs.
+							]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You did not do a good job of building rapport with the prospect and understanding his needs.
+							]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You did a great job of building rapport with the prospect and establishing his needs and requirements.
+							]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You did a super job of building rapport with the prospect and establishing his needs and requirements.
+							]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="2" NAME="Presenting solution">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You did not do well in mapping the product's features with the prospect's needs. You were also not able to illustrate the product's benefits and features.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You could have done a better job of mapping the product's features with customer's needs. You should have also tried to illustrate the product benefits and answer product-related queries.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You did a great job of mapping the product features to prospect's needs, illustrating how the product works, and explaining benefits.]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You were spot on in mapping the product features to prospect's needs, illustrating how the product works, and explaining benefits.]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="3" NAME="Handling objection">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You were not able to handle the prospect's objections satisfactorily and address them in a meaningful manner.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You were not able to do a good job of handling the prospect's objections satisfactorily. As a result, you couldn't address them in a meaningful manner.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You acknowledged the prospect's objections and addressed them, giving the prospect the confidence to say yes to the sale. ]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You acknowledged the prospect's objections and addressed them, giving the prospect the confidence to say yes to the sale. ]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="4" NAME="Closing the sale">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You did not do a good job at the end of the interaction. In spite of identifying the appropriate solution and eliminating objections, you were not able to confirm the final sale.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You could have done a better job at the end of the interaction. In spite of identifying the appropriate solution and eliminating objections, you were not able to confirm the final sale.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You did a good job at the end of the interaction. Since you identified the appropriate solution and eliminated all the customer's objections, you were able to confirm the final sale.]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You did a super job at the end of the interaction. Since you identified the appropriate solution and eliminated all the customer's objections, you were able to confirm the final sale.]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="5" NAME="Overall Sales Pitch">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor show! ">
+							<![CDATA[You did not grab the sales opportunity. Next time, try to understand the customer's needs to provide the right solution.
+
+							Click the tabs on the right to view how you have done in each of the key parameters. Sharpen your product knowledge and seling skills, and then replay the simulation.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Average performance.">
+							<![CDATA[You did not do a great job with this sales opportunity. Next time, use your product knowledge and understanding of the customer's needs to close the sale.
+
+							Click the tabs on the right to view how you have done in each of the key parameters. Then please replay the simulation.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good job!">
+							<![CDATA[You did well with this sales opportunity, but could have done even better. You were able to use your product knowledge and understanding of the customer's needs.
+
+							Click the tabs on the right to view how you have done in each of the key parameters. You can further improve your score by replaying the simulation.]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You did an excellent job with this sales opportunity. You were able to use your financial knowledge and understanding of the customer's needs to close the sale. That was a WOW experience for the customer.
+
+							Click the tabs on the right to view how you have done in each of the key parameters.]]>
+						</RANGE>
+					</STRAND>
+				</FEEDBACK>
+			</FEEDBACKSTRANDS>
+    </activity>
+   
+    
+  
+    <sounds>
+    
+    </sounds>
+</data>

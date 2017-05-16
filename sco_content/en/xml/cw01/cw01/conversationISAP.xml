@@ -1,0 +1,13 @@
+<data>
+    <pageText id="txt_title">
+    	<![CDATA[Conversation]]>
+    </pageText>
+    <pageText id="itext" class="i-text">
+        <![CDATA[Select your dialogue and then submit to proceed.]]>
+    </pageText>
+
+    <activity type="CONVERSATION" questionId="interaction_1" totalAttempts="1" correctAnswer="" fbType="PARAMETERBASEDFEEDBACK" immediateFeedback="false" displayTickCross="false" hasContinue="false"
+         conversationFilename="conversation_isap.xml" conversationFileLocation="xml_location" responseContainerClass="response-container" expressionContainerClass="expression-container"
+          optionsContainer="radio-group-container" optionsClass="radio-container" optionsTypeClass="radio" optionLabelClass="radio-label" isRandomized="false" fasttracktitle="Not the Best Choice" fasttrackdelay="0" resetBtn="true" >
+    </activity>
+</data>

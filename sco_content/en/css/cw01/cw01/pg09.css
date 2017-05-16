@@ -1,0 +1,13 @@
+.page-image-01{
+	background: url("sco_content/en/images/module_pages.jpg") no-repeat scroll -596px -467px rgba(0, 0, 0, 0);
+    height: 332px;
+    margin-top: 3px;
+    width: 280px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+p{
+	max-width: auto;
+	padding-right: 20px;
+}

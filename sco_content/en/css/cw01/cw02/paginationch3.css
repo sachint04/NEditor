@@ -1,0 +1,60 @@
+/* Page Level Styles */
+
+#pagecontainer_cw01_cw01_paginationch3 {
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+#tip_popup {
+    width:200px;
+    min-height:150px;
+    position:absolute;
+    top:500px;
+    right:100px;
+    border:1px solid red;
+}
+
+.page-title{
+    padding-top:10px;
+}
+.aria-itext.runtime {
+    font-size: 0em;
+}
+
+#tab_txt_1 {
+    width: 250px;
+    float: left;
+}
+
+#swiffycontainer_1 {
+    float: right;
+    margin-right: 10px;
+    margin-top: -35px;
+    width: 595px;
+    height: 405px;
+}
+
+.view-demo-icon {
+    position: absolute;
+    left: 30px;
+}
+.ui-tip-btn{
+    float: left;
+    margin: 25px;
+    position: relative;
+}
+/* to be updated in skin */
+.view-demo-itext_big_ht {
+    bottom: 115px;
+    height: 55px;
+    left: 0;
+    padding-left: 30px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: left;
+    width: 433px;
+}
+.component li {
+    list-style: initial;
+}
+/* to be updated in skin */

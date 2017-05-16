@@ -1,0 +1,61 @@
+<data>
+    <!-- Body Text -->
+    <pageText id="txt_1">
+        <![CDATA[Differentiating Between Legislative Statutes and Agency Rules/Regulations]]>
+    </pageText>
+    <pageText id="txt_2">
+        <![CDATA[Agency statutes and agency rules are related, but distinct legal authorities. Understanding the relationship and distinction between statutes and regulations is critical to understanding administrative law, particularly the agency rulemaking process.]]>
+    </pageText>
+    <pageText id="txt_3">
+        <![CDATA[Select each tab to &lt;add specifics on what the students will learn/review&gt;.]]>
+    </pageText>
+    <pageText id="txt_6">
+        <![CDATA[Select each tab to &lt;add specifics on what the students will learn/review&gt;.]]>
+    </pageText>
+    <!-- Tab Headings Text -->
+    <pageText id="tab_heading1">
+        <![CDATA[Agency Statute]]>
+    </pageText>
+    <pageText id="tab_heading2">
+        <![CDATA[Agency Rule/Regulation]]>
+    </pageText>
+    <pageText id="tab_heading3">
+        <![CDATA[The Difference]]>
+    </pageText>
+    <!-- Tab Panels Text -->
+    <pageText id="tab_panel1">
+        <![CDATA[Every federal agency generally has its own statute. This statute, also known as the “organic act” or “enabling act”, gives the agency its powers. Enabling acts can give agencies fairly broad powers, such as the power to make rules (as long as those rules do not contradict the statute), issue decisions, issue and revoke benefits (such as business licenses) and conduct investigations. The enabling acts also place important limits on what the agencies can do.]]>
+    </pageText>
+    <pageText id="tab_panel2">
+        <![CDATA[<p>Congress will often write a statute that defines a term, makes a certain form of conduct unlawful, or otherwise legislates; however, in writing the statute, Congress does not provide an extremely detailed set of standards or definitions. Instead, Congress delegates power to an administrative agency to fill in the details.</p>
+
+        <p>Administrative agencies frequently issue rules. These rules may come in the form of official federal regulations that have the force of law, such that an entity that violates the regulation will be treated as though they had violated the statute. These rules might also take the form of unofficial statements, such as policy memoranda or agency guidance documents. </p>
+
+        <p>Rules (and the process of agency rulemaking) are different from orders (and the process of agency adjudication). You will learn more about these agency rules in <strong>Modules 2</strong> and <strong>3</strong> of the course.</p>
+        ]]>
+    </pageText>
+    <pageText id="tab_panel3">
+        <![CDATA[<p>It is critical to understand the difference between an agency statute and an agency rule.</p>
+
+        <p>Agency statutes are created by the legislative branch of government (in the federal system, Congress). Agency statutes typically give the agency the power to act in a certain area.</p>
+
+        <p>Agency rules are created by the agency. Agency rules may not go beyond the powers given to them by the statute. Instead, agencies may only prescribe rules that are consistent with the agency’s enabling act.</p>
+        ]]>
+    </pageText>
+
+    <pageText id="lesson-title">
+        <![CDATA[CALI Lesson &mdash; Introduction and Sources of Authority for Administrative Law]]>
+    </pageText>
+    <pageText id="lesson-text1">
+        <![CDATA[Access the CALI lesson on Introduction and Sources of Authority for Administrative Law to briefly discuss procedural rules, policy statements, and the process of promulgating regulations.]]>
+    </pageText>
+    <pageText id="lesson-text2">
+        <![CDATA[<a href="http://www.cali.org/lessons/web/lwr33/jq.php#WID 9-2" target="_blank">Introduction and Sources of Authority for Administrative Law</a>]]>
+    </pageText>
+    <!-- Tab Component Tag -->
+    <component type="Tab" componentID="comp_tab_1" tabShowSpeed="600" />
+    <!-- Image Component Tags -->
+    <image id="image_1" src="sco_content/en/images/Accord_Img_iPad_01a.jpg" longDescription="txt_6">
+        <![CDATA[alternate text]]>
+    </image>
+</data>

@@ -1,0 +1,15 @@
+.i-text.page-i-text {
+    padding-top: 1em;
+}
+
+.horizontal_intro{
+	background:url("images/tab_horizontal_intro.jpg") no-repeat scroll rgba(0,255,102,1);
+	width:275px;
+	height:217px;
+}
+
+.tab_image_content{
+	background: url("images/tab_horizontal_content.jpg") no-repeat scroll 0 0 rgba(0, 255, 102, 1);
+    height: 344px;
+    width: 360px;
+	}

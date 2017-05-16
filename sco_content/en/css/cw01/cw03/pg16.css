@@ -1,0 +1,75 @@
+.page-image-01 {
+	background: url("sco_content/en/images/clickable_buttons_intro.jpg") no-repeat scroll 0px 0px rgba(0, 0, 0, 0);
+	height: 217px;
+	margin-top: 3px;
+	width: 275px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
+
+.i-text {
+	margin: 0px 0 15px 0px;
+}
+
+.popup_image {
+	display: inline-block;
+	float: left;
+	height: 218px;
+	width: 326px;
+	-webkit-box-shadow: inset 10px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 10px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 10px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*Popup Image Start*/
+#popup1bg1 {
+	background: url("sco_content/en/images/clickable_buttons_popup.jpg") no-repeat scroll 0 0 transparent;
+}
+#popup1bg2 {
+	background: url("sco_content/en/images/clickable_buttons_popup.jpg") no-repeat scroll 0 0 transparent;
+}
+#popup1bg3 {
+	background: url("sco_content/en/images/clickable_buttons_popup.jpg") no-repeat scroll 0 0 transparent;
+}
+/*Popup Image Ends*/
+
+.popup_text {
+	display: block;
+	float: left;
+	height: 218px;
+	overflow-y: auto;
+	padding: 10px;
+	width: 400px;
+}
+
+.ui-popup {
+	top: 170px;
+	left: 10px;
+}
+
+#popup_close .modal-dialog .modal-content .modal-body {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset;
+	height: 218px;
+	text-align: left;
+	padding: 0;
+	max-height: 218px;
+}
+
+.radio-groups-container .imglabel {
+	width: 310px;
+}
+
+.btn_img {
+	height: 169px;
+	width: 310px;
+}
+
+#btn_img1 {
+	background: url("sco_content/en/images/clickable_image_two.jpg") repeat scroll 0 0px rgba(0, 0, 0, 0);
+}
+#btn_img2 {
+	background: url("sco_content/en/images/clickable_image_two.jpg") repeat scroll 0 0px rgba(0, 0, 0, 0);
+}
+#btn_img3 {
+	background: url("sco_content/en/images/clickable_image_two.jpg") repeat scroll 0 0px rgba(0, 0, 0, 0);
+}

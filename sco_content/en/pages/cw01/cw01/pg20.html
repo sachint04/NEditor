@@ -1,0 +1,37 @@
+<!-- The ID below for the root div tag wil be replaced dynamically by the Pages GUID -->
+<div id="content" class="component row">
+    <div class='large-6 medium-6 columns text-container potrait-push'>
+        <h1 id="txt_title_1" class="text_title"></h1>
+        <p id="txt_1" class=""></p>
+        <p id="itext_1" class="i-text"></p>
+
+        <div class="clearfix"></div>
+	</div>
+	
+	
+	
+	<div class='large-6 medium-6 columns text-container potrait-push' >
+		<div class="row videoplayer" id="video_1">
+			<div id="video-intro-wrap">
+				<video id="video" class='videoplayer column' controls="controls">
+					<source src="sco_content/en/video/01_Overview.mp4" type="video/mp4"></source>
+					<source src="sco_content/en/video/01_Overview.ogv" type="video/ogv"></source>
+					<source src="sco_content/en/video/01_Overview.webm" type="video/webm"></source>
+					<track src="sco_content/en/video/01_Overview.txt" kind="metadata" srclang="eng" label="English" data-kind="subtitles"></track>
+				</video>
+			</div>
+		</div>
+
+
+		<!--[if (IE) & (lt IE 9)]>
+		<script type="text/javascript">$('#video-intro-wrap').hide();</script>
+		<object width='460' height='290' classid="clsid:22d6f312-b0f6-11d0-94ab-0080c74c7e95" >
+		<param name="filename" value="sco_content/en/video/intro.wmv"/>
+		<param name="autostart" value="autostart"/>
+		<param name="showcontrols" value="true"/>
+		<param name="showstatusbar" value="true"/>
+		</object>
+		<![endif]-->
+	</div>
+
+</div>

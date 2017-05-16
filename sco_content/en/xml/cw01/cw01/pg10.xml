@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<pageDesc><![CDATA[This is a Multiple Choice Single Select Page. Containing four radio buttons. Please select corect option and click submit.]]></pageDesc>
+  <pageText id="txt_title_1"><![CDATA[Multiple Choice - Display correct answer [&#10004;] || [&#10006;]]]></pageText>
+  <pageText id="txt_1"><![CDATA[Updates:<ul><li> displayTickCross: Reveal correct and incorrect answers by showing Tick [&#10004;] or Cross [&#10006;] next to options. Skin and position of Tick and Cross can be changed through CSS.<br>
+<b>tickCrossType:</b> <pre>[<i>default/compact</i>]</pre> - By default Tick or Cross is displayed next to all options. However in some case Tick or Cross should be displayed next to user selected and correct options. To handle second case value of this attribute should be set as <i>“compact”</i>. Default value is <i>“default”)</i>.<br>
+<b>tickCrossTrigger:</b> <pre>[<i>default/submit</i>]</pre> - Correct options (Tick/Cross) will be displayed after Feedback Popup is closed. In some cases correct answer needs to be displayed along with feedback (on clicking Submit button). To handle this scenario, value to this parameter should be set as <i>“submit”</i>. Default value is <i>"default"</i>
+</li></ul>]]></pageText>
+  <pageText id="question-header"><![CDATA[Nulla ultricies tortor a diam rhoncus, sit amet semper risus luctus. ]]></pageText>
+  <pageText id="itext_1"><![CDATA[Select the corect option and click submit.]]></pageText>
+  <activity type="MCQ" questionId="MCQ_1" totalAttempts="2" correctAnswer="2" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="false"  showFeedbackPopup="true"  displayTickCross="true" tickCrossTrigger="submit" tickCrossType="compact" class="radio-groups-container" resetBtn="false" showAnswerBtn="false">
+    <pageTexts>
+      <pageText class="submit"><![CDATA[Submit]]></pageText>
+    </pageTexts>
+    <optionGroup class="radio-container">
+      <option id="1" class="radio" score="0">
+        <pageText class="radio-label"><![CDATA[Vestibulum non maximus risus. Vivamus vitae imperdiet risus.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="2" class="radio" score="1">
+        <pageText class="radio-label"><![CDATA[Vivamus neque tortor, facilisis vitae dictum nec, imperdiet ac ipsum. Curabitur in justo porta, porttitor sem ac, rhoncus felis.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="3" class="radio" score="0">
+        <pageText class="radio-label"><![CDATA[Sed condimentum nibh turpis, sit amet molestie quam mollis eget.]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+      <option id="4" class="radio" score="0">
+        <pageText class="radio-label"><![CDATA[Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ]]></pageText>
+        <feedback>
+          <title><![CDATA[]]></title>
+          <content><![CDATA[]]></content>
+        </feedback>
+      </option>
+    </optionGroup>
+    <feedbacks>
+      <feedback fbType="correct" attempt="1">
+        <title id=""><![CDATA[Correct]]></title>
+        <content id=""><![CDATA[Correct. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="correct" attempt="2">
+        <title id=""><![CDATA[Correct]]></title>
+        <content id=""><![CDATA[Correct. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="incorrect" attempt="1">
+        <title id=""><![CDATA[Incorrect]]></title>
+        <content id=""><![CDATA[Incorrect. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+      <feedback fbType="incorrect" attempt="2">
+        <title id=""><![CDATA[Incorrect]]></title>
+        <content id=""><![CDATA[Incorrect. Fusce nec lobortis augue, a aliquam est. Proin sit amet orci arcu. Quisque interdum arcu at sem maximus dictum.]]></content>
+      </feedback>
+    </feedbacks>
+  </activity> 
+  
+</data>

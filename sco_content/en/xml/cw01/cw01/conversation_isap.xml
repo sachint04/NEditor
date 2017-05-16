@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<Root Name="TATA AIA NLA Sales Training">
+	<SCENARIO Name="Pitching TATA Life Insurance Products Part A">
+		<CHARACTERS />
+		<JOBAIDS />
+		<EXPRESSIONS>
+			<EXPRESSION ID="1" MAPPED="1">
+				<TYPE>NEUTRAL</TYPE>
+				<IMAGEPATH>..\TATA AIA NLA Sales Training\Images\Neutral.jpg</IMAGEPATH>
+			</EXPRESSION>
+			<EXPRESSION ID="2" MAPPED="2">
+				<TYPE>CONTEMPLATIVE</TYPE>
+				<IMAGEPATH>..\TATA AIA NLA Sales Training\Images\Contemplative.png</IMAGEPATH>
+			</EXPRESSION>
+			<EXPRESSION ID="3" MAPPED="3">
+				<TYPE>PLEASED</TYPE>
+				<IMAGEPATH>..\TATA AIA NLA Sales Training\Images\Pleased.jpg</IMAGEPATH>
+			</EXPRESSION>
+			<EXPRESSION ID="4" MAPPED="4">
+				<TYPE>CONFUSED</TYPE>
+				<IMAGEPATH>..\TATA AIA NLA Sales Training\Images\Confused.jpg</IMAGEPATH>
+			</EXPRESSION>
+			<EXPRESSION ID="5" MAPPED="5">
+				<TYPE>IRRITATED</TYPE>
+				<IMAGEPATH>..\TATA AIA NLA Sales Training\Images\Irritated.jpg</IMAGEPATH>
+			</EXPRESSION>
+		</EXPRESSIONS>
+		<FEEDBACKPARAMETER TYPE="CONVERSATION">
+			<PARAMETER ID="1" AssociatedParameters="">
+				<NAME>Opening the call</NAME>
+				<DESCRIPTION>Steps to build rapport and establish credibility:
+					1.Greet and present visiting card
+					2.Set agenda
+					3.Self-disclosure
+					4.Seek brief profile of the Prospect
+					5.Present company profile and your role</DESCRIPTION>
+				<WEIGHT>20</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="2" AssociatedParameters="">
+				<NAME>Presenting solution</NAME>
+				<DESCRIPTION>Present need-based solution:
+					•Map the product features to prospect's needs
+					•Illustrate how the product works
+					•Illustrate benefits (not features)
+					•Answer product related queries satisfactorily</DESCRIPTION>
+				<WEIGHT>50</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="3" AssociatedParameters="">
+				<NAME>Handling objection</NAME>
+				<DESCRIPTION>Address all types of objections at various stages in the sales process by offering appropriate and relevant information to the Prospect.</DESCRIPTION>
+				<WEIGHT>15</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="4" AssociatedParameters="">
+				<NAME>Closing the sale</NAME>
+				<DESCRIPTION>Confirm the sale of the product or service by using closing statements.
+
+					1.Check for any unaddressed queries
+					2.Summarize needs
+					3.Make an appropriate close
+					4.Fully complete all documentation
+					5.Advise on next steps
+					6.Take referrals</DESCRIPTION>
+				<WEIGHT>15</WEIGHT>
+			</PARAMETER>
+			<PARAMETER ID="5" AssociatedParameters="1,2,3,4">
+				<NAME>Overall Sales Pitch</NAME>
+				<DESCRIPTION />
+			</PARAMETER>
+		</FEEDBACKPARAMETER>
+		<FEEDBACKPARAMETER TYPE="DEVIATION" />
+		<INTRODUCTION>
+			<INTRO ID="1">
+				<![CDATA[]]>
+			</INTRO>
+		</INTRODUCTION>
+		<OPTIONSINCENTIVE SHOW="True" />
+		<CONVERSATION TIMERVALUE="">
+			<SET ID="0" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_0.mp3" MEDIATYPE="mp3">
+					<![CDATA[]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="1" EXPRESSIONTYPE="3" INCENTIVETYPE="incentive" SET_ID="4">
+						<![CDATA[Good afternoon Abhinav Sir! Looks like you're having a busy Saturday.]]>
+						<FBK>
+							<![CDATA[Excellent! You did a good job of greeting the prospect and also extending the conversation by acknowledging how busy he is. It helps you to take the discussion forward.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="3" />
+					</OPTION>
+					<OPTION ID="2" EXPRESSIONTYPE="3" INCENTIVETYPE="disincentive" SET_ID="4">
+						<![CDATA[Good afternoon Sir! I'm sure you're busy. So without wasting time, let's get down to business.]]>
+						<FBK>
+							<![CDATA[While you did greet the prospect, you rushed straight into your meeting agenda. When opening the call, it's important to make the prospect comfortable. Unless he is comfortable, he will not share any information.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="2" />
+					</OPTION>
+					<OPTION ID="3" EXPRESSIONTYPE="1" INCENTIVETYPE="disincentive" SET_ID="5">
+						<![CDATA[Hey! Remember me? I'm the TATA AIA agent you met a few days back.]]>
+						<FBK>
+							<![CDATA[While opening the call, the first thing you should do is greet the prospect. You forgot to do that. Plus, you used incorrect verbiage. Words like "Hey" and "agent" are not advised as this is a formal meeting with a prospect. Be careful with your choice of words.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="1" />
+					</OPTION>
+				</OPTIONS>
+			</SET>
+			<SET ID="4" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_R1.mp3" MEDIATYPE="mp3">
+					<![CDATA[Oh, super busy. Exams got over just yesterday, and so many answer papers to check. Anyway, do take a seat.]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="6" EXPRESSIONTYPE="3" INCENTIVETYPE="incentive" SET_ID="9">
+						<![CDATA[Thank you Sir! I really appreciate that you took time out for this meeting.]]>
+						<FBK>
+							<![CDATA[Good job! You thanked the prospect and acknowledged that he took time out for the meeting. The prospect is pleased about how you value his time.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="3" />
+					</OPTION>
+					<OPTION ID="7" EXPRESSIONTYPE="1" INCENTIVETYPE="disincentive" SET_ID="10">
+						<![CDATA[Sir, the last time we met, you mentioned that you wish to secure your daughter Anushka's education.]]>
+						<FBK>
+							<![CDATA[You forgot to thank the prospect for offering a seat. Being polite ensures you build rapport with him, instead of coming across as being interested only in the business he can give you.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="2" />
+					</OPTION>
+					<OPTION ID="8" EXPRESSIONTYPE="5" INCENTIVETYPE="disincentive" SET_ID="11">
+						<![CDATA[Mr.....Umm...I forgot your name. Anyway, I have a very good insurance plan for you.]]>
+						<FBK>
+							<![CDATA[An important part of greeting the prospect is to thank the prospect for sparing his valuable time for the meeting and exchange your visiting card. You did not do that. Moreover, you forgot the prospect's name. That's a complete no-no.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="1" />
+					</OPTION>
+				</OPTIONS>
+			</SET>
+			<SET ID="5" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_R2.mp3" MEDIATYPE="mp3">
+					<![CDATA[Ahem, yes, I do. Take a seat.]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="6" EXPRESSIONTYPE="3" INCENTIVETYPE="incentive" SET_ID="9">
+						<![CDATA[Thank you Sir! I really appreciate that you took time out for this meeting.]]>
+						<FBK>
+							<![CDATA[Good job! You thanked the prospect and acknowledged that he took time out for the meeting. The prospect is pleased about how you value his time.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="3" />
+					</OPTION>
+					<OPTION ID="7" EXPRESSIONTYPE="1" INCENTIVETYPE="disincentive" SET_ID="10">
+						<![CDATA[Sir, the last time we met, you mentioned that you wish to secure your daughter Anushka's education.]]>
+						<FBK>
+							<![CDATA[You forgot to thank the prospect for offering a seat. Being polite ensures you build rapport with him, instead of coming across as being interested only in the business he can give you.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="2" />
+					</OPTION>
+					<OPTION ID="8" EXPRESSIONTYPE="5" INCENTIVETYPE="disincentive" SET_ID="11">
+						<![CDATA[Mr.....Umm...I forgot your name. Anyway, I have a very good insurance plan for you.]]>
+						<FBK>
+							<![CDATA[An important part of greeting the prospect is to thank the prospect for sparing his valuable time for the meeting and exchange your visiting card. You did not do that. Moreover, you forgot the prospect's name. That's a complete no-no.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="1" />
+					</OPTION>
+				</OPTIONS>
+			</SET>
+			<SET ID="9" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_R3.mp3" MEDIATYPE="mp3">
+					<![CDATA[No no, it's okay. Have a seat.]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="7" EXPRESSIONTYPE="1" INCENTIVETYPE="disincentive" SET_ID="10">
+						<![CDATA[Sir, the last time we met, you mentioned that you wish to secure your daughter Anushka's education.]]>
+						<FBK>
+							<![CDATA[You forgot to thank the prospect for offering a seat. Being polite ensures you build rapport with him, instead of coming across as being interested only in the business he can give you.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="2" />
+					</OPTION>
+					<OPTION ID="8" EXPRESSIONTYPE="5" INCENTIVETYPE="disincentive" SET_ID="11">
+						<![CDATA[Mr.....Umm...I forgot your name. Anyway, I have a very good insurance plan for you.]]>
+						<FBK>
+							<![CDATA[An important part of greeting the prospect is to thank the prospect for sparing his valuable time for the meeting and exchange your visiting card. You did not do that. Moreover, you forgot the prospect's name. That's a complete no-no.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="1" />
+					</OPTION>
+					<OPTION ID="36" EXPRESSIONTYPE="1" INCENTIVETYPE="incentive" SET_ID="10">
+						<![CDATA[Sir, the last time we met, you mentioned that you wish to secure your daughter Anushka's education and are looking to accumulate Rs 20-25 lacs by the time she goes to college.]]>
+						<FBK>
+							<![CDATA[Great! You took the opportunity to recall your last discussion with the prospect and reiterate the prospect's needs. This helps you confirm your understanding of his needs and also build the conversation.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="3" />
+					</OPTION>
+				</OPTIONS>
+			</SET>
+			<SET ID="10" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_R4.mp3" MEDIATYPE="mp3">
+					<![CDATA[That's right! I'm concerned about having the money for her education and future. You know how the education expenses are increasing year on year. That's on top of my mind always.]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="12" EXPRESSIONTYPE="3" INCENTIVETYPE="incentive" SET_ID="40">
+						<![CDATA[Abhinav Sir, I really appreciate that as a loving father you want to make sure Anushka has a bright future. We at TATA  AIA understand this need fully well. Our solution- TATA  AIA Life Insurance Smart Income Plus ]]>
+						<READMORE>
+							<![CDATA[can help you create a guaranteed fund for her. Let me explain to you how this solution will help you achieve your goal, that too guaranteed from day 1.]]>
+						</READMORE>
+						<FBK>
+							<![CDATA[You did well to reiterate the prospect's needs and introducing the solution. Good job!]]>
+						</FBK>
+						<PARAMETER ID="2" VALUE="3" />
+					</OPTION>
+					<OPTION ID="48" EXPRESSIONTYPE="4" INCENTIVETYPE="disincentive" SET_ID="40">
+						<![CDATA[Abhinav Sir! Definitely you can secure your daughter's future. Have you heard of SIP? It's the best plan in the market.]]>
+						<FBK>
+							<![CDATA[Avoid jargon. The prospect may not know them and the customer may get confused with the term SIP which is also used for mutual fund. Also, don't quiz the prospect. This gives the impression that you're trying to test his knowledge.]]>
+						</FBK>
+						<PARAMETER ID="2" VALUE="2" />
+					</OPTION>
+					<OPTION ID="49" EXPRESSIONTYPE="1" INCENTIVETYPE="disincentive" SET_ID="40">
+						<![CDATA[Abhinav Sir, our Smart Income Plus can help you create a guaranteed fund for Anushka by simply investing 139 rupees per day – ]]>
+						<READMORE>
+							<![CDATA[less than the cost of a school uniform. Let me explain to you how this solution will benefit her.]]>
+						</READMORE>
+						<FBK>
+							<![CDATA[While you did well to introduce the solution, you forgot to reiterate the prospect's need and link it to the solution.]]>
+						</FBK>
+						<PARAMETER ID="2" VALUE="1" />
+					</OPTION>
+				</OPTIONS>
+			</SET>
+			<SET ID="11" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_R5.mp3" MEDIATYPE="mp3">
+					<![CDATA[My name is Abhinav Joshi. And, I am not looking for insurance for myself. I want something that can secure my daughter's education.]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="37" EXPRESSIONTYPE="4" INCENTIVETYPE="disincentive" SET_ID="41">
+						<![CDATA[Abhinav Sir, first you need to insure yourself before securing your daughter's future. She is dependent on you and not the other way round.]]>
+						<FBK>
+							<![CDATA[This was a big mistake. A prospect is the best judge of their needs. The prospect gets the impression that you're only interested in selling a product and walking away with the cheque.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="1" />
+					</OPTION>
+					<OPTION ID="38" EXPRESSIONTYPE="4" INCENTIVETYPE="disincentive" SET_ID="41">
+						<![CDATA[Then you need to take two policies - one for insuring yourself and the other one that will secure your daughter's future.]]>
+						<FBK>
+							<![CDATA[You need to ask more questions before advising the prospect on what policies to take. The prospect gets the impression that you're only interested in selling a product and walking away with the cheque.]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="1" />
+					</OPTION>
+					<OPTION ID="39" EXPRESSIONTYPE="5" INCENTIVETYPE="disincentive" SET_ID="41">
+						<![CDATA[Sir, term plan is best for you. It will give you a large sum assured for a low premium. Your daughter will get all the money if you die within the policy term.]]>
+						<FBK>
+							<![CDATA[You offered a solution without understanding the prospect's needs. You should have listened to the prospect and asked more questions to establish the need before offering the right solution. Moreover, you should avoid using the word 'die' in a casual manner. ]]>
+						</FBK>
+						<PARAMETER ID="1" VALUE="1" />
+					</OPTION>
+				</OPTIONS>
+			</SET>
+			
+			<SET ID="40" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_R5.mp3" MEDIATYPE="mp3">
+					<![CDATA[My name is Abhinav Joshi. And, I am not looking for insurance for myself. I want something that can secure my daughter's education.]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="37" EXPRESSIONTYPE="4" INCENTIVETYPE="disincentive" SET_ID="42">
+						<![CDATA[]]>
+					</OPTION>
+					
+				</OPTIONS>
+			</SET>
+			<SET ID="41" TYPE="CONVERSATION">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_R5.mp3" MEDIATYPE="mp3">
+					<![CDATA[My name is Abhinav Joshi. And, I am not looking for insurance for myself. I want something that can secure my daughter's education.]]>
+				</RESPONSE>
+				<OPTIONS TOTAL_OPTIONS="3">
+					<OPTION ID="37" EXPRESSIONTYPE="4" INCENTIVETYPE="disincentive" SET_ID="46">
+						<![CDATA[]]>
+					</OPTION>
+					
+				</OPTIONS>
+			</SET>
+			
+			<SET ID="42" TYPE="FEEDBACK" TITLE="" ENTITYCODE="D.19" LEVELSPAN="">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_D19.mp3" MEDIATYPE="mp3">
+					<![CDATA[Need to do better.]]>
+				</RESPONSE>
+			</SET>
+			<SET ID="46" TYPE="FEEDBACK" TITLE="" ENTITYCODE="D.21" LEVELSPAN="">
+				<RESPONSE SUMMARYINFO="" CHARACTERID="0" MEDIAPATH="1_1_D21.mp3" MEDIATYPE="mp3">
+					<![CDATA[Congratulations! You have successfully pitched the TATA AIA Life Insurance Smart Income Plus plan to the prospect.]]>
+				</RESPONSE>
+			</SET>
+			
+			<FEEDBACKSTRANDS TYPE="CONVERSATION">
+				<FEEDBACK ID="1" PROFILENAME="Profile 1" PASSINGSCORE="85">
+					<STRAND ID="1" NAME="Opening the call">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You did not do a good job of building rapport with the prospect and understanding his needs.
+							]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You did not do a good job of building rapport with the prospect and understanding his needs.
+							]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You did a great job of building rapport with the prospect and establishing his needs and requirements.
+							]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You did a super job of building rapport with the prospect and establishing his needs and requirements.
+							]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="2" NAME="Presenting solution">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You did not do well in mapping the product's features with the prospect's needs. You were also not able to illustrate the product's benefits and features.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You could have done a better job of mapping the product's features with customer's needs. You should have also tried to illustrate the product benefits and answer product-related queries.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You did a great job of mapping the product features to prospect's needs, illustrating how the product works, and explaining benefits.]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You were spot on in mapping the product features to prospect's needs, illustrating how the product works, and explaining benefits.]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="3" NAME="Handling objection">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You were not able to handle the prospect's objections satisfactorily and address them in a meaningful manner.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You were not able to do a good job of handling the prospect's objections satisfactorily. As a result, you couldn't address them in a meaningful manner.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You acknowledged the prospect's objections and addressed them, giving the prospect the confidence to say yes to the sale. ]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You acknowledged the prospect's objections and addressed them, giving the prospect the confidence to say yes to the sale. ]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="4" NAME="Closing the sale">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor Show!">
+							<![CDATA[You did not do a good job at the end of the interaction. In spite of identifying the appropriate solution and eliminating objections, you were not able to confirm the final sale.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Try Again!">
+							<![CDATA[You could have done a better job at the end of the interaction. In spite of identifying the appropriate solution and eliminating objections, you were not able to confirm the final sale.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good Job!">
+							<![CDATA[You did a good job at the end of the interaction. Since you identified the appropriate solution and eliminated all the customer's objections, you were able to confirm the final sale.]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You did a super job at the end of the interaction. Since you identified the appropriate solution and eliminated all the customer's objections, you were able to confirm the final sale.]]>
+						</RANGE>
+					</STRAND>
+					<STRAND ID="5" NAME="Overall Sales Pitch">
+						<RANGE ID="1" NAME="0-39" SCORE="0,39" GRADE="0-39" TITLE="Poor show! ">
+							<![CDATA[You did not grab the sales opportunity. Next time, try to understand the customer's needs to provide the right solution.
+
+							Click the tabs on the right to view how you have done in each of the key parameters. Sharpen your product knowledge and seling skills, and then replay the simulation.]]>
+						</RANGE>
+						<RANGE ID="2" NAME="40-69" SCORE="40,69" GRADE="40-69" TITLE="Average performance.">
+							<![CDATA[You did not do a great job with this sales opportunity. Next time, use your product knowledge and understanding of the customer's needs to close the sale.
+
+							Click the tabs on the right to view how you have done in each of the key parameters. Then please replay the simulation.]]>
+						</RANGE>
+						<RANGE ID="3" NAME="70-99" SCORE="70,99" GRADE="70-99" TITLE="Good job!">
+							<![CDATA[You did well with this sales opportunity, but could have done even better. You were able to use your product knowledge and understanding of the customer's needs.
+
+							Click the tabs on the right to view how you have done in each of the key parameters. You can further improve your score by replaying the simulation.]]>
+						</RANGE>
+						<RANGE ID="4" NAME="100" SCORE="100,100" GRADE="100" TITLE="Excellent!">
+							<![CDATA[You did an excellent job with this sales opportunity. You were able to use your financial knowledge and understanding of the customer's needs to close the sale. That was a WOW experience for the customer.
+
+							Click the tabs on the right to view how you have done in each of the key parameters.]]>
+						</RANGE>
+					</STRAND>
+				</FEEDBACK>
+			</FEEDBACKSTRANDS>
+			<FEEDBACKLAYER>
+				<BULLETEDINPUTFEEDBACK>False</BULLETEDINPUTFEEDBACK>
+				<PARAMETER ID="1" DISPLAYTITLE="False" DISPLAYSCORE="False">
+					<INPUTFEEDBACK ID="1" OPTIONID="6">
+						<![CDATA[Good job! You thanked the prospect and acknowledged that he took time out for the meeting. The prospect is pleased about how you value his time.]]>
+					</INPUTFEEDBACK>
+				</PARAMETER>
+			</FEEDBACKLAYER>
+		</CONVERSATION>
+	</SCENARIO>
+</Root>
+

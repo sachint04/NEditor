@@ -1,0 +1,50 @@
+/* ------------ Common Components ------------ */
+
+
+.component .panel {
+    border: none;
+    border-radius: 0;
+    padding: 1px 1px 0 1px;
+}
+
+.component .collapse {
+    transition: height 3s;
+}
+
+.component .panel-body {
+    height: 100%;
+}
+
+.component .clickablebullets button {
+    color: #2A28A5 !important;
+    width: 100%;
+    text-align: left;
+}
+
+.component .clickablebullets li a {
+    color: #2A28A5 !important;
+}
+.component li {
+    list-style: none;
+}
+.component .panel-heading.selected, .component .panel-heading.hover {
+
+    background: #979CA3;
+}
+.component .panel-title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.component .panel-heading{
+
+    margin-left: -7px;
+}
+
+
+.tis-panel {
+    padding: 0.9375rem;
+}
+.tis-panel p {
+    padding: 0 0 20px 20px;
+}

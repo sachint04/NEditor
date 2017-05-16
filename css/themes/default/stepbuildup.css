@@ -1,0 +1,73 @@
+.tis-stepbuildup > .tis-header {
+    position: relative;
+    line-height: normal;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0.1em solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    width: 100%;
+}
+.tis-stepbuildup > .tis-header > h4 {
+    color: #000000;
+    font-size: inherit;
+    line-height: inherit;
+}
+.tis-stepbuildup > .tis-header > .icon-collapse {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    background-image: url('images/arrow-up.png');
+}
+
+.tis-stepbuildup > .tis-header.open {
+    background-color: #64cfe1;
+    border: 0.1em solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+.tis-stepbuildup > .tis-header.open > h4 {
+    color: #ffffff;
+}
+.tis-stepbuildup > .tis-header.open > .icon-collapse {
+    background-image: url('images/arrow-down.png');
+}
+
+.tis-stepbuildup > .tis-panel {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #FFFFFF;
+    margin: 0;
+}
+
+/*
+ .stepbuilduppanel {
+ padding-top: 10px;
+ margin: auto 5px auto auto !important;
+ }
+ .stepbuildup dd > a {
+ border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ border: 0.1em solid rgba(255,255,255, 0.3) !important;
+ background-color: rgba(255, 255, 255, 0.5) !important;
+ color: rgba(0, 0, 0, 0.7) !important;
+ padding: .5rem !important;
+ }
+ .StepBuildUplist .arrow {
+ position: absolute;
+ right: 16px;
+ background-image: url('../../../images/arrow-down.png') !important;
+ display: block;
+ height: 40px;
+ width: 40px;
+ background-position: center center;
+ background-repeat: no-repeat;
+ }
+
+ .tis-stepbuildup.open > .hstepbuildup-text .arrow {
+ visibility: hidden;
+ }*/
+/*----------- End-------------*/

@@ -1,0 +1,246 @@
+<data>
+	<pageText id="txt_title-01">
+		<![CDATA[Check Your Knowledge]]>
+	</pageText>
+	<activity type="MCQGroup" questionId="mcqgroup_1" totalAttempts="2" correctAnswer="" fbType="CorrectIncorrectAttemptSpecific" immediateFeedback="false" displayTickCross="true" showFeedbackPopup="true">
+		<pageTexts>
+			<pageText id="i-text" >
+				<![CDATA[Select the correct option for each statement. After you have completed all, select <strong>Submit</strong>.]]>
+			</pageText>
+			<pageText id="mcqgroup_1_submit">
+				<![CDATA[Submit]]>
+			</pageText>
+			<pageText id="question">
+				<![CDATA[Which of the following security-related ideas about social media is true?]]>
+			</pageText>
+			<pageText id="statementHeading">
+				<![CDATA[Statements]]>
+			</pageText>
+			<pageText id="optionHeading_1">
+				<![CDATA[True]]>
+			</pageText>
+			<pageText id="optionHeading_2">
+				<![CDATA[False]]>
+			</pageText>
+		</pageTexts>
+		
+		<optionGroups class="radio-groups-container">
+			
+			<!--Question : 1-->
+			<optionGroup id="1" class="radio-container">
+				<pageText class="statement">
+					<![CDATA[There is no true delete on the Internet.]]>
+				</pageText>
+				<option id="1" class="radio" score="1">
+					<pageText class="radio-label">
+						<![CDATA[True]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+				<option id="2" class="radio" score="0">
+					<pageText class="radio-label">
+						<![CDATA[False]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+			</optionGroup>
+			
+			<!--Question : 2-->
+			<optionGroup id="2" class="radio-container">
+				<pageText class="statement">
+					<![CDATA[The information you post privately will never become public.]]>
+				</pageText>
+				<option id="1" class="radio" score="0">
+					<pageText class="radio-label">
+						<![CDATA[True]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+				<option id="2" class="radio" score="1">
+					<pageText class="radio-label">
+						<![CDATA[False]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+			</optionGroup>
+			
+			<!--Question : 3-->
+			<optionGroup id="3" class="radio-container">
+				<pageText class="statement">
+					<![CDATA[All friends on social media should be treated equally. ]]>
+				</pageText>
+				<option id="1" class="radio" score="0">
+					<pageText class="radio-label">
+						<![CDATA[True]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+				<option id="2" class="radio" score="1">
+					<pageText class="radio-label">
+						<![CDATA[False]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+			</optionGroup>
+			
+			<!--Question : 4-->
+			<optionGroup id="4" class="radio-container">
+				<pageText class="statement">
+					<![CDATA[You cannot depend on social media security settings.]]>
+				</pageText>
+				<option id="1" class="radio" score="1">
+					<pageText class="radio-label">
+						<![CDATA[True]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+				<option id="2" class="radio" score="0">
+					<pageText class="radio-label">
+						<![CDATA[False]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+			</optionGroup>
+			
+			<!--Question : 5-->
+			<optionGroup id="5" class="radio-container">
+				<pageText class="statement">
+					<![CDATA[Data leakage is a security risk for mobile devices.]]>
+				</pageText>
+				<option id="1" class="radio" score="1">
+					<pageText class="radio-label">
+						<![CDATA[True]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+				<option id="2" class="radio" score="0">
+					<pageText class="radio-label">
+						<![CDATA[False]]>
+					</pageText>
+					<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+				</option>
+			</optionGroup>
+		</optionGroups>
+		<!-- Option Groups -->
+		
+		<feedbacks>
+			<!-- ===== Correct Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="correct" attempt="1">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content><![CDATA[<p>You’ve selected the correct answers.</p>
+									<table class="radio-groups-container" border="1" style="margin-left: 2px;" summary="A table discussing common social media and security-related misconceptions.">
+									  <tr>
+									    <th width="40%">Statements</th>
+									    <th width="30%">Correct Answers</th>
+									  </tr>
+									  <tr class="radio-container">
+									    <td >There is no true delete on the Internet.</td>
+									    <td>True</td>
+									  </tr>
+									  <tr class="radio-container alt">
+									    <td>The information you post privately will never become public.</td>
+									    <td>False</td>
+									  </tr>
+									  <tr class="radio-container">
+									    <td>All friends on social media should be treated equally. </td>
+									    <td>False</td>
+									  </tr>
+									  <tr class="radio-container alt">
+									    <td>You cannot depend on social media security settings. </td>
+									    <td>True</td>
+									  </tr>
+									  <tr class="radio-container">
+									    <td>Data leakage is a security risk for mobile devices.</td>
+									    <td>True</td>
+									  </tr>
+									</table>]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="correct" attempt="2">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[<p>You’ve selected the correct answers.</p>
+								<table class="radio-groups-container" border="1" style="margin-left: 2px;" summary="A table discussing common social media and security-related misconceptions.">
+									  <tr>
+									    <th width="40%">Statements</th>
+									    <th width="30%">Correct Answers</th>
+									  </tr>
+									  <tr class="radio-container">
+									    <td >There is no true delete on the Internet.</td>
+									    <td>True</td>
+									  </tr>
+									  <tr class="radio-container alt">
+									    <td>The information you post privately will never become public.</td>
+									    <td>False</td>
+									  </tr>
+									  <tr class="radio-container">
+									    <td>All friends on social media should be treated equally. </td>
+									    <td>False</td>
+									  </tr>
+									  <tr class="radio-container alt">
+									    <td>You cannot depend on social media security settings. </td>
+									    <td>True</td>
+									  </tr>
+									  <tr class="radio-container">
+									    <td>Data leakage is a security risk for mobile devices.</td>
+									    <td>True</td>
+									  </tr>
+									</table>]]>
+				</content>
+			</feedback>
+
+			<!-- ===== Incorrect Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="incorrect" attempt="1">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve not selected the correct answers. Please try again.]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="incorrect" attempt="2">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[<![CDATA[<p>You’ve not selected the correct answers. <br><br><strong>The correct answers are:</strong></p>
+									<table class="radio-groups-container" border="1" style="margin-left: 2px;" summary="A table discussing common social media and security-related misconceptions.">
+									  <tr>
+									    <th width="40%">Statements</th>
+									    <th width="30%">Correct Answers</th>
+									  </tr>
+									  <tr class="radio-container">
+									    <td >There is no true delete on the Internet.</td>
+									    <td>True</td>
+									  </tr>
+									  <tr class="radio-container alt">
+									    <td>The information you post privately will never become public.</td>
+									    <td>False</td>
+									  </tr>
+									  <tr class="radio-container">
+									    <td>All friends on social media should be treated equally. </td>
+									    <td>False</td>
+									  </tr>
+									  <tr class="radio-container alt">
+									    <td>You cannot depend on social media security settings. </td>
+									    <td>True</td>
+									  </tr>
+									  <tr class="radio-container">
+									    <td>Data leakage is a security risk for mobile devices.</td>
+									    <td>True</td>
+									  </tr>
+									</table>]]>
+				</content>
+			</feedback>
+		</feedbacks>
+	</activity>
+</data>
+

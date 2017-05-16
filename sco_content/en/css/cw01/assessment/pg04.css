@@ -1,0 +1,68 @@
+/*.correctinncorrect.right {
+	margin-left: 10px;
+}
+.dropdown-td {
+	width: 70%;
+}
+.dropdown {
+	width: 100%;
+	font-size: 89%;
+}
+.optionscontainer > div {
+	padding: 10px;
+}
+
+table.dropdown-groups-container {
+	border: 1px solid #b2c5dd;
+	color: #555859;
+	margin-left: 0px;
+	padding-left: 0;
+	width: 100%;
+}
+
+.btn-submit.right {
+	margin-left: 0;
+	margin-right: 11px;
+}
+.activity {
+	margin: 0px;
+}
+.question {
+	width: 100%;
+}
+.activity.vertical {
+	border: 5px solid #05a1c5;
+	box-shadow: none;
+}
+.activity.vertical .questioncontainer .itext {
+	display: inline-block;
+}
+.activity.vertical .body-text-container {
+	background: url("sco_content/en/images/dropdown_img_on_pg.png") no-repeat scroll left bottom #ffd24f;
+	float: left;
+	height: 459px;
+	padding: 10px;
+	width: 29.5%;
+}
+p.activity_page_title {
+	background-color: #05a1c5;
+	box-shadow: 0 0 8px 0 rgba(67, 118, 130, 0.31);
+	color: #ffffff;
+	font-size: 19px;
+	line-height: 35px;
+	padding: 0 0 0 10px;
+	position: relative;
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 1;
+}
+.activity.vertical .vertical-question-container {
+	float: left;
+	width: 70%;
+}
+.optionscontainer {
+	background: none repeat scroll 0 0 #ffffff;
+	color: #000000;
+	padding: 0px !important;
+	width: 100%;
+}*/

@@ -1,0 +1,192 @@
+<data>
+	<pageDesc><![CDATA[This is a Multiple Choice Multiple Select Page with five chack boxes. Please select the correct options and click submit.]]></pageDesc>
+	<pageText id="txt_title-01">
+		<![CDATA[MMCQ (Check Box)]]>
+	</pageText>
+	<pageText id="txt_1">
+		<![CDATA[<div class="medium-6 columns">MMCQ default layout</div><div class="medium-6 columns">MMCQ with <b>Reset</b>, <b>Show Answer</b> button. [atrributes <i>resetBtn="true"</i> <i>answerBtn ="true"</i>]</div>]]>
+	</pageText>
+	<activity type="MMCQ" questionId="MMCQ_1" totalAttempts="2" correctAnswer="2,4" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="true" class="checkbox-groups-container" showFeedbackPopup="true" displayTickCross="true" tickCrossTrigger="default" tickCrossType="default"  resetBtn="false" showAnswerBtn="false">
+		<pageTexts>
+			<pageText class="question">
+				<![CDATA[Help Julie identify the common features supported by a smartphone.]]>
+			</pageText>
+			<pageText class="i-text">
+				<![CDATA[Select the correct option, and then select <strong>Submit</strong>.]]>
+			</pageText>
+			<pageText class="submit">
+				<![CDATA[Submit]]>
+			</pageText>
+		</pageTexts>
+
+		<!-- Option Groups -->
+		<optionGroup  class="checkbox-container">
+			<option id="1" class="checkbox" score="-1"  optionID="Choice 1"  >
+				<pageText class="checkbox-label">
+					<![CDATA[Smartphones use a touch interface, which helps to interact with the device. ]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="2" class="checkbox" score="1"  optionID="Choice 2"  >
+				<pageText class="checkbox-label">
+					<![CDATA[All smartphones come with a physical keyboard for typing and a mouse for clicking.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="3" class="checkbox" score="-1"  optionID="Choice 3"  >
+				<pageText class="checkbox-label">
+					<![CDATA[All smartphones are powered by an android operating system.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="4" class="checkbox" score="1"  optionID="Choice 4"  >
+				<pageText class="checkbox-label">
+					<![CDATA[Smartphone screen orientation rotates the display automatically.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="5" class="checkbox" score="0"  optionID="Choice 5"  >
+				<pageText class="checkbox-label">
+					<![CDATA[Smartphones come with a 20-megapixel rear camera.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+
+		</optionGroup>
+		
+		<feedbacks>
+			<!-- ===== Correct Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="correct" attempt="1" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve selected the correct answers.]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="correct" attempt="2" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve selected the correct answers.]]>
+				</content>
+			</feedback>
+
+			<!-- ===== Incorrect Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="incorrect" attempt="1" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve not selected the incorrect answers. Please try again.]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="incorrect" attempt="2" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve not selected the correct answers.<br /><br /><strong>The correct answers are:</strong>]]>
+				</content>
+			</feedback>
+
+		</feedbacks>
+	</activity>
+	<activity type="MMCQ" questionId="MMCQ_2" totalAttempts="2" correctAnswer="2,4" fbType="CORRECTINCORRECTATTEMPTSPECIFIC" immediateFeedback="true" class="checkbox-groups-container" showFeedbackPopup="true" displayTickCross="true" tickCrossTrigger="submit" tickCrossType="compact"  resetBtn="true" answerBtn="true">
+		<pageTexts>
+			<pageText class="question">
+				<![CDATA[Help Julie identify the common features supported by a smartphone.]]>
+			</pageText>
+			<pageText class="i-text">
+				<![CDATA[Select the correct option, and then select <strong>Submit</strong>.]]>
+			</pageText>
+			<pageText class="submit">
+				<![CDATA[Submit]]>
+			</pageText>
+		</pageTexts>
+
+		<!-- Option Groups -->
+		<optionGroup  class="checkbox-container">
+			<option id="1" class="checkbox" score="-1"  optionID="Choice 1"  >
+				<pageText class="checkbox-label">
+					<![CDATA[Smartphones use a touch interface, which helps to interact with the device. ]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="2" class="checkbox" score="1"  optionID="Choice 2"  >
+				<pageText class="checkbox-label">
+					<![CDATA[All smartphones come with a physical keyboard for typing and a mouse for clicking.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="3" class="checkbox" score="-1"  optionID="Choice 3"  >
+				<pageText class="checkbox-label">
+					<![CDATA[All smartphones are powered by an android operating system.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="4" class="checkbox" score="1"  optionID="Choice 4"  >
+				<pageText class="checkbox-label">
+					<![CDATA[Smartphone screen orientation rotates the display automatically.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+			<option id="5" class="checkbox" score="0"  optionID="Choice 5"  >
+				<pageText class="checkbox-label">
+					<![CDATA[Smartphones come with a 20-megapixel rear camera.]]>
+				</pageText>
+				<feedback><title><![CDATA[]]></title><content><![CDATA[]]></content></feedback>
+			</option>
+
+		</optionGroup>
+		
+		<feedbacks>
+			<!-- ===== Correct Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="correct" attempt="1" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve selected the correct answers.]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="correct" attempt="2" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve selected the correct answers.]]>
+				</content>
+			</feedback>
+
+			<!-- ===== Incorrect Feedback ===== -->
+			<!-- Attempt 1 -->
+			<feedback fbType="incorrect" attempt="1" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve not selected the incorrect answers. Please try again.]]>
+				</content>
+			</feedback>
+			<!-- Attempt 2 -->
+			<feedback fbType="incorrect" attempt="2" audioID="">
+				<title>
+					<![CDATA[Feedback]]>
+				</title>
+				<content>
+					<![CDATA[You’ve not selected the correct answers.<br /><br /><strong>The correct answers are:</strong>]]>
+				</content>
+			</feedback>
+
+		</feedbacks>
+	</activity>
+
+</data>

@@ -1,0 +1,106 @@
+<data>
+	<pageText id="txt_title-01">
+		<![CDATA[Differentiating Between Legislative Statutes and Agency Rules/Regulations]]>
+	</pageText>
+	<pageText id="txt_1">
+		<![CDATA[Agency statutes and agency rules are related, but distinct legal authorities. Understanding the relationship and distinction between statutes and regulations is critical to understanding administrative law, particularly the agency rulemaking process.]]>
+	</pageText>
+	<pageText id="i-text">
+		<![CDATA[Select the <span class="icon next text-hide">Next Tab</span> and <span class="icon prev text-hide">Previous Tab</span> buttons to navigate and learn &lt;add specifics on what the students will learn/review&gt;.]]>
+	</pageText>
+	<pageText id="tab1-text">
+		<![CDATA[1990]]>
+	</pageText>
+	<pageText id="tab2-text">
+		<![CDATA[1991]]>
+	</pageText>
+	<pageText id="tab3-text">
+		<![CDATA[1992]]>
+	</pageText>
+	<pageText id="tab4-text">
+		<![CDATA[1993]]>
+	</pageText>
+	<pageText id="tab5-text">
+		<![CDATA[1994]]>
+	</pageText>
+	<pageText id="tab6-text">
+		<![CDATA[1995]]>
+	</pageText>
+	<pageText id="tab7-text">
+		<![CDATA[1996]]>
+	</pageText>
+	<pageText id="carousel1_title01">
+		<![CDATA[Slide 1]]>
+	</pageText>
+	<pageText id="carousel1_title02">
+		<![CDATA[Slide 2]]>
+	</pageText>
+	<pageText id="carousel1_title03">
+		<![CDATA[Slide 3]]>
+	</pageText>
+	<pageText id="carousel1_title04">
+		<![CDATA[Slide 4]]>
+	</pageText>
+	<pageText id="carousel1_title05">
+		<![CDATA[Slide 5]]>
+	</pageText>
+	<pageText id="carousel1_title06">
+		<![CDATA[Slide 6]]>
+	</pageText>
+	<pageText id="carousel1_title07">
+		<![CDATA[Slide 7]]>
+	</pageText>
+	
+	<pageText id="tab_txt_1">
+		<![CDATA[Every federal agency generally has its own statute. This statute, also known as the “organic act” or “enabling act”, gives the agency its powers. Enabling acts can give agencies fairly broad powers, such as the power to make rules (as long as those rules do not contradict the statute), issue decisions, issue and revoke benefits (such as business licenses) and conduct investigations. The enabling acts also place important limits on what the agencies can do.]]>
+	</pageText>
+	<pageText id="tab_txt_2">
+		<![CDATA[Congress will often write a statute that defines a term, makes a certain form of conduct unlawful, or otherwise legislates; however, in writing the statute, Congress does not provide an extremely detailed set of standards or definitions. Instead, Congress delegates power to an administrative agency to fill in the details.<br/><br/>
+
+		Administrative agencies frequently issue rules. These rules may come in the form of official federal regulations that have the force of law, such that an entity that violates the regulation will be treated as though they had violated the statute. These rules might also take the form of unofficial statements, such as policy memoranda or agency guidance documents. <br/><br/>
+
+		Rules (and the process of agency rulemaking) are different from orders (and the process of agency adjudication). You will learn more about these agency rules in <strong>Modules 2</strong> and <strong>3</strong> of the course.
+		]]>
+	</pageText>
+	<pageText id="tab_txt_3">
+		<![CDATA[<p>It is critical to understand the difference between an agency statute and an agency rule.</p>
+
+		<p>Agency statutes are created by the legislative branch of government (in the federal system, Congress). Agency statutes typically give the agency the power to act in a certain area.</p>
+
+		<p>Agency rules are created by the agency. Agency rules may not go beyond the powers given to them by the statute. Instead, agencies may only prescribe rules that are consistent with the agency’s enabling act.</p>
+		]]>
+	</pageText>
+	<pageText id="tab_txt_4">
+		<![CDATA[<p>It is critical to understand the difference between an agency statute and an agency rule.</p>
+
+		<p>Agency statutes are created by the legislative branch of government (in the federal system, Congress). Agency statutes typically give the agency the power to act in a certain area.</p>
+
+		<p>Agency rules are created by the agency. Agency rules may not go beyond the powers given to them by the statute. Instead, agencies may only prescribe rules that are consistent with the agency’s enabling act.</p>
+		]]>
+	</pageText>
+	<pageText id="tab_txt_5">
+		<![CDATA[<p>It is critical to understand the difference between an agency statute and an agency rule.</p>
+
+		<p>Agency statutes are created by the legislative branch of government (in the federal system, Congress). Agency statutes typically give the agency the power to act in a certain area.</p>
+
+		<p>Agency rules are created by the agency. Agency rules may not go beyond the powers given to them by the statute. Instead, agencies may only prescribe rules that are consistent with the agency’s enabling act.</p>
+		]]>
+	</pageText>
+	<pageText id="tab_txt_6">
+		<![CDATA[<p>It is critical to understand the difference between an agency statute and an agency rule.</p>
+
+		<p>Agency statutes are created by the legislative branch of government (in the federal system, Congress). Agency statutes typically give the agency the power to act in a certain area.</p>
+
+		<p>Agency rules are created by the agency. Agency rules may not go beyond the powers given to them by the statute. Instead, agencies may only prescribe rules that are consistent with the agency’s enabling act.</p>
+		]]>
+	</pageText>
+	<pageText id="tab_txt_7">
+		<![CDATA[<p>It is critical to understand the difference between an agency statute and an agency rule.</p>
+
+		<p>Agency statutes are created by the legislative branch of government (in the federal system, Congress). Agency statutes typically give the agency the power to act in a certain area.</p>
+
+		<p>Agency rules are created by the agency. Agency rules may not go beyond the powers given to them by the statute. Instead, agencies may only prescribe rules that are consistent with the agency’s enabling act.</p>
+		]]>
+	</pageText>
+	<component type="carousel" componentID="carousel1" class="carousel" ></component>
+</data>

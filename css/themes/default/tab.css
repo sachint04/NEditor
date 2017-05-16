@@ -1,0 +1,250 @@
+/*******************/
+/* Horizontal Tabs */
+/*******************/
+    /* ---------------- */
+    /*  Positioning     */
+    /* ---------------- */
+/* Component Wrapper */
+
+/* Tab Heading Wrapper */
+.component.tis-tabs.horizontal .tabs-list {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+/* Tab Heading */
+.component.tis-tabs.horizontal .tabs-list .tis-header {
+    float: left;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+/* Tab Heading Icon */
+.component.tis-tabs.horizontal .tabs-list .tis-header .icon-collapse {
+    position: absolute;
+    display: inline-block;
+ }
+ /* Tab Panels */
+.component.tis-tabs.horizontal .tis-panel {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    /* ---------------- */
+    /*     Skinning     */
+    /* ---------------- */
+/* Component Wrapper */
+.component.tis-tabs.horizontal {
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 5px solid #FFFFFF;
+    width: 100%;
+}
+/* Tab Heading */
+.component.tis-tabs.horizontal .tabs-list .tis-header {
+    background-color: #ffffff;
+    background-image: -moz-linear-gradient(center top, #d9a7b4 0%, #ce8796 100%);
+    background-position: 0 0;
+    border-bottom: 3px solid #610c48;
+    border-right: 1px solid;
+    color: #610c48;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+    padding: 15px 20px;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d9a7b4, endColorstr=#ce8796);
+    background-image: -moz-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: -webkit-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: -ms-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: -o-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#d9a7b4), color-stop(100%,#ce8796));
+}
+.component.tis-tabs.horizontal .tabs-list .tis-header:hover,
+.component.tis-tabs.horizontal .tabs-list .tis-header:focus {
+    background-color: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#f3d5db, endColorstr=#e2bcc4);
+    background-image: -moz-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: -webkit-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: -ms-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: -o-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#f3d5db), color-stop(100%,#e2bcc4));
+    background-position: 0 0;
+    border-right: 1px solid;
+    -webkit-box-shadow: inset 20px 0px 20px -10px rgba(171,126,157,0.2);
+    -moz-box-shadow: inset 20px 0px 20px -10px rgba(171,126,157,0.2);
+    box-shadow: inset 20px 0px 20px -10px rgba(171,126,157,0.2);
+}
+.component.tis-tabs.horizontal .tabs-list .tis-header.selected {
+    background-color: #ede5e5;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#ede5e5, endColorstr=#ebdae1);
+    background-image: -moz-linear-gradient(bottom center , #ede5e5 0%, #ebdae1 100%);
+    background-image: -webkit-linear-gradient(bottom center , #ede5e5 0%, #ebdae1 100%);
+    background-image: -ms-linear-gradient(bottom center , #ede5e5 0%, #ebdae1 100%);
+    background-image: linear-gradient(bottom center , #ede5e5 0%, #ebdae1 100%);
+    background-image: -o-linear-gradient(bottom center , #ede5e5 0%, #ebdae1 100%);
+    background-image: -webkit-gradient(linear, right bottom, left bottom, color-stop(0%,#ede5e5), color-stop(100%,#ebdae1));
+    background-position: 0 0;
+    border-right: 1px solid #e2cdd9;
+    box-shadow: none;
+    cursor: default;
+    border-bottom: none;
+    z-index: auto;
+}
+.component.tis-tabs.horizontal .tabs-list .tis-header.selected:hover {
+    box-shadow: none;
+}
+/* Tab Heading Icon */
+.component.tis-tabs.horizontal .tabs-list .tis-header .icon-collapse {
+    top: 0px;
+    right: 0px;
+}
+/* Tab Panels */
+.component.tis-tabs.horizontal .tis-panel {
+    height: 345px;
+    overflow-y: hidden;
+    padding: 0;
+
+    background-color: #f4f4f4;
+    border: medium none;
+    box-shadow: none;
+    -webkit-box-shadow: inset 20px 0px 20px -10px rgba(220,192,208,0.9);
+    -moz-box-shadow: inset 20px 0px 20px -10px rgba(220,192,208,0.9);
+    box-shadow: inset 0px 20px 20px -10px rgba(220,192,208,0.9);
+}
+
+/* --------- Tab ---------------*/
+/*Vertical Tab*/
+    /* ---------------- */
+    /*     Skinning     */
+    /* ---------------- */
+/* Component Wrapper */
+.component.tis-tabs.vertical {
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 5px solid #FFFFFF;
+	background-color: #f4f4f4;
+    margin-left: 0;
+    margin-right: 20px;
+    position: relative;
+    height: 310px;
+}
+
+.component.tis-tabs.vertical .tabs-list {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+}
+
+.component.tis-tabs.vertical .tabs-list .tis-header {
+    display: block;
+    height: 75px;
+    margin: auto;
+    padding: 25px 15px;
+    position: relative;
+    text-align: left;
+    width: auto;
+    background-color: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d9a7b4, endColorstr=#ce8796);
+    background-image: -moz-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: -webkit-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: -ms-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-image: -o-linear-gradient(top, #d9a7b4 0%, #ce8796 100%);
+    background-position: 0 0;
+    border-right: 3px solid #610C48;
+    color: #610C48;
+    font-size: 15px;
+    font-weight: bold;
+}
+.component.tis-tabs.vertical .tabs-list .tis-header:hover,
+.component.tis-tabs.vertical .tabs-list .tis-header:focus {
+    background-color: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#f3d5db, endColorstr=#e2bcc4);
+    background-image: -moz-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: -webkit-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: -ms-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-image: -o-linear-gradient(top, #f3d5db 0%, #e2bcc4 100%);
+    background-position: 0 0;
+    border-right: none;
+    -webkit-box-shadow: inset 20px 0px 20px -10px rgba(171,126,157,0.2);
+    -moz-box-shadow: inset 20px 0px 20px -10px rgba(171,126,157,0.2);
+    box-shadow: inset 20px 0px 20px -10px rgba(171,126,157,0.2);
+}
+.component.tis-tabs.vertical .tabs-list .tis-header.selected {
+    background-color: #FFFFFF;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#ebdae1, endColorstr=#FFFFFF);
+    background-image: -moz-linear-gradient(right , #FFFFFF 0%, #ebdae1 100%);
+    background-image: -webkit-linear-gradient(right , #FFFFFF 0%, #ebdae1 100%);
+    background-image: -ms-linear-gradient(right , #FFFFFF 0%, #ebdae1 100%);
+    background-image: linear-gradient(right , #FFFFFF 0%, #ebdae1 100%);
+    background-image: -o-linear-gradient(right , #FFFFFF 0%, #ebdae1 100%);
+    background-image: -webkit-gradient(linear, right bottom, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#ebdae1));
+    background-position: 0 0;
+    border-right: none;
+    box-shadow: none;
+}
+.component.tis-tabs.vertical .tabs-list .tis-header.selected:hover {
+    box-shadow: none;
+}
+
+
+.component.tis-tabs.vertical .tis-panel {
+    background-color: #f4f4f4;
+    border: medium none;
+    box-shadow: none;
+    float: left;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 70%;
+    -webkit-box-shadow: inset 20px 0px 20px -10px rgba(220,192,208,0.7);
+    -moz-box-shadow: inset 20px 0px 20px -10px rgba(220,192,208,0.7);
+    box-shadow: inset 20px 0px 20px -10px rgba(220,192,208,0.7);
+    height: 300px;
+    padding: 10px 10px 0 0;
+    overflow-y: auto;
+}
+
+
+
+
+li.active > .triangle {
+	background: url("../../../images/tab_triangle_active.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 24px;
+	position: absolute;
+	right: -10px;
+	top: 30px;
+	width: 10px;
+	display: block;
+}
+
+li > .triangle {
+	display: none;
+}
+
+
+.tis-panel ul {
+	display: inline-block;
+	padding: 0 20px 20px 50px;
+	width: 100%;
+}
+
+.tis-panel ul li {
+	list-style: disc outside none;
+}*/
+/*--------------End-----------------*/
+

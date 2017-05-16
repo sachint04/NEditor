@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<data>
+	<pageText id="txt_title-01"><![CDATA[Click And Click]]></pageText>
+	<pageText id="i_text"><![CDATA[Select the first image to learn about tangible and intangible losses. Then, select the other two images to check your understanding.]]></pageText>
+	<pageText id="txt_head1">
+		<![CDATA[<b>Tangible Losses</b>]]>
+	</pageText>
+	<pageText id="txt_head2">
+		<![CDATA[<b>Intangible Losses</b>]]>
+	</pageText>
+	<pageText id="info"><![CDATA[This template is newly added in Version 2.0 of LearnX Mobile Author. Since X,Y coordinates of tile and target are stored and used in memmory, all activity related elements are positioned as 'absolute'. This template is not responsive.]]></pageText>
+	<activity type="clickandclick" questionId="clickandclick" totalAttempts="1" correctAnswer="1" fbType="CorrectIncorrect" immediateFeedback="false" displayTickCross="true" tileContainerClass="tile-target-container" targetContainerClass="tile-target-container" constrainDragIn=".tile-target-container" showFeedbackPopup="true" scorable="false" hasResetBtn="true" hasShowAnswer="true" mandatory="false" >
+		<pageTexts>
+			<pageText id="question" class="question">
+				<![CDATA[]]>
+			</pageText>
+
+		</pageTexts>
+		<tileGroup class="tile-container">
+			<tile id="1" class="tile"  style="p-11 comp" data="style:col4 row3 l2 t4">
+				<pageText class="tile-label">
+					<![CDATA[Fines Incurred]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[That's Incorrect!<br>]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="2" class="tile"  style="p-11 comp" data="style:col4 row3 l2 t5">
+				<pageText class="tile-label">
+					<![CDATA[Decrease in Sales]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="3" class="tile"  style="p-11 comp" data="style:col4 row4 l4 t4">
+				<pageText class="tile-label">
+					<![CDATA[Loss of Customers]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="4" class="tile"  style="p-11 comp" data="style:col4 row3 l4 t5">
+				<pageText class="tile-label">
+					<![CDATA[Cost of Investigation]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="5" class="tile"  style="p-11 comp" data="style:col4 row3 l4 t5">
+				<pageText class="tile-label">
+					<![CDATA[Loss of Reputation]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+			<tile id="6" class="tile"  style="p-11 comp" data="style:col4 row3 l4 t5">
+				<pageText class="tile-label">
+					<![CDATA[Effects on Future Business]]>
+				</pageText>
+				<feedback>
+					<title/>
+					<content>
+						<![CDATA[You got that Right! ]]>
+					</content>
+				</feedback>
+			</tile>
+		</tileGroup>
+		<targetGroup class="target-container" >
+			<target id="1" class="target"  tileID="tile1-tile2-tile3-tile4" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+			<target id="2" class="target"  tileID="tile1-tile2-tile3-tile4" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+			<target id="3" class="target"  tileID="tile1-tile2-tile3-tile4" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+			<target id="4" class="target" tileID="tile1-tile2-tile3-tile4" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+			<target id="5" class="target" tileID="tile5-tile6" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+			<target id="6" class="target"  tileID="tile5-tile6" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+			<target id="7" class="target" tileID="tile5-tile6" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+			<target id="8" class="target" tileID="tile5-tile6" score="1">
+				<pageText class="target-label">
+					<![CDATA[]]>
+				</pageText>
+			</target>
+		</targetGroup>
+		<feedbacks>
+			<feedback fbType="correct" attempt="1" class="col6 row5 l2 t4">
+				<title>
+					<![CDATA[That's correct.]]>
+				</title>
+				<content>
+					<![CDATA[<br>Fines incurred, cost of investigation, decrease in sales and the number of customers lost can be calculated and verified, so these are tangible losses. <br><br>Loss of reputation and the effects on the future business can be postulated from observations, so these are intangible losses.</br></br><spam class="i-text"> Select Close to proceed to Task2.</spam>]]>
+				</content>
+			</feedback>
+			
+			<feedback fbType="incorrect" attempt="1" class="col6 row6 l2 t4 ">
+				<title>
+					<![CDATA[Not quite.]]>
+				</title>
+				<content>
+					<![CDATA[<br>Fines incurred, cost of investigation, decrease in sales and the number of customers lost can be calculated and verified, so these are tangible losses. <br><br>Loss of reputation and the effects on the future business can be postulated from observations, so these are intangible losses.</br></br><spam class="i-text"> Select Close. Then click Show Answer to see the correct answer or select Try Again to retry the activity.</spam>]]>
+				</content>
+			</feedback>
+			
+		</feedbacks>
+	</activity>
+	
+	
+</data>

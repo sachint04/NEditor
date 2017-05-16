@@ -1,0 +1,132 @@
+.resource-wrapper {
+	position: relative;
+	
+}
+.resource-bg {
+	background: url("images/global_bg_02.jpg") no-repeat scroll 0px -283px rgba(0, 0, 0, 0);
+    width: 730px;
+    height: 130px;
+    margin-bottom: 10px;
+}
+.tab-content .tab-pane p {
+	max-width: 705px;
+}
+
+/*over write tab properties*/
+.resource-wrapper .tabpanel {
+	margin: 0;
+	position: relative;
+}
+#content_wrapper > #content {
+	padding: 7px;
+}
+.resource-wrapper .tabpanel > .panel{
+	background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 2px 0 rgba(67, 118, 130, 0.31);
+    left: 7px;
+    max-width: 720px;
+    min-height: 100px;
+    position: absolute;
+    top: 51px;
+    height: 358px;
+    width: 720px;
+    overflow-y: auto;
+}
+
+/*Accordian CSS*/
+.resource-wrapper .accordianpanel {
+	margin: 2px;
+}
+.resource-wrapper .accordianpanel .accordian {
+	background-color: #dddddd;
+	border-bottom: 1px solid #adadad;
+	color: #00336D;
+	font-size: 1.2em;
+	padding: 5px 40px;
+	position: relative;
+}
+.resource-wrapper .accordianpanel .accordian.open, .accordianpanel .accordian.hover {
+	color: #a31e25;
+}
+.apanel-subtitle {
+	background-color: #ececec;
+	margin-bottom: 3px;
+	padding: 8px 40px;
+	position: relative;
+	color: #6b686d;
+	margin-top: 2px;
+}
+.accpanel p {
+	border-collapse: collapse;
+	border-bottom: 1px solid #CACACA;
+	padding: 5px 40px;
+	max-width: none;
+}
+.accpanel p > p{
+	border-bottom: none;
+	padding: 0px;
+	max-width: none;
+}
+.accpanel p > ul{
+	padding: 5px 20px 5px 30px;
+}
+.accpanel p.last {
+	border-bottom: 1px solid #CACACA;
+}
+.accpanel p.first {
+	border-top: 1px solid #CACACA;
+}
+
+/* START VINCENT - Added these line for the Accordion Icon */
+.tab.accordian > .icon-collapse {
+	background: url("images/topic_list_close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 25px;
+    left: 10px;
+    position: absolute;
+    top: 2px;
+    width: 25px;
+}
+.tab.accordian.hover > .icon-collapse {
+	background: url("images/topic_list_close_over.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.tab.accordian.open > .icon-collapse {
+	background: url("images/topic_list_open.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.tab.accordian.open.hover > .icon-collapse {
+	background: url("images/topic_list_open_over.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+/* END VINCENT */
+
+.apanel-image {
+	background: url("images/global_bg_01.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 33px;
+	left: 0;
+	position: absolute;
+	top: 1px;
+	width: 33px;
+}
+.apanel-image01 {
+	background-position: -2px -362px;
+}
+.apanel-image02 {
+	background-position: -37px -362px;
+}
+.apanel-image03 {
+	background-position: -71px -362px;
+}
+.apanel-image04 {
+	background-position: -105px -362px;
+}
+.apanel-image05 {
+	background-position: -139px -362px;
+}
+.apanel-image06 {
+	background-position: -173px -362px;
+}
+.apanel-image07 {
+	background-position: -207px -362px;
+}
+.apanel-image08 {
+	background-position: -241px -362px;
+}

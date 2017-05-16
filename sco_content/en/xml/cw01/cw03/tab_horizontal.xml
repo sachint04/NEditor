@@ -1,0 +1,42 @@
+<data>
+    <!-- Body Text -->
+	<pageText id="txt_1">
+		<![CDATA[Horizontal Tabs (Two)]]>
+	</pageText>
+	<pageText id="txt_2">
+		<![CDATA[An administrative agency is an official governmental body empowered with the authority to direct and supervise the implementation of particular legislative acts. Simply put, an agency is a governmental body that does part of the government’s work. In addition to the word “agency,” such governmental bodies may be called commissions, corporations, boards, departments, or divisions.]]>
+	</pageText>
+	<pageText id="txt_3">
+		<![CDATA[Types of Administrative Agencies]]>
+	</pageText>
+	<pageText id="txt_4">
+		<![CDATA[Here are some examples of federal administrative agencies.]]>
+	</pageText>
+	<pageText id="txt_5">
+		<![CDATA[Select each tab to &lt;add specifics on what the students will learn/review&gt;.]]>
+	</pageText>
+	<!-- Long Description Text -->
+    <pageText id="txt_6">
+        <![CDATA[Now that you have an idea about some administrative agencies, do you think you could identify more of them? Use the Internet and identify five more federal agencies.]]>
+    </pageText>
+	<!-- Tab Headings Text -->
+	<pageText id="tab_heading1">
+		<![CDATA[Federal Bureau of Investigation]]>
+	</pageText>
+	<pageText id="tab_heading2">
+		<![CDATA[Occupational Safety and Health Administration ]]>
+	</pageText>
+	<!-- Tab Panels Text -->
+	<pageText id="tab_panel1">
+		<![CDATA[The Federal Bureau of  Investigation (<abbr title="Federal Bureau of Investigation">FBI</abbr>) is part of the United States Department of Justice. The <abbr title="Federal Bureau of Investigation">FBI</abbr>  has the full authority and responsibility to investigate crimes and defend the  <abbr title="United States">U.S.</abbr> from security threats. For more information on the <abbr title="Federal Bureau of Investigation">FBI</abbr>, please visit this link: <a href="http://www.fbi.gov/" target="_blank">FBI website</a>. The Federal Bureau of  Investigation (<abbr title="Federal Bureau of Investigation">FBI</abbr>) is part of the United States Department of Justice. The <abbr title="Federal Bureau of Investigation">FBI</abbr>  has the full authority and responsibility to investigate crimes and defend the  <abbr title="United States">U.S.</abbr> from security threats. For more information on the <abbr title="Federal Bureau of Investigation">FBI</abbr>, please visit this link: <a href="http://www.fbi.gov/" target="_blank">FBI website</a>. The Federal Bureau of  Investigation (<abbr title="Federal Bureau of Investigation">FBI</abbr>) is part of the United States Department of Justice. The <abbr title="Federal Bureau of Investigation">FBI</abbr>  has the full authority and responsibility to investigate crimes and defend the  <abbr title="United States">U.S.</abbr> from security threats. For more information on the <abbr title="Federal Bureau of Investigation">FBI</abbr>, please visit this link: <a href="http://www.fbi.gov/" target="_blank">FBI website</a>. The Federal Bureau of  Investigation (<abbr title="Federal Bureau of Investigation">FBI</abbr>) is part of the United States Department of Justice. The <abbr title="Federal Bureau of Investigation">FBI</abbr>  has the full authority and responsibility to investigate crimes and defend the  <abbr title="United States">U.S.</abbr> from security threats. For more information on the <abbr title="Federal Bureau of Investigation">FBI</abbr>, please visit this link: <a href="http://www.fbi.gov/" target="_blank">FBI website</a>.]]>
+	</pageText>
+	<pageText id="tab_panel2">
+		<![CDATA[The Occupational Safety  and Health Administration <abbr title="Occupational Safety and Health Administration">(OSHA)</abbr> is part of the United States Department of  Labor and their mission is to assure safe and healthful working conditions by  setting and enforcing standards and providing training, outreach, education,  and assistance. For more information on <abbr title="Occupational Safety and Health Administration">OSHA</abbr>, please visit this link: <a href="https://www.osha.gov/" target="_blank">OSHA website</a>. The Occupational Safety  and Health Administration <abbr title="Occupational Safety and Health Administration">(OSHA)</abbr> is part of the United States Department of  Labor and their mission is to assure safe and healthful working conditions by  setting and enforcing standards and providing training, outreach, education,  and assistance. For more information on <abbr title="Occupational Safety and Health Administration">OSHA</abbr>, please visit this link: <a href="https://www.osha.gov/" target="_blank">OSHA website</a>. The Occupational Safety  and Health Administration <abbr title="Occupational Safety and Health Administration">(OSHA)</abbr> is part of the United States Department of  Labor and their mission is to assure safe and healthful working conditions by  setting and enforcing standards and providing training, outreach, education,  and assistance. For more information on <abbr title="Occupational Safety and Health Administration">OSHA</abbr>, please visit this link: <a href="https://www.osha.gov/" target="_blank">OSHA website</a>.]]>
+	</pageText>
+	<!-- Tab Component Tag -->
+    <component type="Tab" componentID="comp_tab_1" tabShowSpeed="600" />
+    <!-- Image Component Tags -->
+    <image id="image_1" src="sco_content/en/images/Accord_Img_iPad_01a.jpg" longDescription="txt_6">
+        <![CDATA[alternate text]]>
+    </image>
+</data>

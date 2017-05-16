@@ -1,0 +1,16 @@
+.accordianpanel.vertical{
+	height: 235px;
+	margin-top: 25px;
+}
+
+.accordianpanel.vertical .accordianlist .panel{
+	height: 225px;
+}
+.panel > p {
+    padding: 0 0 0 20px;
+}
+
+.accordianpanel .horizontal .panel{
+    height: auto
+}
+

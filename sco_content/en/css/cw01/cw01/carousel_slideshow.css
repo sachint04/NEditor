@@ -1,0 +1,19 @@
+/* Page Level Styles */
+/* i-text Icons */
+.i-text > .icon {
+    background-image: url("images/component_02.png");
+    display: inline-block;
+    height: 15px;
+    width: 14px;
+    vertical-align: middle;
+}
+.i-text > .icon.prev {
+    background-position: -59px 0px;
+}
+.i-text > .icon.next {
+    background-position: -46px 0px;
+}
+/* SLider Panel Content / Image Styles */
+.carousel > .carousel-inner > #carousel1_panel0.panel > .panel-inner > img.left {
+    margin: 0px 15px 0px 0px;
+}

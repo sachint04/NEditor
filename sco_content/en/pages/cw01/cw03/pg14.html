@@ -1,0 +1,50 @@
+<!-- The ID below for the root div tag wil be replaced dynamically by the Pages GUID -->
+<div id="content" class="component">
+	
+	
+		<div class="page-image-01 image-left image-style" role="heading" aria-level="4"></div>
+		<p id="txt_title-01" class="page-title"></p>
+		<p id="txt_1"></p>
+	<div class="clearfix"></div>
+	<div class="i-text page-i-text" id="i-text"></div>
+	<div class="static-column-container one-column no-img ">
+
+		<!-- Add buttons and hidden place holders below to add buttons. Also add coresponding nodes in the xml file -->
+		<ul id="comp_1" class="clickablebullets cnr-container">
+			<li class="">
+				<a id="btn_Popup1" class="tis-btn cnr-btn" role="button"   href="popup1"  data-style="absolute"> </a>
+			</li>
+			<li class="">
+				<a id="btn_Popup2" class="tis-btn cnr-btn" role="button"  href="popup2"></a>
+			</li>
+			<li class="">
+				<a id="btn_Popup3" class="tis-btn cnr-btn" role="button"   href="popup3"></a>
+			</li>
+		</ul>
+		<div class="clickable-button-area">
+			<div id="popup1" class="hide click-popup medium-6 large-6 small-12 columns" >
+				<button type="button" class="tis_close text-hide btn-close" data-dismiss="modal" id="btn_continue" title="Close" role="button">
+						CLOSE
+					</button>
+				<p id="txt_Popup1"></p>
+				
+			</div>
+			<div id="popup2" class="hide click-popup medium-6 large-6 small-12 columns #popup_close modal-dialog ">
+				<button type="button" class="tis_close btn-close text-hide" data-dismiss="modal" id="btn_continue" title="Close" role="button">
+						CLOSE
+					</button>
+					<div class="modal-content">
+					<p id="txt_Popup2" class="modal-body"></p>									
+					</div>
+			</div>
+			<div id="popup3" class="hide click-popup medium-6 large-6 small-12 columns">
+				<button type="button" class="tis_close btn-close text-hide" data-dismiss="modal" id="btn_continue" title="Close" role="button">
+						CLOSE
+					</button>
+				<p id="txt_Popup3"></p>				
+			</div>
+		</div>
+
+	</div>
+
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<pageDesc><![CDATA[This is an interactive page containing two image buttons. Clicking on the buttons opens popup for layred containts.]]></pageDesc>
+	<pageText id="txt_title_1"><![CDATA[Image button and Click template]]></pageText>
+	<pageText id="txt_1"><![CDATA[Vestibulum tincidunt suscipit lectus sit amet dignissim. Sed hendrerit pulvinar ante semper ultricies. Nunc eget leo nisi. Quisque lobortis enim turpis, ac faucibus arcu feugiat sit amet. Vestibulum velit diam, semper non lorem eget, tempus vulputate sem.]]></pageText>
+	<pageText id="itext_1"><![CDATA[Click on the images to know more.]]></pageText>
+
+
+	<pageText id="imglabel1"><![CDATA[Image button 1 for popup 1]]></pageText>
+	<pageText id="imglabel2"><![CDATA[Image button 2 for popup 2]]></pageText>
+	
+	
+	<pageText id="popup1Title"><![CDATA[Pop 1 heading]]></pageText>
+	<pageText id="popup2Title"><![CDATA[Pop 2 heading]]></pageText>
+
+
+	<pageText id="txt_Popup1"><![CDATA[Praesent porttitor fermentum vestibulum. Phasellus non eros et risus placerat mollis eget ut nunc. Duis sed ante maximus mauris aliquet scelerisque quis id nisl.]]></pageText>
+	<pageText id="txt_Popup2"><![CDATA[Praesent volutpat vel libero eu pulvinar. Vestibulum dictum neque vel semper euismod. Donec scelerisque, nunc eu lobortis molestie, est ex mattis nisl, non venenatis lacus felis in ipsum.]]></pageText>
+
+
+	<component type="ClickAndReveal" componentID="comp_1" class="cnr-btn" popupConfigID="popup_close"></component>
+</data>

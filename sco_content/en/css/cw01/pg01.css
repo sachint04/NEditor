@@ -1,0 +1,13 @@
+
+
+.tab-content .tab-pane p {
+	max-width: 705px;
+}
+
+.topic-title{
+	display: none;
+}
+
+#txt_1, #txt_2, #txt_3, #txt_8, #txt_9, #txt_10 {
+    padding-right: 10px;
+}

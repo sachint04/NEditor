@@ -1,0 +1,36 @@
+<data>
+	<pageDesc><![CDATA[This is a text top and table bottom page. Table listing the Type of Agency Power.]]></pageDesc>
+	<pageText id="txt_title-01">
+		<![CDATA[Powers of the Administrative Agencies]]>
+	</pageText>
+	<pageText id="txt_1">
+		<![CDATA[In practice, administrative agencies exercise a broad range of powers. An administrative agency might set rules that describe the specific levels of carbon emissions that businesses need to follow in order to comply with environmental levels. That same agency might investigate a business that is not following those rules, and that same agency might also bring an action and revoke the license, or impose a fine on, a business that it determines has not followed those rules.]]>
+	</pageText>
+	<pageText id="txt_2">
+		<![CDATA[Agencies are generally part of the executive branch, but exercise powers like all three branches of government. One might think of these as “quasi”-executive, legislative, or judicial powers.]]>
+	</pageText>
+	<pageText id="data_table">
+		<![CDATA[<table summary="The table shows types of administrative agency powers and its functions." >
+
+		<thead>
+		<tr>
+		<th id="types_of_agency">Type of Agency Power</th>
+		<th id="types_of_function">Types of Functions</th>
+		</tr>
+		</thead>
+		<tr>
+		<td headers="types_of_agency">Quasi-legislative</td>
+		<td headers="types_of_function">Creating rules</td>
+		</tr>
+		<tr class="alt">
+		<td headers="types_of_agency">Quasi-executive</td>
+		<td headers="types_of_function">Interpreting rules, investigating rule violations or benefits eligibility</td>
+		</tr>
+		<tr>
+		<td headers="types_of_agency">Quasi-judicial</td>
+		<td headers="types_of_function">Deciding how to apply the statute or rules to a particular situation (adjudication) </td>
+		</tr>
+
+		</table>]]>
+	</pageText>
+</data>

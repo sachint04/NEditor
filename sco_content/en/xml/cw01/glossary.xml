@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<glossary type="alpha/custome">
+	    <pageText id="txt_title-01"><![CDATA[Glossary]]></pageText>
+
+		<a>
+			<term>
+				<name><![CDATA[Aadhaar]]></name>
+				<description><![CDATA[Aadhaar is a 12-digit unique identification number issued by the Indian government to every individual resident of India.  The Unique Identification Authority of India (UDAI), which functions under the Planning Commission of India, is responsible for managing Aadhaar numbers and Aadhaar identification cards.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[A2B]]></name>
+				<description><![CDATA[A2B was a Web site that let you download and play samples or complete songs from popular music recordings, using a music player developed by AT & T. The site no longer provides this service.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[ABAP]]></name>
+				<description><![CDATA[ABAP (Advanced Business Application Programming) is a programming language for developing applications for the SAP R/3 system, a widely-installed business application subsystem.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[ASN.1]]></name>
+				<description><![CDATA[ASN.1 (Abstract Syntax Notation One) is a standard way to describe a message (a unit of application data) that can be sent or received in a network. ASN.1 is divided into two parts: (1) the rules of syntax for describing the contents of a message in terms of data type and content sequence or structure and (2) how you actually encode each data item in a message. ASN.1 is defined in two ISO standards for applications intended for the Open Systems Interconnection (OSI) framework: ISO 8824/ITU X.208 specifies the syntax (for example, which data item comes first in the message and what its data type is)
+ISO 8825/ITU X.209 specifies the basic encoding rules for ASN.1 (for example, how to state how long a data item is)
+Here's an example of a message definition specified with ASN.1 notation:]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[Abstraction]]></name>
+				<description><![CDATA[Abstraction (from the Latin abs, meaning away from and trahere, meaning to draw) is the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics. In object-oriented programming, abstraction is one of three central principles (along with encapsulation and inheritance). Through the process of abstraction, a programmer hides all but the relevant data about an object in order to reduce complexity and increase efficiency. In the same way that abstraction sometimes works in art, the object that remains is a representation of the original, with unwanted detail omitted. The resulting object itself can be referred to as an abstraction, meaning a named entity made up of selected attributes and behavior specific to a particular usage of the originating entity. Abstraction is related to both encapsulation and data hiding.]]></description>
+			</term>
+			<term>
+				<name><![CDATA[AC]]></name>
+				<description><![CDATA[AC (alternating current) In electricity, alternating current (AC) occurs when charge carriers in a conductor or semiconductor periodically reverse their direction of movement. Household utility current in most countries is AC with a frequency of 60 hertz (60 complete cycles per second), although in some countries it is 50 Hz. The radio-frequency (RF) current in antennas and transmission lines is another example of AC.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[A7-Term]]></name>
+				<description><![CDATA[A2: description: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[A8-Term]]></name>
+				<description><![CDATA[A3: description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[A9-Term]]></name>
+				<description><![CDATA[A4: description: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[A10-Term]]></name>
+				<description><![CDATA[A5: description]]></description>
+			</term>
+			
+		</a>
+		
+		<b>
+			<term>
+				<name><![CDATA[B2B]]></name>
+				<description><![CDATA[On the Internet, B2B (business-to-business), also known as e-biz, is the exchange of products, services, or information between businesses rather than between businesses and consumers.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[B2C]]></name>
+				<description><![CDATA[B2C is short for business-to-consumer, or the retailing part of e-commerce on the Internet.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[B2E]]></name>
+				<description><![CDATA[B2E is business-to-employee, an approach in which the focus of business is the employee, rather than the consumer (as it is in business-to-consumer, or B2C) or other businesses (as it is in business-to-business, or B2B).]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[B2G]]></name>
+				<description><![CDATA[On the Internet, B2G is business-to-government (a variation of the term B2B or business-to-business), the concept that businesses and government agencies can use central Web sites to exchange information and do business with each other more efficiently than they usually can off the Web.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[back-end]]></name>
+				<description><![CDATA[Front-end and back-end are terms used to characterize program interfaces and services relative to the initial user of these interfaces and services.]]></description>
+			</term>
+			
+		</b>
+		
+		<c>
+
+			<term>
+				<name><![CDATA[C#]]></name>
+				<description><![CDATA[C# (pronounced C-sharp) is an object-oriented programming language in development from Microsoft, which is intended to combine the computing power of C++ with the programming ease of Visual Basic.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[C shell]]></name>
+				<description><![CDATA[C shell is the UNIX shell (command execution program, often called a command interpreter ) created by Bill Joy at the University of California at Berkeley as an alternative to UNIX's original shell, the Bourne shell . These two UNIX shells, along with the Korn shell , are the three most commonly used shells. The C shell program name is csh , and the shell prompt (the character displayed to indicate readiness for user input) is the % symbol. The C shell was invented for programmers who prefer a syntax similar to that of the C programming language.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[C++]]></name>
+				<description><![CDATA[C++ is an object-oriented programming (OOP) language that is viewed by many as the best language for creating large-scale applications.]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[cache memory]]></name>
+				<description><![CDATA[Definition: Learn what cache memory is, what it has to do with RAM, how it is categorized and how it is configured.]]></description>
+			</term>
+		</c>
+		
+
+		
+		<e>
+			<term>
+				<name><![CDATA[E1]]></name>
+				<description><![CDATA[E1: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[E2]]></name>
+				<description><![CDATA[E2: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[E3]]></name>
+				<description><![CDATA[E3: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[E4]]></name>
+				<description><![CDATA[E4: description]]></description>
+			</term>
+			
+		</e>
+		
+		<f>
+			<term>
+				<name><![CDATA[F1]]></name>
+				<description><![CDATA[F1: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[F2]]></name>
+				<description><![CDATA[F2: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[F3]]></name>
+				<description><![CDATA[F3: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[F4]]></name>
+				<description><![CDATA[F4: description]]></description>
+			</term>
+		</f>
+		
+		<g>
+			<term>
+				<name><![CDATA[G1]]></name>
+				<description><![CDATA[G1: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[G2]]></name>
+				<description><![CDATA[G2: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[G3]]></name>
+				<description><![CDATA[G3: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[G4]]></name>
+				<description><![CDATA[G4: description]]></description>
+			</term>
+		</g>
+		
+		<y>
+			<term>
+				<name><![CDATA[Y1]]></name>
+				<description><![CDATA[Y1: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[Y2]]></name>
+				<description><![CDATA[Y2: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[Y3]]></name>
+				<description><![CDATA[Y3: description]]></description>
+			</term>
+			
+			<term>
+				<name><![CDATA[Y4]]></name>
+				<description><![CDATA[Y4: description]]></description>
+			</term>
+			
+		</y>
+	<config>
+		<instruction>
+			<![CDATA[Instruction Text : Please click alphabets to reveal the text.]]>
+		</instruction>
+	</config>
+</glossary>

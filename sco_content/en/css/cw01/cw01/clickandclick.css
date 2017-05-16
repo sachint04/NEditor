@@ -1,0 +1,181 @@
+
+#cw01_cw01_clickandclick #txt_1 {
+	width: 650px;
+}
+#cw01_cw01_clickandclick .i-text{
+	margin-bottom:10px;
+	height: 40px;	
+}
+
+#cw01_cw01_clickandclick #info {
+    position: absolute;
+    left: 700px;
+    top: 117px;
+    width: 300px;
+    background: rgba(255,255,255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    height: 230px;
+    line-height: 1.2em;
+}
+
+#cw01_cw01_clickandclick .question_main_container {
+    height: 285px;
+}
+
+#cw01_cw01_clickandclick .tile-container {
+	background-color:#CCCCCC;
+	width: 190px;
+	height: 32px;
+	line-height: 14px;
+	color: #21498e;
+	z-index: 1;
+    position: absolute;
+}
+#cw01_cw01_clickandclick .tile-container  .icon-container {
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    display: table;
+}
+#cw01_cw01_clickandclick .tile-container.hover,
+#cw01_cw01_clickandclick .tile-container.selected  {
+	background-color:#eee;
+	color: #21498e;
+
+}
+#cw01_cw01_clickandclick .clicknclick_container
+{
+	position: absolute;
+    top: 50px;
+}
+#cw01_cw01_clickandclick .tile-label {
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+}
+#cw01_cw01_clickandclick #tile1 {
+	left: 247px;
+    top: 226px;
+}
+
+#cw01_cw01_clickandclick #tile2 {
+	left: 247px;
+    top: 261px;
+}
+
+#cw01_cw01_clickandclick #tile3 {
+	left: 247px;
+    top: 296px;
+}
+
+#cw01_cw01_clickandclick #tile4 {
+	left: 465px;
+    top: 227px;
+}
+#cw01_cw01_clickandclick #tile5 {
+	left: 465px;
+    top: 262px;
+}
+#cw01_cw01_clickandclick #tile6 {
+	left: 465px;
+    top: 296px;
+}
+
+#cw01_cw01_clickandclick .tile-container.selected {
+    background-color: darkblue;
+    color: #fff;
+}
+
+#cw01_cw01_clickandclick .target-container  {
+	height: 30px;
+    width: 190px;	
+    position: absolute;
+    background-color:#5E5E5E;
+}
+#cw01_cw01_clickandclick #target1 {
+    left: 247px;
+    top: 70px;
+}
+#cw01_cw01_clickandclick #target2 {
+    left: 247px;
+    top: 110px;
+}
+
+#cw01_cw01_clickandclick #target3 {
+    left: 247px;
+    top: 150px;
+}
+
+#cw01_cw01_clickandclick  #target4 {
+    left: 247px;
+    top: 190px;
+}
+#cw01_cw01_clickandclick #target5 {
+    left: 466px;
+    top: 70px;
+}
+
+#cw01_cw01_clickandclick #target6 {
+    left: 466px;
+    top: 110px;
+}
+#cw01_cw01_clickandclick #target7 {
+    left: 466px;
+    top: 150px;
+}
+#cw01_cw01_clickandclick #target8 {
+    left: 466px;
+    top: 190px;
+}
+#cw01_cw01_clickandclick #target9 {
+    left: 466px;
+    top: 71px;
+}
+
+#clickandclick_submit {
+	left: 300px;
+    position: absolute;
+    top: 347px;
+}
+
+#clickandclick_reset {
+	left: 402px;
+    position: absolute;
+    top: 347px;
+}
+span.ui-skin.correctincorrect.btn-sprite.left {
+    left: -18px;
+}
+
+#clickandclick_myAns, 
+#clickandclick_showAns {
+	left: 503px;
+    position: relative;
+    top: 347px;
+}
+#popup_1 .correctincorrect.left {
+	top: 5px;
+	left: -20px;
+}
+
+
+/***Correct Answer****/
+.correctans{
+	position: absolute;
+    width: 310px;
+    height: 330px;
+    top: 117px;
+    left: 405px;
+}
+#txt_head2,
+#txt_head1{
+	position:absolute;
+	top:90px;
+	left:291px;
+	color:#FFFFFF;
+}
+#txt_head2{
+	left: 505px;
+}
+

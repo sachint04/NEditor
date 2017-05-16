@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<pageDesc><![CDATA[This is with text top and a accordion bottom page. This page contains a accordion for further information.]]></pageDesc>
+	<pageText id="txt_title_1"><![CDATA[Accordion page header]]></pageText>
+	<pageText id="txt_1"><![CDATA[Praesent volutpat vel libero eu pulvinar. Vestibulum dictum neque vel semper euismod. Donec scelerisque, nunc eu lobortis molestie, est ex mattis nisl, non venenatis lacus felis in ipsum.]]></pageText>
+	<pageText id="itext_1"><![CDATA[Click the accordion tabs to know more.]]></pageText>
+	
+	
+	
+	<pageText id="accordian1-text"><![CDATA[accordion one tab]]></pageText>
+	<pageText id="accordian2-text"><![CDATA[accordion two tab]]></pageText>
+	
+	
+	
+	<pageText id="accordian_txt_1"><![CDATA[Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In scelerisque tellus tincidunt libero vulputate commodo vel sit amet erat.]]></pageText>
+	<pageText id="accordian_txt_2"><![CDATA[Ut accumsan eros ac purus tincidunt pretium. Morbi ex odio, ornare in porttitor vitae, laoreet vel justo. Ut eu faucibus nulla. Ut magna odio, vehicula vel ex a, lobortis sollicitudin nunc.]]></pageText>
+	
+	
+	
+	<!--component type="Accordian" componentID="accordianpanel1" accordianShowSpeed="2000" accordianClass="accordian" componentDirection="vertical" hasImage="false"-->
+	
+	<component type="Accordian" componentID="comp_accordian_1" accordianShowSpeed="100" accordianClass="accordian" componentDirection="vertical" hasImage="false" />
+</data>

@@ -1,0 +1,93 @@
+
+/*mmcq*/
+.checkbox-container
+{
+   padding: 0px;
+    margin-bottom: 19px;
+}
+
+
+.checkbox-icon {
+	background: url("../../../images/global_btn.png") no-repeat scroll -1px -390px transparent;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+}
+span.checkbox-icon-container {
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float:left;
+}
+.checkbox-icon.hover {
+	background-position: -1px -409px;
+}
+.checkbox-container.disabled .checkbox-icon, .checkbox-container.disabled .checkbox-icon.hover {
+	background-position: -1px -390px
+}
+.checkbox-container.selected .checkbox-icon, .checkbox-container.selected .checkbox-icon.hover {
+	background-position: -1px -409px;
+}
+.checkbox-container.selected.disabled .checkbox-icon, .checkbox-container.selected.disabled .checkbox-icon.hover {
+	background-position: -1px -409px;
+}
+
+.checkbox-container.display-result.correct{background-color: rgba(160, 230, 97, 0.8);}
+.checkbox-container.display-result.incorrect{background-color: rgba(255, 189, 183, 0.8);}
+.checkbox-label
+{
+    color: #175173;
+    min-height:40px;
+    width:88%;
+    margin-left:10px;
+ 	 display: inline-block;
+}
+
+
+
+
+.checkbox-container .checkbox-icon{
+  display          		: inline-block;
+  width            		: 18px;
+  height           		: 18px;
+  margin           		: 3px 3px 3px 3px;
+  background			: url("../../../images/global_btn.png") no-repeat scroll -1px -391px transparent;
+  vertical-align   		: middle;
+}
+
+
+.checkbox-container.selected .checkbox-icon{
+  background-position	: -1px -409px;
+}
+
+
+
+
+
+
+
+.single-mmcq-row-inner{
+	border: 0.1em solid rgba(255, 255, 255, 0.3);
+    border-radius: 9px;
+    background-color: rgba(183, 216, 250, 0.8);
+    min-height: 50px;
+    position: relative;
+    padding: 5px;
+    padding-left: 13px;
+}
+
+.checkbox-container.selected .single-mmcq-row-inner{background-color: rgba(73, 217, 255, 0.8);}
+
+.single-mmcq-row .MMCQImage img{
+	    width: auto;
+    height: auto;
+}
+
+
+.single-mmcq-row .MMCQImageRow{
+	display: inline-block;
+}
+
+.single-mmcq-row .MMCQImageRow .MMCQImage{
+	     display: inline;
+}

@@ -1,0 +1,23 @@
+.i-text.page-i-text {
+    padding-top: 1em;
+}
+
+.horizontal_intro {
+	background: url("images/tab_horizontal_intro.jpg") no-repeat scroll 0 0 transparent;
+	width: 275px;
+	height: 217px;
+}
+.text_right {
+	float: left;
+	width: 430px;
+}
+.tab_image_content {
+	background: url("images/tab_horizontal_content.jpg") no-repeat scroll 0 0 transparent;
+	height: 345px;
+	width: 360px;
+}
+
+.tabpanel.horizontal .tablist .tis-tab.selected:after {
+	left: 160px;
+	top: 48px;
+}

@@ -1,0 +1,51 @@
+/* Foundation Overides */
+.row {
+    max-width : 90rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top : 0;
+    margin-bottom : 0;
+    /*font-size: inherit;
+    line-height: inherit;*/
+}
+/* Vertical Align elements in a row */
+.row.valign-middle {
+    display : table;
+}
+.row.valign-middle .columns {
+    display : table-cell;
+    vertical-align : middle;
+}
+.row.valign-middle .columns, .row.valign-middle [class*="column"] + [class*="column"]:last-child {
+    float : none;
+}
+/* Application */
+#application_wrapper {
+
+}
+#application {
+    width : 96%;
+    margin : auto auto 0.5rem auto;
+    min-height : 30rem;
+}
+/* Content Wrapper */
+#content_wrapper {
+    height : 100%;
+    position : relative;
+    z-index : 1;
+}
+#content_wrapper > #content,
+#content_wrapper > #content > section {
+    /*height: calc(100% - 140px) !important;
+    overflow-y:auto;*/
+    margin : 0 auto;
+    position:relative;
+}
+
+/*  to force imagecontainer to the bottom in potrait mode*/
+@media screen and (orientation:portrait){
+    .potrait-push {
+        float: none !important;
+        width: 100%;
+    }
+}

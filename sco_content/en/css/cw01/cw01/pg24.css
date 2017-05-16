@@ -1,0 +1,23 @@
+.modal-body p {
+    padding-bottom: 5px;
+    padding-right: 13px;
+}
+
+.question{
+	padding: 18px 0 10px 5px;
+}
+
+.optionscontainer > .activity-img{
+    width: 240px;
+    height: 142px;
+    padding: 0;
+    position: absolute;
+    right: 8px;
+    top: 70px;
+	
+}
+
+.radio-groups-container, .checkbox-groups-container{
+	/*width: 60%;*/
+	width: 100%;
+}
