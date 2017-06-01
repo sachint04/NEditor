@@ -54,12 +54,12 @@
     padding: 10px;
 }
 .stage {
-    width: 1220px;
+    width: 100%;
     border: 1px dashed rgba(0,0,0,0.4);
     display: inline-block;
-    height: 497px;
-    left: 100px;
-    top:80;
+    height: 100%;
+    left: 0;
+    top:0;
     position:absolute;
     z-index: 2;
     box-sizing: border-box;

@@ -63,3 +63,15 @@
     height: 18px;
     border: 2px solid gray;
 }
+#resize-handle {
+  position: absolute;
+  left: -1000px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  
+  border-top: solid 2px rgb(82,194,122);
+  border-left: solid 2px rgb(82,194,122);
+  z-index: 101;
+  cursor:pointer;
+}

@@ -1,7 +1,7 @@
 var timeline 	= 	function(p_$view){
 	var 	time 			= 10,
 			fps				= 20, 
-			currentframe 	= 1, playInterval, aSprites, oCSS={}, currentSprite, $playhead,$frame, $view,oEffect,$stage;
+			currentframe 	= 1, playInterval, aSprites, oCSS={}, currentSprite, $playhead,$frame, $view,oEffect,$stage,currentSprite;
 
 		/**
 		 * 
@@ -36,7 +36,7 @@ var timeline 	= 	function(p_$view){
 		createtimeline.call(this);	
 		$stage 			= $('.stage');
 		effect = oEffect;
-		
+		this.currentSprite;
 		this.aSprites 		= [];
 		this.setCurrentFrame(currentframe);
 		
@@ -80,6 +80,7 @@ var timeline 	= 	function(p_$view){
 		this.cl = new courselistener();
 		this.cl.addEventListener('PAGE_LOADED', setup.bind(this));
 		this.cl.init();
+		initDragHandle.call(this);
 	};
 	
 	
@@ -119,9 +120,6 @@ var timeline 	= 	function(p_$view){
 	};
 	
 	function convertToSprite($elem ){
-		var $handle 	= $('<div class="handle bottom"></div>');
-		$elem.append($handle);
-
 		$elem.addClass('sprite');
 		
 		var offset 		= $elem.offset().left % this.grid.offset;
@@ -138,16 +136,17 @@ var timeline 	= 	function(p_$view){
 	};
 	
 	function addSprite(target, options){
-		var $elem 	= $('<div class="sprite" id="sprite'+(this.aSprites.length+1)+'"><div class="handle bottom"></div></div>');
-		var offset = options.left % this.grid.offset;
-		options.left = options.left - offset; 
-		var sp 	= new sprite($elem, this.$stage, {x:this.grid.offset, y:'Infinity' });
+		var $elem 				= $('<div class="sprite" id="sprite'+(this.aSprites.length+1)+'"></div>');
+		var offset 				= options.left % this.grid.offset;
+		options.left 			= options.left - offset; 
+		var sp 					= new sprite($elem, this.$stage, {x:this.grid.offset, y:'Infinity' });
 		$elem.css({"left":options.left+"px", "top":options.top+"px"}).attr({"data-x": options.left, "data-y": options.top});
 		target.append($elem);
 		sp.addEventListener('sprite_right_click', onSpriteClick.bind(this));
 		sp.addEventListener('sprite_left_click', onSpriteClick.bind(this));
 		sp.init.call(sp);
 		this.aSprites.push(sp);
+		$elem.trigger("click");
 		
 	}
 	
@@ -412,10 +411,16 @@ var timeline 	= 	function(p_$view){
 		
 		if(this.currentSprite != sprite){
 			if(this.currentSprite){
-				setCSSModel.call(this, this.currentSprite.$view.attr("id"), this.csspanel.getModel());				
+				setCSSModel.call(this, this.currentSprite.$view.attr("id"), this.csspanel.getModel());
+				interact(this.currentSprite.$view[0]).off();				
 			}
 			this.currentSprite = getCurrentSpriteByView.call(this, e.target);			
 			this.csspanel.setModel(getCSSModel.call(this, this.currentSprite.$view.attr("id")), this.currentSprite.$view);
+			
+			var x = (this.currentSprite.$view.offset().left + this.currentSprite.$view.outerWidth() );
+			var y = (this.currentSprite.$view.offset().top + this.currentSprite.$view.outerHeight() );
+			$("#resize-handle").offset({"left": x, "top": y});
+			$("#resize-handle").attr({'data-x':x, 'data-y':y});
 		};
 		
 		var offset = e.view.offset();
@@ -485,6 +490,27 @@ var timeline 	= 	function(p_$view){
 			this.currentSprite.$view.offset(e.offset)
 		}
 	};
+	
+	function initDragHandle(){
+		var oScope			= this;
+		interact('#resize-handle').on('down', function(event) {
+			var	interaction 	= event.interaction,
+			    handle 			= event.currentTarget;
+			
+			interaction.start({
+				name 		: 'resize',
+				edges : {
+					top 	: handle.dataset.top,
+					left 	: handle.dataset.left,
+					bottom 	: handle.dataset.bottom,
+					right 	: handle.dataset.right,
+				}
+			}, 
+			interact(oScope.currentSprite.$view[0]), 
+			oScope.currentSprite.$view[0]);
+		});
+
+	}
 	
 	return new obj(p_$view);
 };

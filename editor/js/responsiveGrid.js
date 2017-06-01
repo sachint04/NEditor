@@ -29,7 +29,7 @@ var responsiveGrid =		function(_canvas, _config){
 		
 		this.offset	= width / Number(col);
 		this.context.strokeStyle = '#D3D3D3';
-		this.context.globalAlpha = 0.03;
+		this.context.globalAlpha = 0.005;
 		this.context.setLineDash([5, 10] );
 		this.context.beginPath();
 		for(var i= 1; i<=col; i++){
