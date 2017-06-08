@@ -1,4 +1,8 @@
 <data>
-	<pageText id="btn_continue"><![CDATA[CONTINUE]]></pageText>
-	<pageText id="txt1"><![CDATA[ This is a body text]]></pageText>
+	<pageText id="btn_continue">
+		<![CDATA[CONTINUE]]>
+	</pageText>
+	<pageText id="txt1">
+		<![CDATA[ This is a body text]]>
+	</pageText>
 </data>

@@ -31,6 +31,13 @@ courselistener.prototype.getPageText	= function(_callback){
 	});
 };
 
+courselistener.prototype.getCurrentPageJSON	= function(_callback){
+	require(['framework/controller/CourseController'],
+	function(controller){
+		_callback(controller.oPageController.jsonXMLData);
+	});
+};
+
 courselistener.prototype.getCurrentPage	= function(_callback){
 	require(['framework/controller/CourseController'],
 	function(controller){

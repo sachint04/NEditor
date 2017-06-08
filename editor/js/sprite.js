@@ -33,7 +33,7 @@
 			});
 			
 			this.$view.on('blur', function(e){
-				//oScope.$view.removeClass('react-edit');
+				oScope.dispatchEvent('sprite_focus_out',{type:'sprite_focus_out', target:oScope, view:oScope.$view});
 			});
 			//addContextMenu.call(this);
 			//this.init 	= this.init.bind(this);
@@ -317,6 +317,10 @@
 	function showCSSProperty(){
 		alert('showCSSProperty');
 	};
+	
+	sprite.prototype.getContent 	= function(){
+		return this.editor.getContent();
+	}
 	
 	sprite.prototype.destroy  = function(){
 		this.$view.off().remove();

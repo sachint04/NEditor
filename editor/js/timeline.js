@@ -37,6 +37,7 @@ var timeline 	= 	function(p_$view){
 		$stage 			= $('.stage');
 		effect = oEffect;
 		this.currentSprite;
+		this.currentPage;
 		this.aSprites 		= [];
 		this.setCurrentFrame(currentframe);
 		
@@ -85,7 +86,8 @@ var timeline 	= 	function(p_$view){
 	
 	
 	function setup(evt){
-		var oScope 	= this;
+		var oScope 			= this;
+		this.currentPage  	= evt.target;
 		var pageText = evt.target.getPageText(function(data){
 			if(data){
 				data = (data.length)? data : [data];
@@ -113,6 +115,7 @@ var timeline 	= 	function(p_$view){
 			var sp 			= new sprite($elem, $stage, grid);
 			sp.addEventListener('sprite_right_click', onSpriteClick.bind(oScope));
 			sp.addEventListener('sprite_left_click', onSpriteClick.bind(oScope));
+			sp.addEventListener('sprite_focus_out', onSpriteClick.bind(oScope));
 			//sprite.addEventListener('ondrag', onDrag.bind(oScope));
 			sp.init.call(sp);
 			oScope.aSprites.push(sp);
@@ -130,7 +133,7 @@ var timeline 	= 	function(p_$view){
 		
 		sp.addEventListener('sprite_right_click', onSpriteClick.bind(this));
 		sp.addEventListener('sprite_left_click', onSpriteClick.bind(this));
-		
+		sp.addEventListener('sprite_focus_out', onSpriteClick.bind(this));
 		sp.init.call(sp);
 		this.aSprites.push(sp);
 	};
@@ -144,6 +147,7 @@ var timeline 	= 	function(p_$view){
 		target.append($elem);
 		sp.addEventListener('sprite_right_click', onSpriteClick.bind(this));
 		sp.addEventListener('sprite_left_click', onSpriteClick.bind(this));
+		sp.addEventListener('sprite_focus_out', onSpriteClick.bind(this));
 		sp.init.call(sp);
 		this.aSprites.push(sp);
 		$elem.trigger("click");
@@ -397,6 +401,7 @@ var timeline 	= 	function(p_$view){
 			}
 		};
 	};
+	
 	function onSpriteClick(e){
 		var type = e.type;
 		switch(type.toLowerCase()){
@@ -405,6 +410,10 @@ var timeline 	= 	function(p_$view){
 			break;
 			case "sprite_right_click" :
 				onSpriteRightClick.call(this, e);
+			break;
+			case "sprite_focus_out" :
+				save.call(this, e.target);
+				return;
 			break;
 		}
 		var sprite = getCurrentSpriteByView.call(this, e.target);
@@ -512,6 +521,37 @@ var timeline 	= 	function(p_$view){
 
 	}
 	
+	function save(sprite){
+		var oScope 	= this;
+			spriteid	= sprite.$view.attr("id"),
+			content		= sprite.getContent();
+		if(content.trim() === "")return;
+		this.cl.getCurrentPageJSON(function(data){
+			var  pageText 	= data.data.pageText,
+			found 			= false;
+			if(!pageText.length){
+				if(pageText._id == spriteid){
+					pageText.__cdata = content;
+					found = true;
+				}
+			}else{
+				for (var i=0; i < pageText.length; i++) {
+				  if(pageText[i]._id == spriteid){
+						pageText[i].__cdata = content;
+						found = true;
+						break;
+					}
+				};
+			}
+			if(!found){
+				data.data.pageText = (data.data.pageText.length)?data.data.pageText : [data.data.pageText];
+				data.data.pageText.push({"_id":spriteid, "__cdata": content}); 				
+			}
+			var xml			= utils.jstoxml(data);
+			console.log(JSON.stringify(xml));
+		});
+				
+	}
 	return new obj(p_$view);
 };
 

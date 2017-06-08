@@ -3,10 +3,11 @@
 
 <!-- Filename: course.xml changed -->
 <cw data="cw01" label="Course" hierarchyLevel="level1">
-    <page data="splash" label="Splash" viewType="01" jumpTo="" backTo="" script="" css="splash"/>
+<!--     <page data="splash" label="Splash" viewType="01" jumpTo="" backTo="" script="" css="splash"/>
     <page data="menu" label="Menu" viewType="03" jumpTo="" backTo="" script="menu" css="menu"/>
     <page data="glossary" label="Glossary" viewType="02" jumpTo="" backTo="" script="glossary" css="glossary"/>
-    <page data="reso" label="Resources" viewType="01" jumpTo="" backTo="" script="reso" css="reso"/>
+    <page data="reso" label="Resources" viewType="01" jumpTo="" backTo="" script="reso" css="reso"/> -->
+    <page data="pg25" label="Summary" viewType="01" jumpTo="" backTo="" script="pg25" css="pg25"/>
     <cw data="cw01" label="Activity" hierarchyLevel="level2">
         <page data="pg10" label="MCQ Radio Button" viewType="02" jumpTo="" backTo="" script="pg10" css="pg10"/>
         <page data="pg11" label="MCQ Radio Button" viewType="02" jumpTo="" backTo="" script="pg11" css="pg11"/>
@@ -59,5 +60,4 @@
         <page data="pg04" label="Assessment Question3" viewType="04" jumpTo="" backTo="" script="pg04" css="pg04"/>
         <page data="pg05" label="Scoring" viewType="04" jumpTo="" backTo="" script="pg05" css="pg05"/>
     </cw>
-    <page data="pg25" label="Summary" viewType="01" jumpTo="" backTo="" script="pg25" css="pg25"/>
 </cw>
