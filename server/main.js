@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 
 app.post('/', function(req,res){
-   
+   console.log("postdata received "+ req.body);
 
 });
 app.get('/data', function (req, res) {
@@ -22,9 +22,12 @@ app.post('/', function(req,res){
 		res.send(result);
 	}, this);  
 });
+app.post('/postdata', function(req, res){
+	console.log("postdata received "+ req.body);
+})
 var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
 
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Example app listening  '+ host);
 });

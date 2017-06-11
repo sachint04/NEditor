@@ -124,12 +124,14 @@ var timeline 	= 	function(p_$view){
 	
 	function convertToSprite($elem ){
 		$elem.addClass('sprite');
-		
-		var offset 		= $elem.offset().left % this.grid.offset;
-		$elem.css({'left': ($elem.offset().left - offset) +'px', 'top':$elem.offset().top + 'px'});
+		var elemOffset 	= $elem.offset();
+		var offset 		= elemOffset.left % this.grid.offset;
+		var x			= elemOffset.left - offset;
+		var y			= elemOffset.top;
+		$elem.css({'left': x +'px', 'top': y+ 'px'});
 		
 		var sp 			= new sprite($elem, this.$stage, {x:this.grid.offset, y:'Infinity' });
-		$elem.attr({"data-x": $elem.offset().left, "data-y": $elem.offset().top});
+		$elem.attr({"data-x": x, "data-y": y});
 		
 		sp.addEventListener('sprite_right_click', onSpriteClick.bind(this));
 		sp.addEventListener('sprite_left_click', onSpriteClick.bind(this));
@@ -527,28 +529,30 @@ var timeline 	= 	function(p_$view){
 			content		= sprite.getContent();
 		if(content.trim() === "")return;
 		this.cl.getCurrentPageJSON(function(data){
-			var  pageText 	= data.data.pageText,
-			found 			= false;
-			if(!pageText.length){
-				if(pageText._id == spriteid){
-					pageText.__cdata = content;
-					found = true;
-				}
-			}else{
-				for (var i=0; i < pageText.length; i++) {
-				  if(pageText[i]._id == spriteid){
-						pageText[i].__cdata = content;
-						found = true;
-						break;
-					}
-				};
-			}
-			if(!found){
-				data.data.pageText = (data.data.pageText.length)?data.data.pageText : [data.data.pageText];
-				data.data.pageText.push({"_id":spriteid, "__cdata": content}); 				
-			}
-			var xml			= utils.jstoxml(data);
-			console.log(JSON.stringify(xml));
+			// var  pageText 	= data.data.pageText,
+			// found 			= false;
+			// if(!pageText.length){
+				// if(pageText._id == spriteid){
+					// pageText.__cdata = content;
+					// found = true;
+				// }
+			// }else{
+				// for (var i=0; i < pageText.length; i++) {
+				  // if(pageText[i]._id == spriteid){
+						// pageText[i].__cdata = content;
+						// found = true;
+						// break;
+					// }
+				// };
+			// }
+			// if(!found){
+				// data.data.pageText = (data.data.pageText.length)?data.data.pageText : [data.data.pageText];
+				// data.data.pageText.push({"_id":spriteid, "__cdata": content}); 				
+			// }
+			// var xml			= utils.jstoxml(data);			serverProxy.saveXML(data, function(){
+				console.log('timeline data saved!');
+			}, oScope);
+			//console.log(JSON.stringify(xml));
 		});
 				
 	}
