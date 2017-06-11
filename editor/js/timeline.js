@@ -87,7 +87,9 @@ var timeline 	= 	function(p_$view){
 	
 	function setup(evt){
 		var oScope 			= this;
-		this.currentPage  	= evt.target;
+		this.cl.getCurrentPage(function(page){
+			oScope.currentPage = page;
+		});
 		var pageText = evt.target.getPageText(function(data){
 			if(data){
 				data = (data.length)? data : [data];
@@ -549,7 +551,7 @@ var timeline 	= 	function(p_$view){
 				// data.data.pageText = (data.data.pageText.length)?data.data.pageText : [data.data.pageText];
 				// data.data.pageText.push({"_id":spriteid, "__cdata": content}); 				
 			// }
-			// var xml			= utils.jstoxml(data);			serverProxy.saveXML(data, function(){
+			// var xml			= utils.jstoxml(data);			serverProxy.saveXML(data, oScope.currentPage.getGUID(), function(){
 				console.log('timeline data saved!');
 			}, oScope);
 			//console.log(JSON.stringify(xml));

@@ -7,3 +7,12 @@ var xmlutils = {
 		return x2js.js2xml(json);
 	}
 }
+
+
+var XMLWriter = require('xml-writer');
+    xw = new XMLWriter;
+    xw.startDocument();
+    xw.startElement('root');
+    xw.writeAttribute('foo', 'value');
+    xw.text('Some content');
+    xw.endDocument();

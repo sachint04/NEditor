@@ -1,5 +1,5 @@
 var serverProxy ={
-	saveXML:function(data, callback, scope){
+	saveXML:function(data, location, callback, scope){
 		var  pageText 	= data.data.pageText,
 		found 			= false;
 		if(!pageText.length){
@@ -20,7 +20,11 @@ var serverProxy ={
 			data.data.pageText = (data.data.pageText.length)?data.data.pageText : [data.data.pageText];
 			data.data.pageText.push({"_id":spriteid, "__cdata": content}); 				
 		}
-		post(cleanXML(utils.jstoxml(data).toString()), 'text', callback, scope);	
+		var obj = {
+			data:cleanXML(utils.jstoxml(data).toString()),
+			path	: guidToPath(location, 'xml')
+		}
+		post(obj, 'text', callback, scope);	
 	},
 	saveHTML:function(data){
 		
@@ -36,11 +40,12 @@ var post = function(_data, type, callback, scope){
 		$.ajax({
 			url			:"http://localhost:3000/postdata",
 			dataType: "json",
-			data		: {"data":_data},
+			data		: _data,
 			type		: "POST"
 		}).
 		done(function(msg){
 				console.log("post succesfull!");
+				
 				callback.apply(scope, [msg]);
 			}).
 		fail(function(error) {
@@ -49,8 +54,13 @@ var post = function(_data, type, callback, scope){
 	}
 	
 var cleanXML = function(str){
-	str = str.replace(/[/\r]+/g, '');
-	str =  str.replace(/[/\n]+/g, '');
+	//str = str.replace(/[/\r]+/g, '');
+	//str =  str.replace(/[/\n]+/g, '');
 	
 	return str;
+}
+var guidToPath = function(guid, type){
+		guid = guid.split("~").join("\\");
+	var path =	"\\sco_content\\en\\"+ type+"\\"+ guid +"."+type;
+	return path;
 }
