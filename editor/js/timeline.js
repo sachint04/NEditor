@@ -125,6 +125,7 @@ var timeline 	= 	function(p_$view){
 	};
 	
 	function convertToSprite($elem ){
+		if(!$elem.length)return;
 		$elem.addClass('sprite');
 		var elemOffset 	= $elem.offset();
 		var offset 		= elemOffset.left % this.grid.offset;
@@ -147,7 +148,8 @@ var timeline 	= 	function(p_$view){
 		var offset 				= options.left % this.grid.offset;
 		options.left 			= options.left - offset; 
 		var sp 					= new sprite($elem, this.$stage, {x:this.grid.offset, y:'Infinity' });
-		$elem.css({"left":options.left+"px", "top":options.top+"px"}).attr({"data-x": options.left, "data-y": options.top});
+//		$elem.css({"left":options.left+"px", "top":options.top+"px"}).attr({"data-x": options.left, "data-y": options.top});
+		$elem.css({"left":"0", "top":"0"}).attr({"data-x": "0", "data-y": "0"});
 		target.append($elem);
 		sp.addEventListener('sprite_right_click', onSpriteClick.bind(this));
 		sp.addEventListener('sprite_left_click', onSpriteClick.bind(this));
@@ -530,32 +532,33 @@ var timeline 	= 	function(p_$view){
 			spriteid	= sprite.$view.attr("id"),
 			content		= sprite.getContent();
 		if(content.trim() === "")return;
+		
+		var strCSS = "";
+		for(var spriteId in oCSS){
+			var elem =  oCSS[spriteId].css;
+			strCSS = strCSS +"#" +spriteId +"{" 
+			for(var i = 0; i < elem.length; i++){
+				if(elem[i].value !== ""){
+					strCSS = strCSS +  elem[i].label + ":" + elem[i].value + ";";
+				}
+			}
+			strCSS = strCSS + "}";
+			 
+		};
+		console.log("strCSS - "+ strCSS);
+			
 		this.cl.getCurrentPageJSON(function(data){
-			// var  pageText 	= data.data.pageText,
-			// found 			= false;
-			// if(!pageText.length){
-				// if(pageText._id == spriteid){
-					// pageText.__cdata = content;
-					// found = true;
-				// }
-			// }else{
-				// for (var i=0; i < pageText.length; i++) {
-				  // if(pageText[i]._id == spriteid){
-						// pageText[i].__cdata = content;
-						// found = true;
-						// break;
-					// }
-				// };
-			// }
-			// if(!found){
-				// data.data.pageText = (data.data.pageText.length)?data.data.pageText : [data.data.pageText];
-				// data.data.pageText.push({"_id":spriteid, "__cdata": content}); 				
-			// }
-			// var xml			= utils.jstoxml(data);			serverProxy.saveXML(data, oScope.currentPage.getGUID(), function(){
-				console.log('timeline data saved!');
+			serverProxy.saveXML(data, oScope.currentPage.getGUID(), function(){
+				console.log('xml data saved!');
+			}, oScope);
+			
+			serverProxy.saveCSS(strCSS, oScope.currentPage.getGUID(), function(){
+				console.log('css data saved!');
 			}, oScope);
 			//console.log(JSON.stringify(xml));
 		});
+		
+			
 				
 	}
 	return new obj(p_$view);

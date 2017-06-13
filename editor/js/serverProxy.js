@@ -29,8 +29,12 @@ var serverProxy ={
 	saveHTML:function(data){
 		
 	},
-	saveCSS:function(data, spriteid, callback, scope){
-		
+	saveCSS:function(data, location, callback, scope){
+		var obj = {
+			data:	data,
+			path: guidToPath(location, 'css')
+		}
+		post(obj, 'css', callback, scope);
 			
 	}
 
